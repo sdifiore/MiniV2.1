@@ -17,10 +17,7 @@ namespace MiniV2.Services
 
             var smtpClient = new SmtpClient
             {
-                Host = "smtp.manuelaibi.com.br",
-                Port = 587,
-                EnableSsl = false,
-                Credentials = new NetworkCredential(manuelaIbiEmail.Username, manuelaIbiEmail.Password )
+               
             };
 
             string corpo = contato.Comentario + "\n\r Telefone: " + contato.Telefone +
