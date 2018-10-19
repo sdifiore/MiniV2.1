@@ -161,6 +161,7 @@
     <Content Include="Images\Crumble_low_carb_com_legumes_400.jpg" />
     <Content Include="Images\Escondidinho_de_carne_400.jpg" />
     <Content Include="Images\Escondidinho_de_frango_fit_400.jpg" />
+    <Content Include="Images\Falafel_400.jpg" />
     <Content Include="Images\Fitoterapia.jpg" />
     <Content Include="Images\fondue_400.jpg" />
     <Content Include="Images\fondue_chocolate_400.jpg" />
@@ -311,6 +312,7 @@
     <Content Include="Views\Web.config" />
     <Content Include="Views\Receitas\Avo_garden.cshtml" />
     <Content Include="Views\Receitas\Pesto_com_tofu.cshtml" />
+    <Content Include="Views\Receitas\Falafel.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
