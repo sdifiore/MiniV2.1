@@ -12,18 +12,21 @@ namespace MiniV2.Services
         {
             var manuelaIbiEmail = new ManuelaIbiEmail
             {
-               
+                
             };
 
             var smtpClient = new SmtpClient
             {
-                
+                Host = "smtp.manuelaibi.com.br",
+                Port = 587,
+                EnableSsl = false,
+                Credentials = new NetworkCredential(manuelaIbiEmail.Username, manuelaIbiEmail.Password )
             };
 
             string corpo = contato.Comentario + "\n\r Telefone: " + contato.Telefone +
                                                 "\n\r E-Mail:" + contato.Email;
 
-            using (var message = new MailMessage(manuelaIbiEmail.Username, "manuelaibi66@gmail.com")
+            using (var message = new MailMessage(manuelaIbiEmail.Username, "sergiodifiore@gmail.com")
             {
                 Subject = "Email de Manuela Ibi Nutrição Integrada",
                 Body = corpo

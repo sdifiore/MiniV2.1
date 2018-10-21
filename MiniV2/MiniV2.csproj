@@ -142,6 +142,7 @@
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
     <Content Include="Images\Alcachofra_ao_molho_de_cebola_roxa_400.jpg" />
+    <Content Include="Images\Avo_burguer_400.jpg" />
     <Content Include="Images\Avo_garden_400.jpg" />
     <Content Include="Images\Bacalhau_com_requeijão_de_tofu_e_gengibre_400.jpg" />
     <Content Include="Images\banner1.svg" />
@@ -154,10 +155,14 @@
     <Content Include="Images\Bolo_nega_maluca_400.png" />
     <Content Include="Images\Bolo_salgado_de_quinoa_e_atum_sem_gluten_400.jpg" />
     <Content Include="Images\Brownie_de_abobora_400.jpg" />
+    <Content Include="Images\Ceviche_de_polpa_de_coco_verde_vegano_400.jpg" />
+    <Content Include="Images\Chocofrutas_e_choconuts_do_céu_1_400.jpg" />
+    <Content Include="Images\Chocofrutas_e_choconuts_do_céu_2_400.jpg" />
     <Content Include="Images\cloud-bread_400.jpg" />
     <Content Include="Images\contato.png" />
     <Content Include="Images\Coscous_couve_flor_400.jpg" />
     <Content Include="Images\crocante_de_sementes_400.jpg" />
+    <Content Include="Images\crouton_grao_de_bico_400.jpg" />
     <Content Include="Images\Crumble_low_carb_com_legumes_400.jpg" />
     <Content Include="Images\Escondidinho_de_carne_400.jpg" />
     <Content Include="Images\Escondidinho_de_frango_fit_400.jpg" />
@@ -212,10 +217,18 @@
     <Content Include="Images\Pesto_com_tofu_400.jpg" />
     <Content Include="Images\Pizza_de_omelete_400.jpg" />
     <Content Include="Images\Pizza_sem_gluten_de_quinua_400.jpg" />
+    <Content Include="Images\Pure_de_inhame_e_cabotian_com_ragu_e_shimeji_e_aspargos_grelhados_400.jpg" />
     <Content Include="Images\Queijo_vegano_400.jpg" />
+    <Content Include="Images\Shitakes_assados_ao_pesto_com_tofu_vegano_400.jpg" />
     <Content Include="Images\Smoothie_de_banana_e_maca_400.jpg" />
     <Content Include="Images\Smoothie_de_cacau_400.jpg" />
+    <Content Include="Images\Sopa_creme_termogenica_400.jpg" />
+    <Content Include="Images\Sopa_de_cabotia_predileta_400.jpg" />
+    <Content Include="Images\Sticks_de_tofu_400.jpg" />
+    <Content Include="Images\Temakis_low_carb_1_400.jpg" />
+    <Content Include="Images\Temakis_low_carb_2_400.jpg" />
     <Content Include="Images\Torta_de_banana_funcional_400.jpg" />
+    <Content Include="Images\Torta_salgada_de_aveia_400.jpg" />
     <Content Include="Images\Tortinhas_de_limão_maracujá_e_morango_1_400.jpg" />
     <Content Include="Images\Tortinhas_de_limão_maracujá_e_morango_2_400.jpg" />
     <Content Include="Images\Tortinhas_de_limão_maracujá_e_morango_3_400.jpg" />
@@ -313,6 +326,24 @@
     <Content Include="Views\Receitas\Avo_garden.cshtml" />
     <Content Include="Views\Receitas\Pesto_com_tofu.cshtml" />
     <Content Include="Views\Receitas\Falafel.cshtml" />
+    <Content Include="Views\Receitas\Sticks_de_tofu.cshtml" />
+    <Content Include="Views\Receitas\Sopa_creme_termogenica.cshtml" />
+    <Content Include="Views\Receitas\Sopa_de_ervilha_com_pipoca_de_limao.cshtml" />
+    <Content Include="Views\Receitas\Croutons_ou_petisco_de_grao_de_bico.cshtml" />
+    <Content Include="Views\Receitas\Torta_salgada_de_aveia.cshtml" />
+    <Content Include="Views\Receitas\Sopa_funcional_de_lentilha.cshtml" />
+    <Content Include="Views\Receitas\Sopa_refrescante_abobrinha_com_hortela.cshtml" />
+    <Content Include="Views\Receitas\Pure_de_inhame_e_cabotian_com_ragu_e_shimeji_e_aspargos_grelhados.cshtml" />
+    <Content Include="Views\Receitas\Sopa_antioxidante.cshtml" />
+    <Content Include="Views\Receitas\Sopa_diuretica.cshtml" />
+    <Content Include="Views\Receitas\Sopa_de_cabotia_predileta.cshtml" />
+    <Content Include="Views\Receitas\Chas_e_shots_moduladores_de_inflamacao.cshtml" />
+    <Content Include="Views\Receitas\Cha_pretreino.cshtml" />
+    <Content Include="Views\Receitas\Ceviche_de_polpa_de_coco_verde_vegano.cshtml" />
+    <Content Include="Views\Receitas\Shitakes_assados_ao_pesto_com_tofu_vegano.cshtml" />
+    <Content Include="Views\Receitas\Avo_burguer.cshtml" />
+    <Content Include="Views\Receitas\Temakis_low_carb.cshtml" />
+    <Content Include="Views\Receitas\Chocofrutas_e_choconuts_do_céu.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

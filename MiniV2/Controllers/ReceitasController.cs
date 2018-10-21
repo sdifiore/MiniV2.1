@@ -28,6 +28,11 @@ namespace miniV1.Controllers
             return View();
         }
 
+        public ActionResult Avo_burguer()
+        {
+            return View();
+        }
+
         public ActionResult Bacalhau_com_requeijao_de_tofu_e_gengibre()
         {
             return View();
@@ -63,6 +68,26 @@ namespace miniV1.Controllers
             return View();
         }
 
+        public ActionResult Ceviche_de_polpa_de_coco_verde_vegano()
+        {
+            return View();
+        }
+
+        public ActionResult Chocofrutas_e_choconuts_do_céu()
+        {
+            return View();
+        }
+
+        public ActionResult Cha_pretreino()
+        {
+            return View();
+        }
+
+        public ActionResult Chas_e_shots_moduladores_de_inflamacao()
+        {
+            return View();
+        }
+
         public ActionResult Cloud_bread()
         {
             return View();
@@ -74,6 +99,11 @@ namespace miniV1.Controllers
         }
 
         public ActionResult Crocante_de_sementes_sem_glutem()
+        {
+            return View();
+        }
+
+        public ActionResult Croutons_ou_petisco_de_grao_de_bico()
         {
             return View();
         }
@@ -273,7 +303,17 @@ namespace miniV1.Controllers
             return View();
         }
 
+        public ActionResult Pure_de_inhame_e_cabotian_com_ragu_e_shimeji_e_aspargos_grelhados()
+        {
+            return View();
+        }
+
         public ActionResult Queijo_vegano()
+        {
+            return View();
+        }
+
+        public ActionResult Shitakes_assados_ao_pesto_com_tofu_vegano()
         {
             return View();
         }
@@ -288,7 +328,57 @@ namespace miniV1.Controllers
             return View();
         }
 
+        public ActionResult Sopa_antioxidante()
+        {
+            return View();
+        }
+
+        public ActionResult Sopa_creme_termogenica()
+        {
+            return View();
+        }
+
+        public ActionResult Sopa_de_cabotia_predileta()
+        {
+            return View();
+        }
+
+        public ActionResult Sopa_de_ervilha_com_pipoca_de_limao()
+        {
+            return View();
+        }
+
+        public ActionResult Sopa_diuretica()
+        {
+            return View();
+        }
+
+        public ActionResult Sopa_funcional_de_lentilha()
+        {
+            return View();
+        }
+
+        public ActionResult Sopa_refrescante_abobrinha_com_hortela()
+        {
+            return View();
+        }
+
+        public ActionResult Sticks_de_tofu()
+        {
+            return View();
+        }
+
+        public ActionResult Temakis_low_carb()
+        {
+            return View();
+        }
+
         public ActionResult Torta_de_banana_funcional()
+        {
+            return View();
+        }
+
+        public ActionResult Torta_salgada_de_aveia()
         {
             return View();
         }
