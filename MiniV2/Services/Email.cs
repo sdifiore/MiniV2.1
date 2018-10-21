@@ -26,7 +26,7 @@ namespace MiniV2.Services
             string corpo = contato.Comentario + "\n\r Telefone: " + contato.Telefone +
                                                 "\n\r E-Mail:" + contato.Email;
 
-            using (var message = new MailMessage(manuelaIbiEmail.Username, "sergiodifiore@gmail.com")
+            using (var message = new MailMessage(manuelaIbiEmail.Username, "manuelaibi66@gmail.com")
             {
                 Subject = "Email de Manuela Ibi Nutrição Integrada",
                 Body = corpo
