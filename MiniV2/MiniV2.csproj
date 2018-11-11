@@ -164,7 +164,6 @@
     <Content Include="Images\crocante_de_sementes_400.jpg" />
     <Content Include="Images\crouton_grao_de_bico_400.jpg" />
     <Content Include="Images\Crumble_low_carb_com_legumes_400.jpg" />
-    <Content Include="Images\Escondidinho_de_carne_400.jpg" />
     <Content Include="Images\Escondidinho_de_frango_fit_400.jpg" />
     <Content Include="Images\Falafel_400.jpg" />
     <Content Include="Images\Fitoterapia.jpg" />
@@ -279,7 +278,6 @@
     <Content Include="Views\Receitas\Coscous_couve_flor.cshtml" />
     <Content Include="Views\Receitas\Crocante_de_sementes_sem_glutem.cshtml" />
     <Content Include="Views\Receitas\Crumble_low_carb_com_legumes.cshtml" />
-    <Content Include="Views\Receitas\Escondidinho_de_carne.cshtml" />
     <Content Include="Views\Receitas\Escondidinho_de_frango_fit.cshtml" />
     <Content Include="Views\Receitas\Fondue_fit_de_chocolate.cshtml" />
     <Content Include="Views\Receitas\Fondue_fit_de_queijo.cshtml" />

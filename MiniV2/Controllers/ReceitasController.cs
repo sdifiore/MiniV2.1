@@ -113,11 +113,6 @@ namespace miniV1.Controllers
             return View();
         }
 
-        public ActionResult Escondidinho_de_carne()
-        {
-            return View();
-        }
-
         public ActionResult Escondidinho_de_frango_fit()
         {
             return View();
