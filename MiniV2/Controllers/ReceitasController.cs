@@ -63,7 +63,7 @@ namespace miniV1.Controllers
             return View();
         }
 
-        public ActionResult Brownie_de_abobora()
+        public ActionResult Browne_de_abobora()
         {
             return View();
         }
@@ -303,7 +303,7 @@ namespace miniV1.Controllers
             return View();
         }
 
-        public ActionResult Pure_de_inhame_e_cabotian_com_ragu_e_shimeji_e_aspargos_grelhados()
+        public ActionResult Pure_de_inhame_e_cabotiá_com_ragu_e_shimeji_e_aspargos_grelhados()
         {
             return View();
         }
