@@ -172,6 +172,8 @@
     <Content Include="Images\fondue_queijo_400.jpg" />
     <Content Include="Images\Galette_de_sarraceno_400.jpg" />
     <Content Include="Images\Golden_milk_400.jpg" />
+    <Content Include="Images\Guacamole_com_azeitonas_400.jpg" />
+    <Content Include="Images\Guacamole_tradicional_400.jpg" />
     <Content Include="Images\Hamburguer_de_abobora_400.jpg" />
     <Content Include="Images\Hamburguer_de_feijao_preto_1_400.jpg" />
     <Content Include="Images\Hamburguer_de_feijao_preto_2_400.jpg" />
@@ -342,6 +344,8 @@
     <Content Include="Views\Receitas\Avo_burguer.cshtml" />
     <Content Include="Views\Receitas\Temakis_low_carb.cshtml" />
     <Content Include="Views\Receitas\Chocofrutas_e_choconuts_do_céu.cshtml" />
+    <Content Include="Views\Receitas\Guacamole_tradicional.cshtml" />
+    <Content Include="Views\Receitas\Guacamole_com_azeitonas.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

@@ -143,6 +143,16 @@ namespace miniV1.Controllers
             return View();
         }
 
+        public ActionResult Guacamole_com_azeitonas()
+        {
+            return View();
+        }
+
+        public ActionResult Guacamole_tradicional()
+        {
+            return View();
+        }
+
         public ActionResult Hamburguer_de_abobora()
         {
             return View();
