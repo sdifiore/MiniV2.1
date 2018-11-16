@@ -182,6 +182,15 @@
     <Content Include="Images\horizontal.png" />
     <Content Include="Images\horizontal_400.png" />
     <Content Include="Images\horizontal_800.png" />
+    <Content Include="Images\icone_bom_para_o_coracao.png" />
+    <Content Include="Images\icone_italia.png" />
+    <Content Include="Images\icone_low_carb.png" />
+    <Content Include="Images\icone_paleo_diet.png" />
+    <Content Include="Images\icone_sem_acucar_adicionado.png" />
+    <Content Include="Images\icone_sem_gluten.png" />
+    <Content Include="Images\icone_sem_laticinio.png" />
+    <Content Include="Images\icone_vegana.jpg" />
+    <Content Include="Images\icone_vegetariana.png" />
     <Content Include="Images\Isotonico_caseiro_400.jpg" />
     <Content Include="Images\kibe_de_ervilha_partida_400.jpg" />
     <Content Include="Images\Leite_de_aveia_400.jpg" />
@@ -346,6 +355,8 @@
     <Content Include="Views\Receitas\Chocofrutas_e_choconuts_do_céu.cshtml" />
     <Content Include="Views\Receitas\Guacamole_tradicional.cshtml" />
     <Content Include="Views\Receitas\Guacamole_com_azeitonas.cshtml" />
+    <Content Include="Views\Receitas\Teste.cshtml" />
+    <Content Include="Views\Receitas\Teste2.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
