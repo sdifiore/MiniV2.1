@@ -357,6 +357,7 @@
     <Content Include="Views\Receitas\Guacamole_com_azeitonas.cshtml" />
     <Content Include="Views\Receitas\Teste.cshtml" />
     <Content Include="Views\Receitas\Teste2.cshtml" />
+    <Content Include="Views\Receitas\Teste3.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

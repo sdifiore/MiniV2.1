@@ -388,6 +388,11 @@ namespace miniV1.Controllers
             return View();
         }
 
+        public ActionResult Teste3()
+        {
+            return View();
+        }
+
         public ActionResult Torta_de_banana_funcional()
         {
             return View();
