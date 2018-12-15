@@ -216,6 +216,7 @@
     <Content Include="Images\Muffins_de_batata_doce_400.jpg" />
     <Content Include="Images\Muffins_de_canela_400.jpg" />
     <Content Include="Images\Nutella_funcional_400.jpg" />
+    <Content Include="Images\Overnight_oat_400.jpg" />
     <Content Include="Images\Panqueca_de_cacau_sacietogenica_400.jpg" />
     <Content Include="Images\Panqueca_de_microondas.jpg" />
     <Content Include="Images\Panqueca_de_microondas_400.jpg" />
@@ -235,6 +236,7 @@
     <Content Include="Images\Sopa_creme_termogenica_400.jpg" />
     <Content Include="Images\Sopa_de_cabotia_predileta_400.jpg" />
     <Content Include="Images\Sticks_de_tofu_400.jpg" />
+    <Content Include="Images\Tabule_de_quinoa_400.jpg" />
     <Content Include="Images\Temakis_low_carb_1_400.jpg" />
     <Content Include="Images\Temakis_low_carb_2_400.jpg" />
     <Content Include="Images\Torta_de_banana_funcional_400.jpg" />
@@ -243,6 +245,7 @@
     <Content Include="Images\Tortinhas_de_limão_maracujá_e_morango_2_400.jpg" />
     <Content Include="Images\Tortinhas_de_limão_maracujá_e_morango_3_400.jpg" />
     <Content Include="Images\Tortinha_de_cebola_com_purê_rústico_agridoce_400.jpg" />
+    <Content Include="Images\Waffle_400.jpg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="ApplicationInsights.config">
@@ -358,6 +361,9 @@
     <Content Include="Views\Receitas\Teste.cshtml" />
     <Content Include="Views\Receitas\Teste2.cshtml" />
     <Content Include="Views\Receitas\Teste3.cshtml" />
+    <Content Include="Views\Receitas\Tabule_de_quinoa.cshtml" />
+    <Content Include="Views\Receitas\Waffle.cshtml" />
+    <Content Include="Views\Receitas\Overnight_oat.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

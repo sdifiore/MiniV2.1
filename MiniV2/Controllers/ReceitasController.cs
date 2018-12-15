@@ -258,6 +258,11 @@ namespace miniV1.Controllers
             return View();
         }
 
+        public ActionResult Overnight_oat()
+        {
+            return View();
+        }
+
         public ActionResult Panqueca_de_cacau_sacietogenica()
         {
             return View();
@@ -373,6 +378,11 @@ namespace miniV1.Controllers
             return View();
         }
 
+        public ActionResult Tabule_de_quinoa()
+        {
+            return View();
+        }
+
         public ActionResult Temakis_low_carb()
         {
             return View();
@@ -409,6 +419,11 @@ namespace miniV1.Controllers
         }
 
         public ActionResult Tortinhas_de_limao_maracuja_e_morango()
+        {
+            return View();
+        }
+
+        public ActionResult Waffle()
         {
             return View();
         }
