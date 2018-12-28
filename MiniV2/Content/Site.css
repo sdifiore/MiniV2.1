@@ -73,3 +73,23 @@ p {
     font-size: xx-small;
 }
 
+.identDIV {
+    -webkit-animation: identmove 5s linear; /* Chrome, Safari, Opera */
+    animation: identmove 5s linear;
+    display: table-footer-group;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes identmove {
+    50% {
+        animation-iteration-count: 1;
+        text-indent: 50px;
+    }
+}
+
+@keyframes identmove {
+    50% {
+        animation-iteration-count: 1;
+        text-indent: 50px;
+    }
+}
