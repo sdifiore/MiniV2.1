@@ -73,11 +73,6 @@ namespace miniV1.Controllers
             return View();
         }
 
-        public ActionResult Chocofrutas_e_choconuts_do_céu()
-        {
-            return View();
-        }
-
         public ActionResult Cha_pretreino()
         {
             return View();
@@ -88,6 +83,11 @@ namespace miniV1.Controllers
             return View();
         }
 
+        public ActionResult Chocofrutas_e_choconuts_do_céu()
+        {
+            return View();
+        }
+        
         public ActionResult Cloud_bread()
         {
             return View();

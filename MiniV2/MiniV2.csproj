@@ -290,7 +290,7 @@
     <Content Include="Views\Receitas\Bolo_de_Reis.cshtml" />
     <Content Include="Views\Receitas\Bolo_nega_maluca.cshtml" />
     <Content Include="Views\Receitas\Bolo_salgado_de_quinoa_e_atum_sem_gluten.cshtml" />
-    <Content Include="Views\Receitas\Brownie_de_abobora.cshtml" />
+    <Content Include="Views\Receitas\Browne_de_abobora.cshtml" />
     <Content Include="Views\Receitas\Cloud_bread.cshtml" />
     <Content Include="Views\Receitas\Coscous_couve_flor.cshtml" />
     <Content Include="Views\Receitas\Crocante_de_sementes_sem_glutem.cshtml" />

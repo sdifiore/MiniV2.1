@@ -62,11 +62,12 @@ table {
 }
 
 p {
-    display: inline-block;
-    font-size: large;
+    font-size: 20px;
     -webkit-column-break-inside: avoid;
     page-break-inside: avoid;
     break-inside: avoid;
+    display: block;
+    line-height: 1;
 }
 
 .referencia {
@@ -76,7 +77,7 @@ p {
 .identDIV {
     -webkit-animation: identmove 5s linear; /* Chrome, Safari, Opera */
     animation: identmove 5s linear;
-    display: table-footer-group;
+    display: block;
 }
 
 /* Chrome, Safari, Opera */
