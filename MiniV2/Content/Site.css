@@ -78,6 +78,7 @@ p {
     -webkit-animation: identmove 5s linear; /* Chrome, Safari, Opera */
     animation: identmove 5s linear;
     display: block;
+    line-height: 1;
 }
 
 /* Chrome, Safari, Opera */
