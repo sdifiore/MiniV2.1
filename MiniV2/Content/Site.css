@@ -67,7 +67,7 @@ p {
     page-break-inside: avoid;
     break-inside: avoid;
     display: block;
-    line-height: 1;
+    line-height: 1.5;
 }
 
 .referencia {
