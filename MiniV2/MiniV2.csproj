@@ -149,6 +149,7 @@
     <Content Include="Images\banner2.svg" />
     <Content Include="Images\banner3.svg" />
     <Content Include="Images\bioimpedancia_magnetica_250.jpg" />
+    <Content Include="Images\Bobo_de_shimeji_400.jpg" />
     <Content Include="Images\Bolo_de_cacau_e_aveia_400.jpg" />
     <Content Include="Images\Bolo_de_coco_com_palatinose_400.jpg" />
     <Content Include="Images\Bolo_de_Reis_400.jpg" />
@@ -229,6 +230,7 @@
     <Content Include="Images\Pesto_com_tofu_400.jpg" />
     <Content Include="Images\Pizza_de_omelete_400.jpg" />
     <Content Include="Images\Pizza_sem_gluten_de_quinua_400.jpg" />
+    <Content Include="Images\Pudim_de_chia_400.jpg" />
     <Content Include="Images\Pure_de_inhame_e_cabotian_com_ragu_e_shimeji_e_aspargos_grelhados_400.jpg" />
     <Content Include="Images\Queijo_vegano_400.jpg" />
     <Content Include="Images\Receita_tradicional_italiana_45.jpg" />
@@ -367,6 +369,8 @@
     <Content Include="Views\Receitas\Tabule_de_quinoa.cshtml" />
     <Content Include="Views\Receitas\Waffle.cshtml" />
     <Content Include="Views\Receitas\Overnight_oat.cshtml" />
+    <Content Include="Views\Receitas\Bobo_de_shimeji.cshtml" />
+    <Content Include="Views\Receitas\Pudim_de_chia.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

@@ -38,6 +38,11 @@ namespace miniV1.Controllers
             return View();
         }
 
+        public ActionResult Bobo_de_shimeji()
+        {
+            return View();
+        }
+
         public ActionResult Bolo_de_cacau_e_aveia()
         {
             return View();
@@ -309,6 +314,11 @@ namespace miniV1.Controllers
         }
 
         public ActionResult Pizza_sem_gluten_de_quinua()
+        {
+            return View();
+        }
+
+        public ActionResult Pudim_de_chia()
         {
             return View();
         }
