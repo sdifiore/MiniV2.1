@@ -23,7 +23,8 @@ namespace MiniV2.Services
                 Credentials = new NetworkCredential(manuelaIbiEmail.Username, manuelaIbiEmail.Password )
             };
 
-            string corpo = contato.Comentario + "\n\r Telefone: " + contato.Telefone
+            string corpo = contato.Comentario + "\n\r Nome: " + contato.Nome
+                                              + "\n\r Telefone: " + contato.Telefone
                                               + "\n\r E-Mail:" + contato.Email;
 
             using (var message = new MailMessage(manuelaIbiEmail.Username, "manuelaibi66@gmail.com")

@@ -100,3 +100,11 @@ td.cel-mid-content {
     text-align: center;
     vertical-align: middle;
 }
+
+.blue {
+    color: #335EFF;
+}
+
+.whole-indent {
+    padding-left: 2em;
+}
