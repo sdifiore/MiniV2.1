@@ -371,6 +371,7 @@
     <Content Include="Views\Receitas\Overnight_oat.cshtml" />
     <Content Include="Views\Receitas\Bobo_de_shimeji.cshtml" />
     <Content Include="Views\Receitas\Pudim_de_chia.cshtml" />
+    <Content Include="Views\Home\Curriculo_Lattes.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

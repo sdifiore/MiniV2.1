@@ -20,6 +20,13 @@ namespace MiniV2.Controllers
             return View();
         }
 
+        public ActionResult Curriculo_Lattes()
+        {
+            ViewBag.Message = "Currículo Lattes";
+
+            return View();
+        }
+
         public ActionResult Atendimento()
         {
             return View();
