@@ -121,6 +121,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\ContactController.cs" />
+    <Compile Include="Controllers\CursosController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ReceitasController.cs" />
     <Compile Include="Core\IEmail.cs" />
@@ -158,6 +159,7 @@
     <Content Include="Images\Bom_para_o_coracao_45.jpg" />
     <Content Include="Images\Brownie_de_abobora_400.jpg" />
     <Content Include="Images\Ceviche_de_polpa_de_coco_verde_vegano_400.jpg" />
+    <Content Include="Images\Chef_Manuela_Ibi_250.jpg" />
     <Content Include="Images\Chocofrutas_e_choconuts_do_céu_1_400.jpg" />
     <Content Include="Images\Chocofrutas_e_choconuts_do_céu_2_400.jpg" />
     <Content Include="Images\cloud-bread_400.jpg" />
@@ -166,6 +168,16 @@
     <Content Include="Images\crocante_de_sementes_400.jpg" />
     <Content Include="Images\crouton_grao_de_bico_400.jpg" />
     <Content Include="Images\Crumble_low_carb_com_legumes_400.jpg" />
+    <Content Include="Images\Cursos\Receitas_rapidas_para_detox_30-jan-18\Alcachofra_detox_30_jan_2018.jpeg" />
+    <Content Include="Images\Cursos\Receitas_rapidas_para_detox_30-jan-18\Avocado_2_detox_30_jan_2018.jpeg" />
+    <Content Include="Images\Cursos\Receitas_rapidas_para_detox_30-jan-18\Avocado_detox_30_jan_2018.jpeg" />
+    <Content Include="Images\Cursos\Receitas_rapidas_para_detox_30-jan-18\Avo_Garden_detox_30_jan_2018.jpeg" />
+    <Content Include="Images\Cursos\Receitas_rapidas_para_detox_30-jan-18\Chamada_detox_30_jan_2018.jpeg" />
+    <Content Include="Images\Cursos\Receitas_rapidas_para_detox_30-jan-18\Chef_Manuela_Ibi_2__detox_30_jan_2018.jpeg" />
+    <Content Include="Images\Cursos\Receitas_rapidas_para_detox_30-jan-18\Chef_Manuela_Ibi_detox_30_jan_2018.jpeg" />
+    <Content Include="Images\Cursos\Receitas_rapidas_para_detox_30-jan-18\Cocinha_gourmet_detox_30_jan_2018.jpeg" />
+    <Content Include="Images\Cursos\Receitas_rapidas_para_detox_30-jan-18\Degustacao_detox_30_jan_2018.jpeg" />
+    <Content Include="Images\Cursos\Receitas_rapidas_para_detox_30-jan-18\Tutm_detox_30_jan_2018.jpeg" />
     <Content Include="Images\Escondidinho_de_frango_fit_400.jpg" />
     <Content Include="Images\Falafel_400.jpg" />
     <Content Include="Images\Fitoterapia.jpg" />
@@ -372,6 +384,8 @@
     <Content Include="Views\Receitas\Bobo_de_shimeji.cshtml" />
     <Content Include="Views\Receitas\Pudim_de_chia.cshtml" />
     <Content Include="Views\Home\Curriculo_Lattes.cshtml" />
+    <Content Include="Views\Cursos\Index.cshtml" />
+    <Content Include="Views\Cursos\Receitas_rapidas_para_detox_30_jan_2018.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

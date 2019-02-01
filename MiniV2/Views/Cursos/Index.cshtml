@@ -1,0 +1,23 @@
+﻿
+@{
+    ViewBag.Title = "Cursos";
+}
+
+<h1>Cursos</h1>
+
+@Html.Partial("LogoView")
+
+<div class="container " Cursos">
+    <div class="row">
+        <div class="col-md-8">
+            <h2>Galeria dos cursos anteriores</h2>
+            <div class="list-group">
+                <a class="list-group-item" href="@Url.Action("Receitas_rapidas_para_detox_30_jan_2018", "Cursos")">Receitas rápidas para DETOX - 30 de janeiro de 2018</a>
+            </div>
+        </div>
+        <div class="col-md-4" Receitas">
+            <img class="img-responsive" src="~/images/Chef_Manuela_Ibi_250.jpg" alt="Manuela Ibi Chef" />
+            <p></p>
+        </div>
+    </div>
+</div>
