@@ -144,6 +144,13 @@
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
     <Content Include="Images\Alcachofra_ao_molho_de_cebola_roxa_400.jpg" />
+    <Content Include="Images\alimentacao_equilibrada_400.jpg" />
+    <Content Include="Images\alimentacao_sustentavel_400.jpg" />
+    <Content Include="Images\alimentacao_tradicional_400.jpg" />
+    <Content Include="Images\alimentos_frescos_400.jpg" />
+    <Content Include="Images\alimentos_geneticamente_modificados.jpg" />
+    <Content Include="Images\alimentos_organicos_400.jpg" />
+    <Content Include="Images\alimento_natural_400.jpg" />
     <Content Include="Images\Avo_burguer_400.jpg" />
     <Content Include="Images\Avo_garden_400.jpg" />
     <Content Include="Images\Bacalhau_com_requeijão_de_tofu_e_gengibre_400.jpg" />
@@ -240,6 +247,7 @@
     <Content Include="Images\Pao_de_chia_400.jpg" />
     <Content Include="Images\Pao_de_espinafre_400.jpg" />
     <Content Include="Images\Pao_de_frigideira_400.jpg" />
+    <Content Include="Images\pao_integral_400.jpg" />
     <Content Include="Images\Pao_sem_glúten_de_milho_de_micro_ondas_400.jpg" />
     <Content Include="Images\Pesto_com_tofu_400.jpg" />
     <Content Include="Images\Pizza_de_omelete_400.jpg" />
@@ -248,6 +256,7 @@
     <Content Include="Images\Pure_de_inhame_e_cabotian_com_ragu_e_shimeji_e_aspargos_grelhados_400.jpg" />
     <Content Include="Images\Queijo_vegano_400.jpg" />
     <Content Include="Images\Receita_tradicional_italiana_45.jpg" />
+    <Content Include="Images\sazonal_400.jpg" />
     <Content Include="Images\Shitakes_assados_ao_pesto_com_tofu_vegano_400.jpg" />
     <Content Include="Images\Smoothie_de_banana_e_maca_400.jpg" />
     <Content Include="Images\Smoothie_de_cacau_400.jpg" />
@@ -264,6 +273,7 @@
     <Content Include="Images\Tortinhas_de_limão_maracujá_e_morango_3_400.jpg" />
     <Content Include="Images\Tortinha_de_cebola_com_purê_rústico_agridoce_400.jpg" />
     <Content Include="Images\Vegetariana_45.jpg" />
+    <Content Include="Images\vizinhanca_400.jpg" />
     <Content Include="Images\Waffle_400.jpg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />

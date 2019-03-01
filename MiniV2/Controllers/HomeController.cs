@@ -11,7 +11,7 @@ namespace MiniV2.Controllers
         public ActionResult Index()
         {
             ViewBag.Title = "Manuela Ibi Nutrição Integrada";
-            ViewBag.Description = "";
+            ViewBag.Description = "Mini é o espaço onde você encontra (minhas) receitas fáceis e saudáveis acumuladas ao longo de anos de cozinha e orientações de pacientes em consultório. Além disso você encontra meus cursos de gastronomia para leigos e um contato direto com minha linha de trabalho em consultório, onde alio nutrição funcional, fitoterapia, medicina tradicional chinesa & a modulação intestinal";
             ViewBag.Content = "Manuela Ibi, Nutricionista Botucatu, Nutricionista Vegetariana Botucatu, Nutricionista Vegana Botucatu, Nutricionista em Botucatu, Nutricionista Vegetariana em Botucatu, Nutricionista Vegana em Botucatu, Botucatu, Melhor nutricionista, Melhor nutricionista Botucatu, Melhor nutricionista vegetariana Botucatu, Melhor nutricionista vegana Botucatu";
 
             return View();
