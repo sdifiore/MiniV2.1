@@ -10,6 +10,10 @@ namespace MiniV2.Controllers
     {
         public ActionResult Index()
         {
+            ViewBag.Title = "Manuela Ibi Nutrição Integrada";
+            ViewBag.Description = "";
+            ViewBag.Content = "Manuela Ibi, Nutricionista Botucatu, Nutricionista Vegetariana Botucatu, Nutricionista Vegana Botucatu, Nutricionista em Botucatu, Nutricionista Vegetariana em Botucatu, Nutricionista Vegana em Botucatu, Botucatu, Melhor nutricionista, Melhor nutricionista Botucatu, Melhor nutricionista vegetariana Botucatu, Melhor nutricionista vegana Botucatu";
+
             return View();
         }
 

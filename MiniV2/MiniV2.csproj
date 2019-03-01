@@ -122,6 +122,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\ContactController.cs" />
     <Compile Include="Controllers\CursosController.cs" />
+    <Compile Include="Controllers\DicasController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ReceitasController.cs" />
     <Compile Include="Core\IEmail.cs" />
@@ -159,6 +160,7 @@
     <Content Include="Images\Bom_para_o_coracao_45.jpg" />
     <Content Include="Images\Brownie_de_abobora_400.jpg" />
     <Content Include="Images\Ceviche_de_polpa_de_coco_verde_vegano_400.jpg" />
+    <Content Include="Images\Dicas_da_Manu_250.jpg" />
     <Content Include="Images\Chef_Manuela_Ibi_250.jpg" />
     <Content Include="Images\Chocofrutas_e_choconuts_do_céu_1_400.jpg" />
     <Content Include="Images\Chocofrutas_e_choconuts_do_céu_2_400.jpg" />
@@ -386,6 +388,8 @@
     <Content Include="Views\Home\Curriculo_Lattes.cshtml" />
     <Content Include="Views\Cursos\Index.cshtml" />
     <Content Include="Views\Cursos\Receitas_rapidas_para_detox_30_jan_2018.cshtml" />
+    <Content Include="Views\Dicas\Index.cshtml" />
+    <Content Include="Views\Dicas\As_10_leis_do_bom_alimento.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

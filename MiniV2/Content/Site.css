@@ -111,7 +111,7 @@ td.cel-mid-content {
 
 /* Fluid Gallery */
 
-body-fluid {
+.body-fluid {
     background-color: #434c50;
     min-height: 100vh;
     font: normal 16px sans-serif;
