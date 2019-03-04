@@ -151,6 +151,7 @@
     <Content Include="Images\alimentos_geneticamente_modificados.jpg" />
     <Content Include="Images\alimentos_organicos_400.jpg" />
     <Content Include="Images\alimento_natural_400.jpg" />
+    <Content Include="Images\alternativas_ao_acucar_comum_400.jpg" />
     <Content Include="Images\Avo_burguer_400.jpg" />
     <Content Include="Images\Avo_garden_400.jpg" />
     <Content Include="Images\Bacalhau_com_requeijão_de_tofu_e_gengibre_400.jpg" />
@@ -167,6 +168,7 @@
     <Content Include="Images\Bom_para_o_coracao_45.jpg" />
     <Content Include="Images\Brownie_de_abobora_400.jpg" />
     <Content Include="Images\Ceviche_de_polpa_de_coco_verde_vegano_400.jpg" />
+    <Content Include="Images\condimentos_400.jpg" />
     <Content Include="Images\Dicas_da_Manu_250.jpg" />
     <Content Include="Images\Chef_Manuela_Ibi_250.jpg" />
     <Content Include="Images\Chocofrutas_e_choconuts_do_céu_1_400.jpg" />
@@ -194,7 +196,9 @@
     <Content Include="Images\fondue_chocolate_400.jpg" />
     <Content Include="Images\fondue_queijo_400.jpg" />
     <Content Include="Images\Galette_de_sarraceno_400.jpg" />
+    <Content Include="Images\geladeira_400.jpg" />
     <Content Include="Images\Golden_milk_400.jpg" />
+    <Content Include="Images\graos_e_sementes_400.jpg" />
     <Content Include="Images\Guacamole_com_azeitonas_400.jpg" />
     <Content Include="Images\Guacamole_tradicional_400.jpg" />
     <Content Include="Images\Hamburguer_de_abobora_400.jpg" />
@@ -400,6 +404,7 @@
     <Content Include="Views\Cursos\Receitas_rapidas_para_detox_30_jan_2018.cshtml" />
     <Content Include="Views\Dicas\Index.cshtml" />
     <Content Include="Views\Dicas\As_10_leis_do_bom_alimento.cshtml" />
+    <Content Include="Views\Dicas\O_que_manter_na_despensa_e_na_geladeira.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
