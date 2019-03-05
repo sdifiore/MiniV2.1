@@ -169,6 +169,25 @@
     <Content Include="Images\Brownie_de_abobora_400.jpg" />
     <Content Include="Images\Ceviche_de_polpa_de_coco_verde_vegano_400.jpg" />
     <Content Include="Images\condimentos_400.jpg" />
+    <Content Include="Images\Cursos\Receitas_e_intestino_saudavel_22_fev_2019\Ameixa.jpeg" />
+    <Content Include="Images\Cursos\Receitas_e_intestino_saudavel_22_fev_2019\Assistencia_atenta.jpeg" />
+    <Content Include="Images\Cursos\Receitas_e_intestino_saudavel_22_fev_2019\Bola_de_gnocchi.jpeg" />
+    <Content Include="Images\Cursos\Receitas_e_intestino_saudavel_22_fev_2019\Cartaz.jpeg" />
+    <Content Include="Images\Cursos\Receitas_e_intestino_saudavel_22_fev_2019\Chamada.jpeg" />
+    <Content Include="Images\Cursos\Receitas_e_intestino_saudavel_22_fev_2019\Cortando_gnocchi.jpeg" />
+    <Content Include="Images\Cursos\Receitas_e_intestino_saudavel_22_fev_2019\Cozendo_gnocchi.jpeg" />
+    <Content Include="Images\Cursos\Receitas_e_intestino_saudavel_22_fev_2019\Crumble.jpeg" />
+    <Content Include="Images\Cursos\Receitas_e_intestino_saudavel_22_fev_2019\Crumble_no_forno.jpeg" />
+    <Content Include="Images\Cursos\Receitas_e_intestino_saudavel_22_fev_2019\Desinformando_o_creamcheese.jpeg" />
+    <Content Include="Images\Cursos\Receitas_e_intestino_saudavel_22_fev_2019\Desinfortmando_o_cream_cheese_iii.jpeg" />
+    <Content Include="Images\Cursos\Receitas_e_intestino_saudavel_22_fev_2019\Geleia.jpeg" />
+    <Content Include="Images\Cursos\Receitas_e_intestino_saudavel_22_fev_2019\Porcoes.jpeg" />
+    <Content Include="Images\Cursos\Receitas_e_intestino_saudavel_22_fev_2019\Prato_servido.jpeg" />
+    <Content Include="Images\Cursos\Receitas_e_intestino_saudavel_22_fev_2019\Preparando_o_crumble.jpeg" />
+    <Content Include="Images\Cursos\Receitas_e_intestino_saudavel_22_fev_2019\Preparando_recehio_crumble_ii.jpeg" />
+    <Content Include="Images\Cursos\Receitas_e_intestino_saudavel_22_fev_2019\Preparando_recehio_crumble_v.jpeg" />
+    <Content Include="Images\Cursos\Receitas_e_intestino_saudavel_22_fev_2019\Produtos.jpeg" />
+    <Content Include="Images\Cursos\Receitas_e_intestino_saudavel_22_fev_2019\Turma.jpeg" />
     <Content Include="Images\Dicas_da_Manu_250.jpg" />
     <Content Include="Images\Chef_Manuela_Ibi_250.jpg" />
     <Content Include="Images\Chocofrutas_e_choconuts_do_céu_1_400.jpg" />
@@ -401,10 +420,11 @@
     <Content Include="Views\Receitas\Pudim_de_chia.cshtml" />
     <Content Include="Views\Home\Curriculo_Lattes.cshtml" />
     <Content Include="Views\Cursos\Index.cshtml" />
-    <Content Include="Views\Cursos\Receitas_rapidas_para_detox_30_jan_2018.cshtml" />
+    <Content Include="Views\Cursos\Receitas_rapidas_para_detox_30_jan_2019.cshtml" />
     <Content Include="Views\Dicas\Index.cshtml" />
     <Content Include="Views\Dicas\As_10_leis_do_bom_alimento.cshtml" />
     <Content Include="Views\Dicas\O_que_manter_na_despensa_e_na_geladeira.cshtml" />
+    <Content Include="Views\Cursos\Receitas_e_intestino_saudavel_22_fev_2019.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
