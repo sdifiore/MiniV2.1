@@ -188,6 +188,18 @@
     <Content Include="Images\Cursos\Receitas_e_intestino_saudavel_22_fev_2019\Preparando_recehio_crumble_v.jpeg" />
     <Content Include="Images\Cursos\Receitas_e_intestino_saudavel_22_fev_2019\Produtos.jpeg" />
     <Content Include="Images\Cursos\Receitas_e_intestino_saudavel_22_fev_2019\Turma.jpeg" />
+    <Content Include="Images\Cursos\Receitas_rapidas_para_detox_13_fev_2019\avo_garden.jpeg" />
+    <Content Include="Images\Cursos\Receitas_rapidas_para_detox_13_fev_2019\Cartaz.jpeg" />
+    <Content Include="Images\Cursos\Receitas_rapidas_para_detox_13_fev_2019\close_avo_garden.jpeg" />
+    <Content Include="Images\Cursos\Receitas_rapidas_para_detox_13_fev_2019\close_up_falafel.jpeg" />
+    <Content Include="Images\Cursos\Receitas_rapidas_para_detox_13_fev_2019\close_up_falafel.jpg" />
+    <Content Include="Images\Cursos\Receitas_rapidas_para_detox_13_fev_2019\manu_com_falafel.jpeg" />
+    <Content Include="Images\Cursos\Receitas_rapidas_para_detox_13_fev_2019\preparando_ragu_de_shimeji.jpeg" />
+    <Content Include="Images\Cursos\Receitas_rapidas_para_detox_13_fev_2019\preparando_ragu_de_shimeji_2.jpeg" />
+    <Content Include="Images\Cursos\Receitas_rapidas_para_detox_13_fev_2019\turma.jpeg" />
+    <Content Include="Images\Cursos\Receitas_rapidas_para_detox_13_fev_2019\close_up_turma.jpeg" />
+    <Content Include="Images\Cursos\Receitas_rapidas_para_detox_30-jan-18\avo_garden.jpeg" />
+    <Content Include="Images\Cursos\Receitas_rapidas_para_detox_30-jan-18\close_avo_garden.jpeg" />
     <Content Include="Images\Dicas_da_Manu_250.jpg" />
     <Content Include="Images\Chef_Manuela_Ibi_250.jpg" />
     <Content Include="Images\Chocofrutas_e_choconuts_do_céu_1_400.jpg" />
@@ -425,6 +437,7 @@
     <Content Include="Views\Dicas\As_10_leis_do_bom_alimento.cshtml" />
     <Content Include="Views\Dicas\O_que_manter_na_despensa_e_na_geladeira.cshtml" />
     <Content Include="Views\Cursos\Receitas_e_intestino_saudavel_22_fev_2019.cshtml" />
+    <Content Include="Views\Cursos\Receitas_rapidas_para_detox_13_fev_2019.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
