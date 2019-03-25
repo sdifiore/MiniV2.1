@@ -123,6 +123,7 @@
     <Compile Include="Controllers\ContactController.cs" />
     <Compile Include="Controllers\CursosController.cs" />
     <Compile Include="Controllers\DicasController.cs" />
+    <Compile Include="Controllers\FileController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ReceitasController.cs" />
     <Compile Include="Core\IEmail.cs" />
@@ -315,6 +316,7 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="App_Data\Downloads\Equivalentes.pdf" />
     <None Include="Properties\PublishProfiles\CustomProfile.pubxml" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
@@ -438,9 +440,9 @@
     <Content Include="Views\Dicas\O_que_manter_na_despensa_e_na_geladeira.cshtml" />
     <Content Include="Views\Cursos\Receitas_e_intestino_saudavel_22_fev_2019.cshtml" />
     <Content Include="Views\Cursos\Receitas_rapidas_para_detox_13_fev_2019.cshtml" />
+    <Content Include="Views\File\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="App_Data\" />
     <Folder Include="Views\ContactController\" />
   </ItemGroup>
   <ItemGroup>

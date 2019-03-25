@@ -19,7 +19,7 @@ namespace MiniV2.Controllers
 
         public ActionResult Receitas_rapidas_para_detox_13_fev_2019()
         {
-            ViewBag.Title = "Receitas rápidas para detox 18-fev-2019";
+            ViewBag.Title = "Receitas rápidas para detox 13-fev-2019";
 
             return View();
         }
