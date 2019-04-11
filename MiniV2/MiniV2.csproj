@@ -170,6 +170,27 @@
     <Content Include="Images\Brownie_de_abobora_400.jpg" />
     <Content Include="Images\Ceviche_de_polpa_de_coco_verde_vegano_400.jpg" />
     <Content Include="Images\condimentos_400.jpg" />
+    <Content Include="Images\Cursos\Receitas_e_intestino_saudavel_10_mar_2019\anuncio.jpeg" />
+    <Content Include="Images\Cursos\Receitas_e_intestino_saudavel_10_mar_2019\atencao.jpeg" />
+    <Content Include="Images\Cursos\Receitas_e_intestino_saudavel_10_mar_2019\chef_manu.jpeg" />
+    <Content Include="Images\Cursos\Receitas_e_intestino_saudavel_10_mar_2019\chef_manu_e_o_crumble.jpeg" />
+    <Content Include="Images\Cursos\Receitas_e_intestino_saudavel_10_mar_2019\creamcheese-1.jpeg" />
+    <Content Include="Images\Cursos\Receitas_e_intestino_saudavel_10_mar_2019\creamcheese-2.jpeg" />
+    <Content Include="Images\Cursos\Receitas_e_intestino_saudavel_10_mar_2019\creamcheese-3.jpeg" />
+    <Content Include="Images\Cursos\Receitas_e_intestino_saudavel_10_mar_2019\crumble_antes_forno.jpeg" />
+    <Content Include="Images\Cursos\Receitas_e_intestino_saudavel_10_mar_2019\crumble_assado.jpeg" />
+    <Content Include="Images\Cursos\Receitas_e_intestino_saudavel_10_mar_2019\crumble_no_forno.jpeg" />
+    <Content Include="Images\Cursos\Receitas_e_intestino_saudavel_10_mar_2019\ponto_do_crumble.jpeg" />
+    <Content Include="Images\Cursos\Receitas_e_intestino_saudavel_10_mar_2019\porcao.jpeg" />
+    <Content Include="Images\Cursos\Receitas_e_intestino_saudavel_10_mar_2019\pratos_servidos.jpeg" />
+    <Content Include="Images\Cursos\Receitas_e_intestino_saudavel_10_mar_2019\pre-preparados.jpeg" />
+    <Content Include="Images\Cursos\Receitas_e_intestino_saudavel_10_mar_2019\Preparando_nhoque_1.jpeg" />
+    <Content Include="Images\Cursos\Receitas_e_intestino_saudavel_10_mar_2019\Preparando_nhoque_2.jpeg" />
+    <Content Include="Images\Cursos\Receitas_e_intestino_saudavel_10_mar_2019\Preparando_nhoque_3.jpeg" />
+    <Content Include="Images\Cursos\Receitas_e_intestino_saudavel_10_mar_2019\Preparando_nhoque_4.jpeg" />
+    <Content Include="Images\Cursos\Receitas_e_intestino_saudavel_10_mar_2019\sobremesas_servidas.jpeg" />
+    <Content Include="Images\Cursos\Receitas_e_intestino_saudavel_10_mar_2019\turma.jpeg" />
+    <Content Include="Images\Cursos\Receitas_e_intestino_saudavel_10_mar_2019\verrini.jpeg" />
     <Content Include="Images\Cursos\Receitas_e_intestino_saudavel_22_fev_2019\Ameixa.jpeg" />
     <Content Include="Images\Cursos\Receitas_e_intestino_saudavel_22_fev_2019\Assistencia_atenta.jpeg" />
     <Content Include="Images\Cursos\Receitas_e_intestino_saudavel_22_fev_2019\Bola_de_gnocchi.jpeg" />
@@ -441,6 +462,7 @@
     <Content Include="Views\Cursos\Receitas_e_intestino_saudavel_22_fev_2019.cshtml" />
     <Content Include="Views\Cursos\Receitas_rapidas_para_detox_13_fev_2019.cshtml" />
     <Content Include="Views\File\Index.cshtml" />
+    <Content Include="Views\Cursos\Receitas_e_intestino_saudavel_10_mar_2019.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\ContactController\" />

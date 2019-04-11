@@ -10,9 +10,16 @@ namespace MiniV2.Controllers
             return View();
         }
 
-        public ActionResult Receitas_rapidas_para_detox_30_jan_2019()
+        public ActionResult Receitas_e_intestino_saudavel_10_mar_2019()
         {
-            ViewBag.Title = "Receitas rápidas para detox 30-jan-2019";
+            ViewBag.Title = "Receitas e intestino saudável 10 de março de 2019";
+
+            return View();
+        }
+
+        public ActionResult Receitas_e_intestino_saudavel_22_fev_2019()
+        {
+            ViewBag.Title = "Receitas e intestino saudável 22 de fevereiro de 2019";
 
             return View();
         }
@@ -24,9 +31,9 @@ namespace MiniV2.Controllers
             return View();
         }
 
-        public ActionResult Receitas_e_intestino_saudavel_22_fev_2019()
+        public ActionResult Receitas_rapidas_para_detox_30_jan_2019()
         {
-            ViewBag.Title = "Receitas e intestino saudável 22 de fevereiro de 2019";
+            ViewBag.Title = "Receitas rápidas para detox 30-jan-2019";
 
             return View();
         }
