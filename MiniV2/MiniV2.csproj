@@ -250,6 +250,7 @@
     <Content Include="Images\fondue_queijo_400.jpg" />
     <Content Include="Images\Galette_de_sarraceno_400.jpg" />
     <Content Include="Images\geladeira_400.jpg" />
+    <Content Include="Images\Geleia_falsa_de_damasco_e_ameixa_400.jpg" />
     <Content Include="Images\Golden_milk_400.jpg" />
     <Content Include="Images\graos_e_sementes_400.jpg" />
     <Content Include="Images\Guacamole_com_azeitonas_400.jpg" />
@@ -295,6 +296,7 @@
     <Content Include="Images\Mousse_de_cacau_400.jpg" />
     <Content Include="Images\Muffins_de_batata_doce_400.jpg" />
     <Content Include="Images\Muffins_de_canela_400.jpg" />
+    <Content Include="Images\Nhoque_de_cabotia_400.jpg" />
     <Content Include="Images\Nutella_funcional_400.jpg" />
     <Content Include="Images\Overnight_oat_400.jpg" />
     <Content Include="Images\Panqueca_de_cacau_sacietogenica_400.jpg" />
@@ -463,6 +465,8 @@
     <Content Include="Views\Cursos\Receitas_rapidas_para_detox_13_fev_2019.cshtml" />
     <Content Include="Views\File\Index.cshtml" />
     <Content Include="Views\Cursos\Receitas_e_intestino_saudavel_10_mar_2019.cshtml" />
+    <Content Include="Views\Receitas\Nhoque_de_cabotia.cshtml" />
+    <Content Include="Views\Receitas\Geleia_falsa_de_damasco_e_ameixa.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\ContactController\" />

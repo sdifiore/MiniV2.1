@@ -147,6 +147,10 @@ namespace miniV1.Controllers
         {
             return View();
         }
+        public ActionResult Geleia_falsa_de_damasco_e_ameixa()
+        {
+            return View();
+        }
 
         public ActionResult Guacamole_com_azeitonas()
         {
@@ -254,6 +258,11 @@ namespace miniV1.Controllers
         }
 
         public ActionResult Muffins_de_canela()
+        {
+            return View();
+        }
+
+        public ActionResult Nhoque_de_cabotia()
         {
             return View();
         }
