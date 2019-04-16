@@ -1,11 +1,24 @@
 ﻿
 @{
-    /**/
-
     ViewBag.Title = "Download";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
 <h2>Download</h2>
 
-@Html.ActionLink("Click here to download", "Equivalentes", new { })
+@Html.Partial("LogoView")
+
+<div class="container "Downloads">
+    <div class="row">
+        <div class="col-md-8">
+            <h2>Downloads por ordem alfabética</h2>
+            <div class="list-group">
+                <a class="list-group-item" href="@Url.Action("Equivalentes", "File")">Lista de equivalência de porções dos grupos alimentares</a>
+            </div>
+        </div>
+        <div class="col-md-4" Receitas">
+            <img class="img-responsive" src="~/images/download_pdf.jpg" alt="Download de documentos em pdf" />
+            <p></p>
+        </div>
+    </div>
+</div>
