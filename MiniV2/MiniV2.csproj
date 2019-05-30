@@ -170,6 +170,34 @@
     <Content Include="Images\Brownie_de_abobora_400.jpg" />
     <Content Include="Images\Ceviche_de_polpa_de_coco_verde_vegano_400.jpg" />
     <Content Include="Images\condimentos_400.jpg" />
+    <Content Include="Images\Cursos\Lanches_22_maio_2019\Cartaz.jpg" />
+    <Content Include="Images\Cursos\Lanches_22_maio_2019\Chamada.jpg" />
+    <Content Include="Images\Cursos\Lanches_22_maio_2019\Chef_Manu_Corta_pao_para_lanche_de_pote.jpg" />
+    <Content Include="Images\Cursos\Lanches_22_maio_2019\Chef_Manu_exibe_pao_redondo_para_pote.jpg" />
+    <Content Include="Images\Cursos\Lanches_22_maio_2019\Chef_Manu_e_os_cremes_salgados.JPG" />
+    <Content Include="Images\Cursos\Lanches_22_maio_2019\Cremes_doces_servidos.jpg" />
+    <Content Include="Images\Cursos\Lanches_22_maio_2019\Cremes_salgados_porcionados.jpg" />
+    <Content Include="Images\Cursos\Lanches_22_maio_2019\dips_salgados.jpg" />
+    <Content Include="Images\Cursos\Lanches_22_maio_2019\Fatia_do_pao_de_frigideira_para_o_pote.jpg" />
+    <Content Include="Images\Cursos\Lanches_22_maio_2019\Finalizando_lanche_de_pote_salgado.jpg" />
+    <Content Include="Images\Cursos\Lanches_22_maio_2019\Lanche_de_pote_pronto.jpg" />
+    <Content Include="Images\Cursos\Lanches_22_maio_2019\Manuela_Ibi.jpg" />
+    <Content Include="Images\Cursos\Lanches_22_maio_2019\Muffin_salgados_na_forma.jpg" />
+    <Content Include="Images\Cursos\Lanches_22_maio_2019\Muffin_salgados_no_forno.jpg" />
+    <Content Include="Images\Cursos\Lanches_22_maio_2019\Muffin_salgados_prontos.jpg" />
+    <Content Include="Images\Cursos\Lanches_22_maio_2019\Ouvintes_direita.jpg" />
+    <Content Include="Images\Cursos\Lanches_22_maio_2019\Ouvintes_esquerda.jpg" />
+    <Content Include="Images\Cursos\Lanches_22_maio_2019\Overnight_oat.jpg" />
+    <Content Include="Images\Cursos\Lanches_22_maio_2019\Pao_de_frigideira_inicio.jpg" />
+    <Content Include="Images\Cursos\Lanches_22_maio_2019\Pao_de_frigideira_na_frigideira.jpg" />
+    <Content Include="Images\Cursos\Lanches_22_maio_2019\Pao_de_frigideira_zoom_na_panela.jpg" />
+    <Content Include="Images\Cursos\Lanches_22_maio_2019\Preparando_lanche_pote_azeite.jpg" />
+    <Content Include="Images\Cursos\Lanches_22_maio_2019\Preparando_o_lanche_de_pote.jpg" />
+    <Content Include="Images\Cursos\Lanches_22_maio_2019\Preparando_para_servir_dips_doces.jpg" />
+    <Content Include="Images\Cursos\Lanches_22_maio_2019\Toda_turma_2.jpeg" />
+    <Content Include="Images\Cursos\Lanches_22_maio_2019\Turma.jpg" />
+    <Content Include="Images\Cursos\Lanches_22_maio_2019\Turma_parcial_direita.jpeg" />
+    <Content Include="Images\Cursos\Lanches_22_maio_2019\Turma_parcial_esquerda.jpeg" />
     <Content Include="Images\Cursos\Receitas_e_intestino_saudavel_10_mar_2019\anuncio.jpeg" />
     <Content Include="Images\Cursos\Receitas_e_intestino_saudavel_10_mar_2019\atencao.jpeg" />
     <Content Include="Images\Cursos\Receitas_e_intestino_saudavel_10_mar_2019\chef_manu.jpeg" />
@@ -468,6 +496,7 @@
     <Content Include="Views\Cursos\Receitas_e_intestino_saudavel_10_mar_2019.cshtml" />
     <Content Include="Views\Receitas\Nhoque_de_cabotia.cshtml" />
     <Content Include="Views\Receitas\Geleia_falsa_de_damasco_e_ameixa.cshtml" />
+    <Content Include="Views\Cursos\Lanches_22_maio_2019.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\ContactController\" />
