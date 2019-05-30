@@ -28,9 +28,14 @@
                     <li>@Html.ActionLink("Receitas", "Mais_receitas", "Receitas")</li>
                     <li>@Html.ActionLink("Cursos", "Index", "Cursos")</li>
                     <li>@Html.ActionLink("Dicas", "Index", "Dicas")</li>
-                    <li>@Html.ActionLink("Atendimento", "Atendimento", "Home")</li>
-                    <li>@Html.ActionLink("Fitoterapia", "Fitoterapia", "Home")</li>
-                    <li>@Html.ActionLink("Serviços", "Servicos", "Home")</li>
+                    <li>
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="@Url.Action("Atendimento", "Home")">Atendimento <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li>@Html.ActionLink("Atendimento", "Atendimento", "Home")</li>
+                            <li>@Html.ActionLink("Fitoterapia", "Fitoterapia", "Home")</li>
+                            <li>@Html.ActionLink("Serviços", "Servicos", "Home")</li>
+                        </ul>
+                    </li>
                     <li>@Html.ActionLink("Sobre", "About", "Home")</li>
                     <li>@Html.ActionLink("Contato", "Contact", "Contact")</li>
                     <li>@Html.ActionLink("Download", "Index", "File")</li>
