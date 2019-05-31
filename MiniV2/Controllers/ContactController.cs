@@ -10,6 +10,11 @@ namespace MiniV2.Controllers
 {
     public class ContactController : Controller
     {
+        public ActionResult Mapa()
+        {
+            return View();
+        }
+
         [HttpGet]
         public ActionResult Contact()
         {

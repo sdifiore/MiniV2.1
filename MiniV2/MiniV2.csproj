@@ -497,6 +497,7 @@
     <Content Include="Views\Receitas\Nhoque_de_cabotia.cshtml" />
     <Content Include="Views\Receitas\Geleia_falsa_de_damasco_e_ameixa.cshtml" />
     <Content Include="Views\Cursos\Lanches_22_maio_2019.cshtml" />
+    <Content Include="Views\Contact\Mapa.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\ContactController\" />

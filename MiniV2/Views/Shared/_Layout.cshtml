@@ -38,6 +38,13 @@
                     </li>
                     <li>@Html.ActionLink("Sobre", "About", "Home")</li>
                     <li>@Html.ActionLink("Contato", "Contact", "Contact")</li>
+                    <li>
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="@Url.Action("Contact", "Contact")">Contato <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li>@Html.ActionLink("Fale comigo", "Contact", "Contact")</li>
+                            <li>@Html.ActionLink("Localização", "Mapa", "Contact")</li>
+                        </ul>
+                    </li>
                     <li>@Html.ActionLink("Download", "Index", "File")</li>
                 </ul>
             </div>
