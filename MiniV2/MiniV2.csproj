@@ -250,6 +250,37 @@
     <Content Include="Images\Cursos\Receitas_rapidas_para_detox_13_fev_2019\close_up_turma.jpeg" />
     <Content Include="Images\Cursos\Receitas_rapidas_para_detox_30-jan-18\avo_garden.jpeg" />
     <Content Include="Images\Cursos\Receitas_rapidas_para_detox_30-jan-18\close_avo_garden.jpeg" />
+    <Content Include="Images\Cursos\Sopas16-jun-2019\Batendo_sopa_de_tomate_ao_forno.jpeg" />
+    <Content Include="Images\Cursos\Sopas16-jun-2019\Cartaz.jpeg" />
+    <Content Include="Images\Cursos\Sopas16-jun-2019\Dahl_de_grao_de_bico_servida.jpeg" />
+    <Content Include="Images\Cursos\Sopas16-jun-2019\entrega_kit_temperos__daul_de_grao_de_bico.jpeg" />
+    <Content Include="Images\Cursos\Sopas16-jun-2019\Ingredientes_preparados_sopa_tomate_forno.jpeg" />
+    <Content Include="Images\Cursos\Sopas16-jun-2019\Ingredientes_preparados_sopa_tomate_forno._depois_do_forno.jpeg" />
+    <Content Include="Images\Cursos\Sopas16-jun-2019\Ingredientes_sopa_cremos_shitake_alho_poro.jpeg" />
+    <Content Include="Images\Cursos\Sopas16-jun-2019\kit_temperos_daul_de_grao_de_bico.jpeg" />
+    <Content Include="Images\Cursos\Sopas16-jun-2019\Manu_esperando.jpeg" />
+    <Content Include="Images\Cursos\Sopas16-jun-2019\Manu_medindo_caldo_de_verduras.jpeg" />
+    <Content Include="Images\Cursos\Sopas16-jun-2019\Manu_mostrando_ervas_de_provence.jpeg" />
+    <Content Include="Images\Cursos\Sopas16-jun-2019\minestrone.jpg" />
+    <Content Include="Images\Cursos\Sopas16-jun-2019\porcoes_de_sopa_de_tomate_ao_forno.jpeg" />
+    <Content Include="Images\Cursos\Sopas16-jun-2019\Preparando_sopa_shitake_alho_poro.jpeg" />
+    <Content Include="Images\Cursos\Sopas16-jun-2019\Preparando_sopa_shitake_alho_poro_2.jpeg" />
+    <Content Include="Images\Cursos\Sopas16-jun-2019\Preparando_temperos_dahl_de_grao_de_bico.jpeg" />
+    <Content Include="Images\Cursos\Sopas16-jun-2019\servindo_dahl_de_grao_de_bico.jpeg" />
+    <Content Include="Images\Cursos\Sopas16-jun-2019\servindo_sopa_cremos_alho_poro.jpeg" />
+    <Content Include="Images\Cursos\Sopas16-jun-2019\servindo_sopa_cremos_alho_poro_2.jpeg" />
+    <Content Include="Images\Cursos\Sopas16-jun-2019\Servindo_sopa_de_tomate_ao_forno.jpeg" />
+    <Content Include="Images\Cursos\Sopas16-jun-2019\sobremesa.jpeg" />
+    <Content Include="Images\Cursos\Sopas16-jun-2019\sobremesa_2.jpeg" />
+    <Content Include="Images\Cursos\Sopas16-jun-2019\sopa-cremosa-de-shitake-com-alho-poro.jpg" />
+    <Content Include="Images\Cursos\Sopas16-jun-2019\Sopa_de_tomate_ao_forno_no_forno.jpeg" />
+    <Content Include="Images\Cursos\Sopas16-jun-2019\Sopa_de_tomate_ao_forno_pronta_para_bater.jpeg" />
+    <Content Include="Images\Cursos\Sopas16-jun-2019\Sopa_shitake_alho_poro_servida.jpeg" />
+    <Content Include="Images\Cursos\Sopas16-jun-2019\sopa_tomate_assada.jpg" />
+    <Content Include="Images\Cursos\Sopas16-jun-2019\Sopa_tomate_de_forno.jpeg" />
+    <Content Include="Images\Cursos\Sopas16-jun-2019\Todas_sopas_dahl_primeiro.jpeg" />
+    <Content Include="Images\Cursos\Sopas16-jun-2019\Todas_sopas_shitake_primeiro.jpeg" />
+    <Content Include="Images\Cursos\Sopas16-jun-2019\Turma_curso_sopas.jpeg" />
     <Content Include="Images\Dicas_da_Manu_250.jpg" />
     <Content Include="Images\Chef_Manuela_Ibi_250.jpg" />
     <Content Include="Images\Chocofrutas_e_choconuts_do_céu_1_400.jpg" />
@@ -498,6 +529,7 @@
     <Content Include="Views\Receitas\Geleia_falsa_de_damasco_e_ameixa.cshtml" />
     <Content Include="Views\Cursos\Lanches_22_maio_2019.cshtml" />
     <Content Include="Views\Contact\Mapa.cshtml" />
+    <Content Include="Views\Cursos\Sopas_16_junho_2019.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\ContactController\" />

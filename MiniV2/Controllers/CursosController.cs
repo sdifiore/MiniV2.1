@@ -10,6 +10,13 @@ namespace MiniV2.Controllers
             return View();
         }
 
+        public ActionResult Sopas_16_junho_2019()
+        {
+            ViewBag.Title = "Sopas – 16 de junho de 2019";
+
+            return View();
+        }
+
         public ActionResult Lanches_22_maio_2019()
         {
             ViewBag.Title = "Estratégias para lanches doces e salgados – 22 de maio de 2019";
