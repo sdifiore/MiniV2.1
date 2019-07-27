@@ -298,6 +298,7 @@
     <Content Include="Images\Cursos\Sopas_17-jul-2019\Sopa_de_tomate_no_forno.jpeg" />
     <Content Include="Images\Cursos\Sopas_17-jul-2019\Sopa_vremosa_de_shitake_com_alho_poro_servida.jpeg" />
     <Content Include="Images\Cursos\Sopas_17-jul-2019\Turma.jpeg" />
+    <Content Include="Images\Dahl_de_grao_de_bico_400.jpg" />
     <Content Include="Images\Dicas_da_Manu_250.jpg" />
     <Content Include="Images\Chef_Manuela_Ibi_250.jpg" />
     <Content Include="Images\Chocofrutas_e_choconuts_do_céu_1_400.jpg" />
@@ -397,7 +398,9 @@
     <Content Include="Images\Smoothie_de_banana_e_maca_400.jpg" />
     <Content Include="Images\Smoothie_de_cacau_400.jpg" />
     <Content Include="Images\Sopa_creme_termogenica_400.jpg" />
+    <Content Include="Images\Sopa_cremosa_shitake_alho_poro_400.jpg" />
     <Content Include="Images\Sopa_de_cabotia_predileta_400.jpg" />
+    <Content Include="Images\Sopa_de_tomate_ao_forno_400.jpg" />
     <Content Include="Images\Sticks_de_tofu_400.jpg" />
     <Content Include="Images\Tabule_de_quinoa_400.jpg" />
     <Content Include="Images\Temakis_low_carb_1_400.jpg" />
@@ -548,6 +551,10 @@
     <Content Include="Views\Contact\Mapa.cshtml" />
     <Content Include="Views\Cursos\Sopas_16_junho_2019.cshtml" />
     <Content Include="Views\Cursos\Sopas_17_julho_2019.cshtml" />
+    <Content Include="Views\Receitas\Sopa_de_tomate_de_forno.cshtml" />
+    <Content Include="Views\Receitas\Sopa_cremosa_de_shitake_com_alho_poro.cshtml" />
+    <Content Include="Views\Receitas\Template.cshtml" />
+    <Content Include="Views\Receitas\Dahl_de_grao_de_bico.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\ContactController\" />

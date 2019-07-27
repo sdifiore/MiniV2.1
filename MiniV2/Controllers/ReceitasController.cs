@@ -118,6 +118,11 @@ namespace miniV1.Controllers
             return View();
         }
 
+        public ActionResult Dahl_de_grao_de_bico()
+        {
+            return View();
+        }
+
         public ActionResult Escondidinho_de_frango_fit()
         {
             return View();
@@ -367,6 +372,11 @@ namespace miniV1.Controllers
             return View();
         }
 
+        public ActionResult Sopa_cremosa_de_shitake_com_alho_poro()
+        {
+            return View();
+        }
+
         public ActionResult Sopa_de_cabotia_predileta()
         {
             return View();
@@ -388,6 +398,11 @@ namespace miniV1.Controllers
         }
 
         public ActionResult Sopa_refrescante_abobrinha_com_hortela()
+        {
+            return View();
+        }
+
+        public ActionResult Sopa_de_tomate_de_forno()
         {
             return View();
         }
