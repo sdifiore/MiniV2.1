@@ -98,11 +98,6 @@ namespace miniV1.Controllers
             return View();
         }
 
-        public ActionResult Coffee_smoothie_gel_energetico()
-        {
-            return View();
-        }
-
         public ActionResult Coffee_smoothie_pre_treino()
         {
             return View();
@@ -129,6 +124,11 @@ namespace miniV1.Controllers
         }
 
         public ActionResult Dahl_de_grao_de_bico()
+        {
+            return View();
+        }
+
+        public ActionResult Energy_gel()
         {
             return View();
         }
@@ -363,6 +363,11 @@ namespace miniV1.Controllers
         }
 
         public ActionResult Smoothie_antioxidante()
+        {
+            return View();
+        }
+
+        public ActionResult Smoothie_cremoso_cacau()
         {
             return View();
         }

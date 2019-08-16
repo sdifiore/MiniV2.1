@@ -556,7 +556,9 @@
     <Content Include="Views\Receitas\Template.cshtml" />
     <Content Include="Views\Receitas\Dahl_de_grao_de_bico.cshtml" />
     <Content Include="Views\Receitas\Coffee_smoothie_pre_treino.cshtml" />
-    <Content Include="Views\Receitas\Coffee_smoothie_gel_energetico.cshtml" />
+    <Content Include="Views\Receitas\Energy_gel.cshtml" />
+    <Content Include="Views\Receitas\Smoothie_antioxidante.cshtml" />
+    <Content Include="Views\Receitas\Smoothie_cremoso_cacau.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\ContactController\" />
