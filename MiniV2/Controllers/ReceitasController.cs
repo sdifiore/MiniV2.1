@@ -98,6 +98,16 @@ namespace miniV1.Controllers
             return View();
         }
 
+        public ActionResult Coffee_smoothie_gel_energetico()
+        {
+            return View();
+        }
+
+        public ActionResult Coffee_smoothie_pre_treino()
+        {
+            return View();
+        }
+
         public ActionResult Coscous_couve_flor()
         {
             return View();
@@ -348,6 +358,11 @@ namespace miniV1.Controllers
         }
 
         public ActionResult Shitakes_assados_ao_pesto_com_tofu_vegano()
+        {
+            return View();
+        }
+
+        public ActionResult Smoothie_antioxidante()
         {
             return View();
         }

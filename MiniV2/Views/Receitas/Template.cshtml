@@ -4,7 +4,7 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2>Titulo</h2>
+<h2>@ViewBag.Title</h2>
 
 @Html.Partial("LogoView")
 <div class="container">
@@ -115,6 +115,9 @@
                 &nbsp;&nbsp;&nbsp;&nbsp;
             </p>
             <br />
+            <p class="identDIV">
+                <strong>Modo de preparo:</strong>
+            </p>
             <p class="identDIV">
                 &nbsp;&nbsp;&nbsp;&nbsp;
             </p>

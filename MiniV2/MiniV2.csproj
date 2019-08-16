@@ -555,6 +555,8 @@
     <Content Include="Views\Receitas\Sopa_cremosa_de_shitake_com_alho_poro.cshtml" />
     <Content Include="Views\Receitas\Template.cshtml" />
     <Content Include="Views\Receitas\Dahl_de_grao_de_bico.cshtml" />
+    <Content Include="Views\Receitas\Coffee_smoothie_pre_treino.cshtml" />
+    <Content Include="Views\Receitas\Coffee_smoothie_gel_energetico.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\ContactController\" />
