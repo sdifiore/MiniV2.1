@@ -10,6 +10,13 @@ namespace MiniV2.Controllers
             return View();
         }
 
+        public ActionResult Cardapio_saudavel_21_agosto_2019()
+        {
+            ViewBag.Title = "Aprenda a montar o seu cardápio saudável – 21 de agosto de 2019";
+
+            return View();
+        }
+
         public ActionResult Sopas_17_julho_2019()
         {
             ViewBag.Title = "Sopas – 17 de julho de 2019";
