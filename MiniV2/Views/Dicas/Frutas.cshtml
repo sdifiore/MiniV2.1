@@ -1,0 +1,185 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@Html.Partial("LogoView")
+
+<h1>@ViewBag.Title</h1>
+
+<h4>Profa. Dra. S&iacute;lvia Ferolla &ndash; Palestra no curso de Modula&ccedil;&atilde;o Intestinal II Prof. Murilo Pereira, agosto 2019</h4>
+<hr />
+
+<ul class="nav nav-tabs">
+    <li class="nav-item">
+        <a class="nav-link" href="@Url.Action("FODMAPS")">Massas</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="@Url.Action("Vegetais")">Vegetais</a>
+    </li>
+    <li class="nav-item active">
+        <a class="nav-link" href="#">Frutas</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="@Url.Action("Leite_e_Derivados")">Leite e derivados</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="@Url.Action("Substitutos_do_leite")">Substitutos do leite</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="@Url.Action("Leguminosas_oleaginosas_graos_sementes")">Leguminosas, oleaginosas, grãos e sementes</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="@Url.Action("Bebidas")">Bebidas</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="@Url.Action("Condimentos_e_acucares")">Condimentos e açúcares</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="@Url.Action("Industrializados")">Industrializados</a>
+    </li>
+</ul>
+
+<div class="table-responsive">
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>ALIMENTO</th>
+                <th>Quantidade máxima (g) pode ser tolerada para pacientes com SII</th>
+                <th>Tipo de FODMAP</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Ma&ccedil;&atilde; desidratada</td>
+                <td class="text-center">NA</td>
+                <td>FRUTOSE, SORBITOL</td>
+            </tr>
+            <tr>
+                <td>Ma&ccedil;&atilde; verde</td>
+                <td class="text-center">25g</td>
+                <td>FRUTOSE, SORBITOL</td>
+            </tr>
+            <tr>
+                <td>Ma&ccedil;&atilde;</td>
+                <td class="text-center">20g</td>
+                <td>FRUTOSE, SORBITOL</td>
+            </tr>
+            <tr>
+                <td>Damasco</td>
+                <td class="text-center">16g</td>
+                <td>SORBITOL, FOS</td>
+            </tr>
+            <tr>
+                <td>Avocado</td>
+                <td class="text-center">30g</td>
+                <td>SORBITOL</td>
+            </tr>
+            <tr>
+                <td>Banana comum e ouro madura</td>
+                <td class="text-center">35-56g</td>
+                <td>FOS E FRUTOSE* (RESPECT.)</td>
+            </tr>
+            <tr>
+                <td>Amora</td>
+                <td class="text-center">4g</td>
+                <td>SORBITOL</td>
+            </tr>
+            <tr>
+                <td>Mirtilo</td>
+                <td class="text-center">40g</td>
+                <td>FOS</td>
+            </tr>
+            <tr>
+                <td>Cereja</td>
+                <td class="text-center">20g</td>
+                <td>FRUTOSE, SORBITOL</td>
+            </tr>
+            <tr>
+                <td>Cranberry desidratada</td>
+                <td class="text-center">15g</td>
+                <td>FRUTANO</td>
+            </tr>
+            <tr>
+                <td>Coco</td>
+                <td class="text-center">64g</td>
+                <td>SORBITOL</td>
+            </tr>
+            <tr>
+                <td>Tamara</td>
+                <td class="text-center">8g</td>
+                <td>FRUTANO</td>
+            </tr>
+            <tr>
+                <td>Figo in natura</td>
+                <td class="text-center">20g</td>
+                <td>FRUTOSE</td>
+            </tr>
+            <tr>
+                <td>Figo seco</td>
+                <td class="text-center">NA (3g j&aacute; &eacute; rico)</td>
+                <td>FRUTANO</td>
+            </tr>
+            <tr>
+                <td>Goji berry desidratada</td>
+                <td class="text-center">10g</td>
+                <td>FRUTANO</td>
+            </tr>
+            <tr>
+                <td>Toranja</td>
+                <td class="text-center">80g</td>
+                <td>FRUTANO</td>
+            </tr>
+            <tr>
+                <td>Goiaba</td>
+                <td class="text-center">10g</td>
+                <td>FRUTOSE</td>
+            </tr>
+            <tr>
+                <td>Lichia</td>
+                <td class="text-center">30g</td>
+                <td>SORBITOL</td>
+            </tr>
+            <tr>
+                <td>Manga</td>
+                <td class="text-center">40g</td>
+                <td>SORBITOL</td>
+            </tr>
+            <tr>
+                <td>Manga desidratada</td>
+                <td class="text-center">NA</td>
+                <td>FRUTANO</td>
+            </tr>
+            <tr>
+                <td>Mangost&atilde;o desidratado</td>
+                <td class="text-center">NA</td>
+                <td>FRUTANO, FRUTOSE</td>
+            </tr>
+            <tr>
+                <td>Mel&atilde;o (honeydew)</td>
+                <td class="text-center">90g</td>
+                <td>FRUTANO</td>
+            </tr>
+            <tr>
+                <td>Nectarina</td>
+                <td class="text-center">18g</td>
+                <td>SORBITOL, FRUTANO</td>
+            </tr>
+            <tr>
+                <td>P&ecirc;ssego</td>
+                <td class="text-center">18g</td>
+                <td>SORBITOL, FRUTANO</td>
+            </tr>
+            <tr>
+                <td>Pera</td>
+                <td class="text-center">5g</td>
+                <td>SORBITOL, FRUTANO</td>
+            </tr>
+            <tr>
+                <td>Caqui</td>
+                <td class="text-center">60g</td>
+                <td>FRUTANO</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr />
+</div>

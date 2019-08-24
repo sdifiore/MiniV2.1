@@ -1,0 +1,114 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@Html.Partial("LogoView")
+
+<h1>@ViewBag.Title</h1>
+
+<h4>Profa. Dra. S&iacute;lvia Ferolla &ndash; Palestra no curso de Modula&ccedil;&atilde;o Intestinal II Prof. Murilo Pereira, agosto 2019</h4>
+<hr />
+
+<ul class="nav nav-tabs">
+    <li class="nav-item">
+        <a class="nav-link" href="@Url.Action("FODMAPS")">Massas</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="@Url.Action("Vegetais")">Vegetais</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="@Url.Action("Frutas")">Frutas</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="@Url.Action("Leite_e_Derivados")">Leite e derivados</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="@Url.Action("Substitutos_do_leite")">Substitutos do leite</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="@Url.Action("Leguminosas_oleaginosas_graos_sementes")">Leguminosas, oleaginosas, grãos e sementes</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="@Url.Action("Bebidas")">Bebidas</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="@Url.Action("Condimentos_e_acucares")">Condimentos e açúcares</a>
+    </li>
+    <li class="nav-item active">
+        <a class="nav-link" href="#">Industrializados</a>
+    </li>
+</ul>
+
+<h3>Industrializados, carnes processadas, balas diet&eacute;ticas, ado&ccedil;antes, medicamentos</h3>
+
+<div class="table-responsive">
+    <table class="table table-striped">
+        <tbody>
+            <tr>
+                <td>Frutose</td>
+                <td>Poli&oacute;is</td>
+                <td>Frutanos</td>
+            </tr>
+            <tr>
+                <td>Sacarose</td>
+                <td>Sorbitol</td>
+                <td>Cebola em p&oacute;/ extrato</td>
+            </tr>
+            <tr>
+                <td>Mel</td>
+                <td>Manitol</td>
+                <td>Alho em p&oacute;/ extrato</td>
+            </tr>
+            <tr>
+                <td>Amido modificado</td>
+                <td>Malitol</td>
+                <td>Inulina</td>
+            </tr>
+            <tr>
+                <td>Xarope de milho</td>
+                <td>Lactitol</td>
+                <td>Farinha de trigo</td>
+            </tr>
+            <tr>
+                <td>Suco de fruta</td>
+                <td>Xilitol</td>
+                <td>Cevada</td>
+            </tr>
+            <tr>
+                <td>Frutose cristalina</td>
+                <td>Isomalte</td>
+                <td>Centeio</td>
+            </tr>
+            <tr>
+                <td>Xarope de agave</td>
+                <td>Eritriol</td>
+                <td>Chic&oacute;ria (extrato/ p&oacute;)</td>
+            </tr>
+            <tr>
+                <td>Fruta seca</td>
+                <td>Suco de fruta concentrado</td>
+                <td>Frutano</td>
+            </tr>
+            <tr>
+                <td>A&ccedil;&uacute;car de fruta</td>
+                <td>Fruta seca</td>
+                <td>Fos</td>
+            </tr>
+            <tr>
+                <td>Maltodextrina</td>
+                <td>Suco de ameixa</td>
+                <td>Leite</td>
+            </tr>
+            <tr>
+                <td>A&ccedil;&uacute;car refinado</td>
+                <td>Suco de ma&ccedil;&atilde;</td>
+                <td>Leite em p&oacute;</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>Soro do leite</td>
+            </tr>
+        </tbody>
+    </table>
+</div>

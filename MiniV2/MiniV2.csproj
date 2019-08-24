@@ -570,6 +570,15 @@
     <Content Include="Views\Cursos\Cardapio_saudavel_21_agosto_2019.cshtml" />
     <Content Include="Views\Receitas\Borek_turco.cshtml" />
     <Content Include="Views\Dicas\FODMAPS.cshtml" />
+    <Content Include="Views\Dicas\Vegetais.cshtml" />
+    <Content Include="Views\Dicas\Massas.cshtml" />
+    <Content Include="Views\Dicas\Frutas.cshtml" />
+    <Content Include="Views\Dicas\Leite_e_Derivados.cshtml" />
+    <Content Include="Views\Dicas\Substitutos_do_leite.cshtml" />
+    <Content Include="Views\Dicas\Leguminosas_oleaginosas_graos_sementes.cshtml" />
+    <Content Include="Views\Dicas\Bebidas.cshtml" />
+    <Content Include="Views\Dicas\Condimentos_e_acucares.cshtml" />
+    <Content Include="Views\Dicas\Industrializados.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\ContactController\" />

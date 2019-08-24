@@ -1,0 +1,120 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@Html.Partial("LogoView")
+
+<h1>@ViewBag.Title</h1>
+
+<h4>Profa. Dra. S&iacute;lvia Ferolla &ndash; Palestra no curso de Modula&ccedil;&atilde;o Intestinal II Prof. Murilo Pereira, agosto 2019</h4>
+<hr />
+
+<ul class="nav nav-tabs">
+    <li class="nav-item">
+        <a class="nav-link" href="@Url.Action("FODMAPS")">Massas</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="@Url.Action("Vegetais")">Vegetais</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="@Url.Action("Frutas")">Frutas</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="@Url.Action("Leite_e_Derivados")">Leite e derivados</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="@Url.Action("Substitutos_do_leite")">Substitutos do leite</a>
+    </li>
+    <li class="nav-item active">
+        <a class="nav-link" href="#">Leguminosas, oleaginosas, grãos e sementes</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="@Url.Action("Bebidas")">Bebidas</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="@Url.Action("Condimentos_e_acucares")">Condimentos e açúcares</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="@Url.Action("Industrializados")">Industrializados</a>
+    </li>
+</ul>
+
+<div class="table-responsive">
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>ALIMENTO</th>
+                <th>Quantidade máxima (g) pode ser tolerada para pacientes com SII</th>
+                <th>Tipo de FODMAP</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Am&ecirc;ndoa</td>
+                <td class="text-center">12g (10 unidades)</td>
+                <td>GOS</td>
+            </tr>
+            <tr>
+                <td>Feij&atilde;o</td>
+                <td class="text-center">10-40g*</td>
+                <td>FRUTOSE, GOS, FRUTANO</td>
+            </tr>
+            <tr>
+                <td>Fava de feij&atilde;o</td>
+                <td class="text-center">NA</td>
+                <td>FRUTOSE</td>
+            </tr>
+            <tr>
+                <td>Castanha de caju</td>
+                <td class="text-center">NA (15g já é rica em FODMAPS)</td>
+                <td>GOS, FRUTANO</td>
+            </tr>
+            <tr>
+                <td>Gr&atilde;o de bico (gr&atilde;o)</td>
+                <td class="text-center">NA**</td>
+                <td>GOS</td>
+            </tr>
+            <tr>
+                <td>Feij&atilde;o branco</td>
+                <td class="text-center">NA</td>
+                <td>GOS, FRUTANO</td>
+            </tr>
+            <tr>
+                <td>Avel&atilde;</td>
+                <td class="text-center">15g</td>
+                <td>GOS</td>
+            </tr>
+            <tr>
+                <td>Lentilha (gr&atilde;o)</td>
+                <td class="text-center">23g**</td>
+                <td>GOS</td>
+            </tr>
+            <tr>
+                <td>Pistache</td>
+                <td class="text-center">NA</td>
+                <td>GOS, FRUTANO</td>
+            </tr>
+            <tr>
+                <td>Soja &ndash; prote&iacute;na texturizada</td>
+                <td class="text-center">NA</td>
+                <td>GOS, FRUTANO</td>
+            </tr>
+            <tr>
+                <td>Soja &ndash; em gr&atilde;os</td>
+                <td class="text-center">NA</td>
+                <td>GOS, FRUTANO</td>
+            </tr>
+            <tr>
+                <td>Ervilha</td>
+                <td class="text-center">NA</td>
+                <td>GOS, FRUTANO</td>
+            </tr>
+            <tr>
+                <td>Tofu (soft/ cream)</td>
+                <td class="text-center">NA</td>
+                <td>GOS, FRUTANO</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr />
+</div>

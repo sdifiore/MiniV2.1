@@ -1,0 +1,145 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@Html.Partial("LogoView")
+
+    <h1>@ViewBag.Title</h1>
+
+<h4>Profa. Dra. S&iacute;lvia Ferolla &ndash; Palestra no curso de Modula&ccedil;&atilde;o Intestinal II Prof. Murilo Pereira, agosto 2019</h4>
+<hr />
+
+<ul class="nav nav-tabs">
+    <li class="nav-item">
+        <a class="nav-link" href="@Url.Action("FODMAPS")">Massas</a>
+    </li>
+    <li class="nav-item active">
+        <a class="nav-link" href="#">Vegetais</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="@Url.Action("Frutas")">Frutas</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="@Url.Action("Leite_e_Derivados")">Leite e derivados</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="@Url.Action("Substitutos_do_leite")">Substitutos do leite</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="@Url.Action("Leguminosas_oleaginosas_graos_sementes")">Leguminosas, oleaginosas, grãos e sementes</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="@Url.Action("Bebidas")">Bebidas</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="@Url.Action("Condimentos_e_acucares")">Condimentos e açúcares</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="@Url.Action("Industrializados")">Industrializados</a>
+    </li>
+</ul>
+
+<div class="table-responsive">
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>ALIMENTO</th>
+                <th>Quantidade máxima (g) pode ser tolerada para pacientes com SII</th>
+                <th>Tipo de FODMAP</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Alcachofra inteira in natura</td>
+                <td class="text-center">15g</td>
+                <td>FRUTANO</td>
+            </tr>
+            <tr>
+                <td>Alcachofra Jerusal&eacute;m</td>
+                <td class="text-center">NA</td>
+                <td>FRUTANO + FRUTOSE</td>
+            </tr>
+            <tr>
+                <td>Aspargos</td>
+                <td class="text-center">7g</td>
+                <td>FRUTANO + FRUTOSE</td>
+            </tr>
+            <tr>
+                <td>Beterraba</td>
+                <td class="text-center">20g</td>
+                <td>FRUTOSE + GOS</td>
+            </tr>
+            <tr>
+                <td>Br&oacute;colis</td>
+                <td class="text-center">45g*</td>
+                <td>FRUTANO</td>
+            </tr>
+            <tr>
+                <td>Couve de Bruxelas</td>
+                <td class="text-center">38g</td>
+                <td>FRUTANO</td>
+            </tr>
+            <tr>
+                <td>Repolho roxo e crespo</td>
+                <td class="text-center">20g</td>
+                <td>FRUTANO</td>
+            </tr>
+            <tr>
+                <td>Couve flor</td>
+                <td class="text-center">NA</td>
+                <td>Manitol</td>
+            </tr>
+            <tr>
+                <td>Aipo</td>
+                <td class="text-center">10g</td>
+                <td>Manitol</td>
+            </tr>
+            <tr>
+                <td>Ervilha</td>
+                <td class="text-center">15g</td>
+                <td>GOS</td>
+            </tr>
+            <tr>
+                <td>Milho em lata</td>
+                <td class="text-center">10g</td>
+                <td>FRUTANO</td>
+            </tr>
+            <tr>
+                <td>Milho doce (espiga)</td>
+                <td class="text-center">48g</td>
+                <td>SORBITOL</td>
+            </tr>
+            <tr>
+                <td>Bulbo de erva doce</td>
+                <td class="text-center">NA**</td>
+                <td>FRUTANO</td>
+            </tr>
+            <tr>
+                <td>Alho alho por&oacute;</td>
+                <td class="text-center">NA (3g j&aacute; &eacute; rico)</td>
+                <td>FRUTANO</td>
+            </tr>
+            <tr>
+                <td>Ervilha torta</td>
+                <td class="text-center">77g</td>
+                <td>GOS, FRUTANO, MANITOL</td>
+            </tr>
+            <tr>
+                <td>Cogumelos (shitake, Portobello, porcini)</td>
+                <td class="text-center">10g</td>
+                <td>MANITOL</td>
+            </tr>
+            <tr>
+                <td>Cebola</td>
+                <td class="text-center">&lt;10g</td>
+                <td>FRUTANO + GOS</td>
+            </tr>
+            <tr>
+                <td>Cebolinha (bulbo)</td>
+                <td class="text-center">NA</td>
+                <td>FRUTANO</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr />
+</div>

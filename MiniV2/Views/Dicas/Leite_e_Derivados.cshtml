@@ -1,0 +1,100 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@Html.Partial("LogoView")
+
+<h1>@ViewBag.Title</h1>
+
+<h4>Profa. Dra. S&iacute;lvia Ferolla &ndash; Palestra no curso de Modula&ccedil;&atilde;o Intestinal II Prof. Murilo Pereira, agosto 2019</h4>
+<hr />
+
+<ul class="nav nav-tabs">
+    <li class="nav-item">
+        <a class="nav-link" href="@Url.Action("FODMAPS")">Massas</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="@Url.Action("Vegetais")">Vegetais</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="@Url.Action("Frutas")">Frutas</a>
+    </li>
+    <li class="nav-item active">
+        <a class="nav-link" href="#">Leite e derivados</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="@Url.Action("Substitutos_do_leite")">Substitutos do leite</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="@Url.Action("Leguminosas_oleaginosas_graos_sementes")">Leguminosas, oleaginosas, grãos e sementes</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="@Url.Action("Bebidas")">Bebidas</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="@Url.Action("Condimentos_e_acucares")">Condimentos e açúcares</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="@Url.Action("Industrializados")">Industrializados</a>
+    </li>
+</ul>
+
+<div class="table-responsive">
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>ALIMENTO</th>
+                <th>Quantidade máxima (g) pode ser tolerada para pacientes com SII</th>
+                <th>Tipo de FODMAP</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Soro do leite</td>
+                <td class="text-center">16g</td>
+                <td>LACTOSE</td>
+            </tr>
+            <tr>
+                <td>Sorvete de creme</td>
+                <td class="text-center">25g</td>
+                <td>LACTOSE</td>
+            </tr>
+            <tr>
+                <td>Kefir</td>
+                <td class="text-center">23g</td>
+                <td>LACTOSE</td>
+            </tr>
+            <tr>
+                <td>Leite vaca, cabra, ovelha</td>
+                <td class="text-center">10g</td>
+                <td>LACTOSE</td>
+            </tr>
+            <tr>
+                <td>Leite condensado</td>
+                <td class="text-center">7g</td>
+                <td>LACTOSE</td>
+            </tr>
+            <tr>
+                <td>Iogurte de cabra</td>
+                <td class="text-center">33g</td>
+                <td>LACTOSE</td>
+            </tr>
+            <tr>
+                <td>Iogurte natural</td>
+                <td class="text-center">20g</td>
+                <td>LACTOSE</td>
+            </tr>
+            <tr>
+                <td>Queijo fresco, cotage, ricota</td>
+                <td class="text-center">40g</td>
+                <td>LACTOSE</td>
+            </tr>
+            <tr>
+                <td>Creme de leite</td>
+                <td class="text-center">30g</td>
+                <td>LACTOSE</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr />
+</div>

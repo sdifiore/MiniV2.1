@@ -1,0 +1,131 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@Html.Partial("LogoView")
+
+<h1>@ViewBag.Title</h1>
+
+<h4>Profa. Dra. S&iacute;lvia Ferolla &ndash; Palestra no curso de Modula&ccedil;&atilde;o Intestinal II Prof. Murilo Pereira, agosto 2019</h4>
+<hr />
+
+<ul class="nav nav-tabs">
+    <li class="nav-item">
+        <a class="nav-link" href="@Url.Action("FODMAPS")">Massas</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="@Url.Action("Vegetais")">Vegetais</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="@Url.Action("Frutas")">Frutas</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="@Url.Action("Leite_e_Derivados")">Leite e derivados</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="@Url.Action("Substitutos_do_leite")">Substitutos do leite</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="@Url.Action("Leguminosas_oleaginosas_graos_sementes")">Leguminosas, oleaginosas, grãos e sementes</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="@Url.Action("Bebidas")">Bebidas</a>
+    </li>
+    <li class="nav-item active">
+        <a class="nav-link" href="#">Condimentos e açúcares</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="@Url.Action("Industrializados")">Industrializados</a>
+    </li>
+</ul>
+
+<div class="table-responsive">
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>ALIMENTO</th>
+                <th>Quantidade máxima (g) pode ser tolerada para pacientes com SII</th>
+                <th>Tipo de FODMAP</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Geleia de mirtilo</td>
+                <td class="text-center">NA</td>
+                <td>FRUTOSE</td>
+            </tr>
+            <tr>
+                <td>Geleia de coco</td>
+                <td class="text-center">11g</td>
+                <td>FRUTANO</td>
+            </tr>
+            <tr>
+                <td>Pasta homus</td>
+                <td class="text-center">NA</td>
+                <td>FRUTANO, GOS</td>
+            </tr>
+            <tr>
+                <td>Mel</td>
+                <td class="text-center">7g</td>
+                <td>FRUTOSE</td>
+            </tr>
+            <tr>
+                <td>Geleia mix berries</td>
+                <td class="text-center">NA</td>
+                <td>SORBITOL</td>
+            </tr>
+            <tr>
+                <td>Geleia de a&ccedil;&uacute;car ado&ccedil;ada com xarope de frutose</td>
+                <td class="text-center">NA</td>
+                <td>FRUTANO</td>
+            </tr>
+            <tr>
+                <td>Ketchup</td>
+                <td class="text-center">13g</td>
+                <td>FRUTANO</td>
+            </tr>
+            <tr>
+                <td>Xarope de agave</td>
+                <td class="text-center">5g</td>
+                <td>FRUTOSE, FRUTANO</td>
+            </tr>
+            <tr>
+                <td>Chocolate ao leite</td>
+                <td class="text-center">20g</td>
+                <td>SORBITOL</td>
+            </tr>
+            <tr>
+                <td>Mel</td>
+                <td class="text-center">7g</td>
+                <td rowspan="5" style="vertical-align:middle;">
+                    Absor&ccedil;&atilde;o da frutose aumenta se ingerida sob a forma de sacarose
+                    ou quando misturada com glicose.<br /><br />
+                    Durante a absor&ccedil;&atilde;o da glicose, ocorre a abertura das jun&ccedil;&otilde;es,
+                    aumentando absor&ccedil;&atilde;o via paracelular da frutose (29%)
+                </td>
+            </tr>
+            <tr>
+                <td>A&ccedil;&uacute;car de coco</td>
+                <td class="text-center">4g</td>
+            </tr>
+            <tr>
+                <td>Mela&ccedil;o</td>
+                <td class="text-center">5g</td>
+            </tr>
+            <tr>
+                <td>A&ccedil;&uacute;car de coco</td>
+                <td class="text-center">4g</td>
+            </tr>
+            <tr>
+                <td>Xarope de coco</td>
+                <td class="text-center">14g</td>
+            </tr>
+            <tr>
+                <td>A&ccedil;&uacute;car</td>
+                <td class="text-center">At&eacute; 50g</td>
+                <td>FRUTOSE, GLICOSE</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr />
+</div>

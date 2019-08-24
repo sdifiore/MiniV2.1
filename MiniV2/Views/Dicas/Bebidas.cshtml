@@ -1,0 +1,95 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@Html.Partial("LogoView")
+
+<h1>@ViewBag.Title</h1>
+
+<h4>Profa. Dra. S&iacute;lvia Ferolla &ndash; Palestra no curso de Modula&ccedil;&atilde;o Intestinal II Prof. Murilo Pereira, agosto 2019</h4>
+<hr />
+
+<ul class="nav nav-tabs">
+    <li class="nav-item">
+        <a class="nav-link" href="@Url.Action("FODMAPS")">Massas</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="@Url.Action("Vegetais")">Vegetais</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="@Url.Action("Frutas")">Frutas</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="@Url.Action("Leite_e_Derivados")">Leite e derivados</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="@Url.Action("Substitutos_do_leite")">Substitutos do leite</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="@Url.Action("Leguminosas_oleaginosas_graos_sementes")">Leguminosas, oleaginosas, grãos e sementes</a>
+    </li>
+    <li class="nav-item active">
+        <a class="nav-link" href="#">Bebidas</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="@Url.Action("Condimentos_e_acucares")">Condimentos e açúcares</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="@Url.Action("Industrializados")">Industrializados</a>
+    </li>
+</ul>
+
+<div class="table-responsive">
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>ALIMENTO</th>
+                <th>Quantidade máxima (g) pode ser tolerada para pacientes com SII</th>
+                <th>Tipo de FODMAP</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Suco de ma&ccedil;&atilde;</td>
+                <td class="text-center">NA</td>
+                <td>FRUTOSE</td>
+            </tr>
+            <tr>
+                <td>Alfarroba em p&oacute;</td>
+                <td class="text-center">6g*</td>
+                <td>FOS</td>
+            </tr>
+            <tr>
+                <td>&Aacute;gua de coco in natura</td>
+                <td class="text-center">100ml</td>
+                <td>SORBITOL, FOS</td>
+            </tr>
+            <tr>
+                <td>Kombucha</td>
+                <td class="text-center">180g</td>
+                <td>FOS</td>
+            </tr>
+            <tr>
+                <td>Chocolate maltado em p&oacute;</td>
+                <td class="text-center">16g</td>
+                <td>FOS</td>
+            </tr>
+            <tr>
+                <td>Suco de laranja</td>
+                <td class="text-center">NA</td>
+                <td>FOS</td>
+            </tr>
+            <tr>
+                <td>Ch&aacute; de camomila, funcho, ervas (herbal)/, oolong</td>
+                <td class="text-center">NA</td>
+                <td>FOS</td>
+            </tr>
+            <tr>
+                <td>Vinho de sobremesa*</td>
+                <td class="text-center">NA</td>
+                <td>FRUTOSE </td>
+            </tr>
+        </tbody>
+    </table>
+    <hr />
+</div>
