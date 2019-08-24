@@ -68,6 +68,11 @@ namespace miniV1.Controllers
             return View();
         }
 
+        public ActionResult Borek_turco()
+        {
+            return View();
+        }
+
         public ActionResult Browne_de_abobora()
         {
             return View();

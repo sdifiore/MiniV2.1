@@ -167,6 +167,7 @@
     <Content Include="Images\Bolo_nega_maluca_400.png" />
     <Content Include="Images\Bolo_salgado_de_quinoa_e_atum_sem_gluten_400.jpg" />
     <Content Include="Images\Bom_para_o_coracao_45.jpg" />
+    <Content Include="Images\Borek_turco_400.jpg" />
     <Content Include="Images\Brownie_de_abobora_400.jpg" />
     <Content Include="Images\Ceviche_de_polpa_de_coco_verde_vegano_400.jpg" />
     <Content Include="Images\condimentos_400.jpg" />
@@ -567,6 +568,7 @@
     <Content Include="Views\Receitas\Smoothie_antioxidante.cshtml" />
     <Content Include="Views\Receitas\Smoothie_cremoso_cacau.cshtml" />
     <Content Include="Views\Cursos\Cardapio_saudavel_21_agosto_2019.cshtml" />
+    <Content Include="Views\Receitas\Borek_turco.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\ContactController\" />
