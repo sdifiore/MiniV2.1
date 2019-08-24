@@ -57,20 +57,20 @@
         </div>
     </div>
     <div class="container body-content">
-    <script>
-      (function() {
-        var cx = '010159411092776514353:dzk-djlflo4';
-        var gcse = document.createElement('script');
-        gcse.type = 'text/javascript';
-        gcse.async = true;
-        gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
-        var s = document.getElementsByTagName('script')[0];
-        s.parentNode.insertBefore(gcse, s);
-      })();
-    </script>
-<gcse:search></gcse:search>
+        <script>
+            (function () {
+                var cx = '010159411092776514353:dzk-djlflo4';
+                var gcse = document.createElement('script');
+                gcse.type = 'text/javascript';
+                gcse.async = true;
+                gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(gcse, s);
+            })();
+        </script>
+        <gcse:search></gcse:search>
         @RenderBody()
-    <hr />
+        <hr />
         <footer>
             <div class="row">
                 <div class="col-md-6">
@@ -85,6 +85,7 @@
 
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
+    @Scripts.Render("~/Content/css")
     @RenderSection("scripts", required: false)
 </body>
 </html>

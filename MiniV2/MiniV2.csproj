@@ -569,6 +569,7 @@
     <Content Include="Views\Receitas\Smoothie_cremoso_cacau.cshtml" />
     <Content Include="Views\Cursos\Cardapio_saudavel_21_agosto_2019.cshtml" />
     <Content Include="Views\Receitas\Borek_turco.cshtml" />
+    <Content Include="Views\Dicas\FODMAPS.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\ContactController\" />

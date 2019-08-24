@@ -207,3 +207,31 @@ td.cel-mid-content {
     position: relative;
     transform: translateY(25%);
 }
+
+/* Tabelas */
+
+/**/
+
+.marcador {
+    background-color: #FFFF00;
+}
+
+.table-h4 {
+    margin-top: 50px;
+}
+
+    .table-h4 span {
+        font-size: 13px;
+        color: grey;
+    }
+
+[class^="col-"] {
+    background-color: #eee;
+    border: 1px solid #ddd;
+    overflow: hidden;
+}
+
+.align-mid-center {
+    text-align: center;
+    vertical-align: middle;
+}
