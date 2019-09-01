@@ -4,10 +4,19 @@
 
 @Html.Partial("LogoView")
 
-    <h1>@ViewBag.Title</h1>
+<h1>@ViewBag.Title</h1>
 
 <h4>Profa. Dra. S&iacute;lvia Ferolla &ndash; Palestra no curso de Modula&ccedil;&atilde;o Intestinal II Prof. Murilo Pereira, agosto 2019</h4>
 <hr />
+
+<ul class="nav nav-pills">
+    <li class="nav-item active">
+        <a class="nav-link" href="#">Alto teor de FODMAP</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="@Url.Action("Massas")">Baixo teor de FODMAP</a>
+    </li>
+</ul>
 
 <ul class="nav nav-tabs">
     <li class="nav-item active">
@@ -48,79 +57,98 @@
             <thead>
                 <tr>
                     <th>ALIMENTO</th>
-                    <th>Quantidade máxima (g) pode ser tolerada para pacientes com SII</th>
+                    <th>Nessa quantidade pode n&atilde;o ser tolerada</th>
                     <th>Tipo de FODMAP</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
-                    <td>Farinha de am&ecirc;ndoa</td>
+                    <td>Aveia, farelo</td>
                     <td class="text-center">24g</td>
                     <td>GOS</td>
                 </tr>
                 <tr>
-                    <td>Amaranto</td>
-                    <td class="text-center">10g</td>
+                    <td>Arroz, farelo</td>
+                    <td class="text-center">60g</td>
                     <td>GOS + FRUTANO</td>
                 </tr>
                 <tr>
-                    <td>Cevada</td>
-                    <td class="text-center">28g</td>
+                    <td>P&atilde;o espelta ou quinoa</td>
+                    <td class="text-center">3 fatias</td>
                     <td>GOS + FRUTANO</td>
                 </tr>
                 <tr>
-                    <td>Triguilho</td>
-                    <td class="text-center">44g</td>
-                    <td>GOS + FRUTANO</td>
+                    <td>Couscous sem gluten somente milho</td>
+                    <td class="text-center">NA</td>
+                    <td>-</td>
                 </tr>
                 <tr>
-                    <td>Farelo de trigo</td>
-                    <td class="text-center">5g</td>
+                    <td>Milho, flocos</td>
+                    <td class="text-center">NA</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>Quinoa, flocos</td>
+                    <td class="text-center">120g</td>
                     <td>FRUTANO</td>
                 </tr>
                 <tr>
-                    <td>Granola</td>
+                    <td>Arroz, flocos</td>
                     <td class="text-center">NA</td>
-                    <td>FRUTANO</td>
+                    <td>-</td>
                 </tr>
                 <tr>
-                    <td>Espelta</td>
+                    <td>Arauta, farinha</td>
                     <td class="text-center">NA</td>
-                    <td>FRUTANO</td>
+                    <td>-</td>
                 </tr>
                 <tr>
-                    <td>Farinha de coco</td>
+                    <td>Milho, farinha</td>
                     <td class="text-center">NA</td>
-                    <td>FRUTANO, SORBITOL, FRUTOSE</td>
+                    <td>-</td>
                 </tr>
                 <tr>
-                    <td>Farinha de centeio</td>
+                    <td>Milho, amido</td>
                     <td class="text-center">NA</td>
-                    <td>FRUTANO</td>
+                    <td>-</td>
                 </tr>
                 <tr>
-                    <td>Massa de espelta</td>
-                    <td class="text-center">74-85g</td>
-                    <td>FRUTANO</td>
-                </tr>
-                <tr>
-                    <td>Semolina</td>
+                    <td>Banana verde, farinha</td>
                     <td class="text-center">NA</td>
-                    <td>FRUTANO</td>
+                    <td>-</td>
                 </tr>
                 <tr>
-                    <td>Muelsi</td>
+                    <td>Pain&ccedil;o</td>
                     <td class="text-center">NA</td>
-                    <td>FRUTANO, SORBITOL</td>
+                    <td>-</td>
                 </tr>
                 <tr>
-                    <td>Biscoitos que contenham farinha de trigo</td>
+                    <td>Farinhas: arroz, sorgo, teff, inhame</td>
                     <td rowspan="2" class="text-center">NA**</td>
-                    <td>FRUTANO</td>
+                    <td>-</td>
                 </tr>
                 <tr>
-                    <td>Barrinha – fruta seca, castanhas, mel, aveia, granola (etc.)</td>
-                    <td>FRUTANO, FRUTOSE, GOS</td>
+                    <td>Aveia, farinha</td>
+                    <td class="text-center">52g</td>
+                    <td>GOS + FRUTANO</td>
+                </tr>
+                <tr>
+                    <td>Macarr&atilde;o kelp</td>
+                    <td class="text-center">NA</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>Pipoca</td>
+                    <td class="text-center">NA</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>Biscoito de arroz</td>
+                    <td class="text-center">NA</td>
+                    <td>checar outros ingredientes</td>
+                </tr>
+                <tr>
+                    <td class="text-center" colspan="3">P&atilde;es, cereais, biscoitos sem gl&uacute;ten &ndash; CHECAR O R&Oacute;TULO</td>
                 </tr>
             </tbody>
         </table>

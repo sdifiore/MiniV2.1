@@ -579,6 +579,14 @@
     <Content Include="Views\Dicas\Bebidas.cshtml" />
     <Content Include="Views\Dicas\Condimentos_e_acucares.cshtml" />
     <Content Include="Views\Dicas\Industrializados.cshtml" />
+    <Content Include="Views\Dicas\Vegetais_baixo_FODMAPS.cshtml" />
+    <Content Include="Views\Dicas\Frutas_baixo_FODMAP.cshtml" />
+    <Content Include="Views\Dicas\Substitutos_do_leite_baixo_FODMAP.cshtml" />
+    <Content Include="Views\Dicas\Leguminosas_oleaginosas_graos_sementes_baixo_FODMAP.cshtml" />
+    <Content Include="Views\Dicas\Bebidas_baixos_FODMAPS.cshtml" />
+    <Content Include="Views\Dicas\Acucares_baixo_FODMAP.cshtml" />
+    <Content Include="Views\Dicas\Condimentos_baixo_FODMAP.cshtml" />
+    <Content Include="Views\Dicas\Gorduras.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\ContactController\" />

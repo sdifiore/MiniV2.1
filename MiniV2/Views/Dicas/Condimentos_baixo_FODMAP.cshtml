@@ -1,0 +1,159 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@Html.Partial("LogoView")
+
+<h1>@ViewBag.Title</h1>
+
+<h4>Profa. Dra. S&iacute;lvia Ferolla &ndash; Palestra no curso de Modula&ccedil;&atilde;o Intestinal II Prof. Murilo Pereira, agosto 2019</h4>
+<hr />
+
+<ul class="nav nav-pills">
+    <li class="nav-item">
+        <a class="nav-link" href="@Url.Action("FODMAPS")">Alto teor de FODMAP</a>
+    </li>
+    <li class="nav-item active">
+        <a class="nav-link" href="#">Baixo teor de FODMAP</a>
+    </li>
+</ul>
+
+<ul class="nav nav-tabs">
+    <li class="nav-item">
+        <a class="nav-link" href="@Url.Action("Massas")">Massas</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="@Url.Action("Vegetais_baixo_FODMAPS")">Vegetais</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link active" href="@Url.Action("Frutas_baixo_FODMAP")">Frutas</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="@Url.Action("Substitutos_do_leite_baixo_FODMAP")">Substitutos do leite</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="@Url.Action("Leguminosas_oleaginosas_graos_sementes_baixo_FODMAP")">Leguminosas, oleaginosas, grãos e sementes</a>
+    </li>
+    <li class="nav-item ">
+        <a class="nav-link active" href="@Url.Action("Acucares_baixo_FODMAP")">Açúcares</a>
+    </li>
+    <li class="nav-item active">
+        <a class="nav-link" href="#">Condimentos</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="@Url.Action("Gorduras")">Gorduras</a>
+    </li>
+</ul>
+
+<div class="table-responsive">
+    <table class="table table-striped">
+        <tbody>
+            <tr>
+                <td class="text-center">A&ccedil;afr&atilde;o</td>
+                <td class="text-center">Agri&atilde;o desidratado</td>
+                <td class="text-center">Alecrim</td>
+            </tr>
+            <tr>
+                <td class="text-center">Anis estrelado</td>
+                <td class="text-center">Assa-f&eacute;tida em p&oacute;</td>
+                <td class="text-center">Canela</td>
+            </tr>
+            <tr>
+                <td class="text-center">Cardamo</td>
+                <td class="text-center">Cebolinha</td>
+                <td class="text-center">Cominho</td>
+            </tr>
+            <tr>
+                <td class="text-center">Essência de baunilha</td>
+                <td class="text-center">Estrag&atilde;o</td>
+                <td class="text-center">Feno-grego folha seca ou semente</td>
+            </tr>
+            <tr>
+                <td class="text-center">Folhas de curry</td>
+                <td class="text-center">Hortel&atilde; fresca</td>
+                <td class="text-center">Louro</td>
+            </tr>
+            <tr>
+                <td class="text-center">Manjeric&atilde;o</td>
+                <td class="text-center">Manjeric&atilde;o tailand&ecirc;s</td>
+                <td class="text-center">Molho de ostras ou de peixe</td>
+            </tr>
+            <tr>
+                <td class="text-center">Mostarda (molho e semente)</td>
+                <td class="text-center">Or&eacute;gano seco</td>
+                <td class="text-center">P&aacute;prica</td>
+            </tr>
+            <tr>
+                <td class="text-center">Pasta de miso</td>
+                <td class="text-center">Pimenta em p&oacute;</td>
+                <td class="text-center">Pimenta preta</td>
+            </tr>
+            <tr>
+                <td class="text-center">Salsinha</td>
+                <td class="text-center">Sementes de funcho</td>
+                <td class="text-center">Sumagre</td>
+            </tr>
+            <tr>
+                <td class="text-center">Tomilho</td>
+                <td class="text-center">Wasabi (p&oacute; ou pasta)</td>
+                <td class="text-center"></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<br /><hr /><br />
+
+<div class="table-responsive">
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>ALIMENTO</th>
+                <th>Nessa quantidade pode n&atilde;o ser tolerada</th>
+                <th>Tipo de FODMAP</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Pimenta da Jamaica</td>
+                <td class="text-center">NA</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>Pasta de amendoim</td>
+                <td class="text-center">32g</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>Molho de tomate (sem alho e cebola)</td>
+                <td class="text-center">NA</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>Molho de soja</td>
+                <td class="text-center">NA</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>Geleia de menta ou morango</td>
+                <td class="text-center">NA</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>Vinagre (ma&ccedil;&atilde; ou tinto)</td>
+                <td class="text-center">NA</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>Alcaparras</td>
+                <td class="text-center">NA</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>Aceto bals&acirc;mico</td>
+                <td class="text-center">At&eacute; 12g</td>
+                <td>FRUTOSE</td>
+            </tr>
+        </tbody>
+    </table>
+</div>

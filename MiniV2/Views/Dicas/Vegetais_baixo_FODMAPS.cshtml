@@ -1,0 +1,243 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@Html.Partial("LogoView")
+
+<h1>@ViewBag.Title</h1>
+
+<h4>Profa. Dra. S&iacute;lvia Ferolla &ndash; Palestra no curso de Modula&ccedil;&atilde;o Intestinal II Prof. Murilo Pereira, agosto 2019</h4>
+<hr />
+
+<ul class="nav nav-pills">
+    <li class="nav-item">
+        <a class="nav-link" href="@Url.Action("FODMAPS")">Alto teor de FODMAP</a>
+    </li>
+    <li class="nav-item active">
+        <a class="nav-link" href="#">Baixo teor de FODMAP</a>
+    </li>
+</ul>
+
+<ul class="nav nav-tabs">
+    <li class="nav-item">
+        <a class="nav-link" href="@Url.Action("Massas")">Massas</a>
+    </li>
+    <li class="nav-item active">
+        <a class="nav-link" href="#">Vegetais</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="@Url.Action("Frutas_baixo_FODMAP")">Frutas</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="@Url.Action("Substitutos_do_leite_baixo_FODMAP")">Substitutos do leite</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="@Url.Action("Leguminosas_oleaginosas_graos_sementes_baixo_FODMAP")">Leguminosas, oleaginosas, grãos e sementes</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="@Url.Action("Bebidas_baixos_FODMAPS")">Bebidas</a>
+    </li>
+    <li class="nav-item ">
+        <a class="nav-link active" href="@Url.Action("Acucares_baixo_FODMAP")">Açúcares</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="@Url.Action("Condimentos_baixo_FODMAP")">Condimentos</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="@Url.Action("Gorduras")">Gorduras</a>
+    </li>
+</ul>
+
+<div class="table-responsive">
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>ALIMENTO</th>
+                <th>Nessa quantidade pode n&atilde;o ser tolerada</th>
+                <th>Tipo de FODMAP</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Alfafa </td>
+                <td class="text-center">180g</td>
+                <td>FRUTOSE</td>
+            </tr>
+            <tr>
+                <td>Alcachofra (cora&ccedil;&atilde;o, enlatada)</td>
+                <td class="text-center">160g</td>
+                <td>FRUTOSE</td>
+            </tr>
+            <tr>
+                <td>R&uacute;cula</td>
+                <td class="text-center">-</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>Berinjela</td>
+                <td class="text-center">182g</td>
+                <td>SORBITOL</td>
+            </tr>
+            <tr>
+                <td>Broto de bambu</td>
+                <td class="text-center">NA</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>Broto de feij&atilde;o</td>
+                <td class="text-center">NA</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>Feij&atilde;o, verde</td>
+                <td class="text-center">125g</td>
+                <td>SORBITOL</td>
+            </tr>
+            <tr>
+                <td>Pimentão verde</td>
+                <td class="text-center">Teor moderado (geralmente tolerado at&eacute; 50g)</td>
+                <td>SORBITOL</td>
+            </tr>
+            <tr>
+                <td>Brócolis ninja</td>
+                <td class="text-center">270g</td>
+                <td>FRUTANO</td>
+            </tr>
+            <tr>
+                <td>Repolho comum</td>
+                <td class="text-center">100g</td>
+                <td>SORBITOL</td>
+            </tr>
+            <tr>
+                <td>Cenoura</td>
+                <td class="text-center">NA</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>Mandioca</td>
+                <td class="text-center">100g</td>
+                <td>GOS</td>
+            </tr>
+            <tr>
+                <td>Aipo-r&aacute;bano ou aipo com raiz de nabo</td>
+                <td class="text-center">350g</td>
+                <td>MANITOL</td>
+            </tr>
+            <tr>
+                <td>Folha de chic&oacute;ria</td>
+                <td class="text-center">200g</td>
+                <td>MANITOL</td>
+            </tr>
+            <tr>
+                <td>Pimenta chili verde ou vermelha (fresca)</td>
+                <td class="text-center">35g</td>
+                <td>*cont&eacute;m capsaicina</td>
+            </tr>
+            <tr>
+                <td>Couve galega/ couve kate (frisada)/ couve r&aacute;bano</td>
+                <td class="text-center">NA</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>Milho enlatado baby</td>
+                <td class="text-center">NA</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>Pepino</td>
+                <td class="text-center">NA</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>Abobrinha</td>
+                <td class="text-center">75G</td>
+                <td>FRUTANO</td>
+            </tr>
+            <tr>
+                <td>Rabanete branco</td>
+                <td class="text-center">280G</td>
+                <td>FRUTANO</td>
+            </tr>
+            <tr>
+                <td>Edemame</td>
+                <td class="text-center">210G</td>
+                <td>FRUTANO</td>
+            </tr>
+            <tr>
+                <td>End&iacute;via</td>
+                <td class="text-center">NA</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>Folha de erva doce</td>
+                <td class="text-center">84G</td>
+                <td>SORBITOL</td>
+            </tr>
+            <tr>
+                <td>Gengibre tailand&amp;ecirc;s ou comum</td>
+                <td class="text-center">NA</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>Quiabo</td>
+                <td class="text-center">90G</td>
+                <td>FRUTANO</td>
+            </tr>
+            <tr>
+                <td>Nabo mexicano, jicama</td>
+                <td class="text-center">250G</td>
+                <td>FRUTANO</td>
+            </tr>
+            <tr>
+                <td>Alface (romana, manteiga, americana, vermelha, de rocket)</td>
+                <td class="text-center">NA</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>Radicchio</td>
+                <td class="text-center">185g</td>
+                <td>GOS</td>
+            </tr>
+            <tr>
+                <td>Champignon (conserva)</td>
+                <td class="text-center">NA</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>Tomate (pelato, comum, roma, cereja)</td>
+                <td class="text-center">220g</td>
+                <td>FRUTANO</td>
+            </tr>
+            <tr>
+                <td>Rutaboga (couve nabo)</td>
+                <td class="text-center">NA</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>Nori</td>
+                <td class="text-center">NA</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>Feij&atilde;o chicote</td>
+                <td class="text-center">NA</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>Taro</td>
+                <td class="text-center">90g</td>
+                <td>GOS</td>
+            </tr>
+            <tr>
+                <td>Nabo</td>
+                <td class="text-center">100g</td>
+                <td>SORBITOL</td>
+            </tr>
+            <tr>
+                <td>Agar agar</td>
+                <td class="text-center">NA</td>
+                <td>-</td>
+            </tr>
+        </tbody>
+    </table>
+</div>

@@ -7,7 +7,14 @@ namespace MiniV2.Controllers
         // GET: Dicas
         public ActionResult Index()
         {
-            ViewBag.Title = "Dicas da Manu";
+            ViewBag.Title = "Biblioteca da Manu";
+
+            return View();
+        }
+
+        public ActionResult Acucares_baixo_FODMAP()
+        {
+            ViewBag.Title = "Açúcares pobres em FODMAPS";
 
             return View();
         }
@@ -19,16 +26,36 @@ namespace MiniV2.Controllers
             return View();
         }
 
-        public ActionResult FODMAPS()
+        public ActionResult Bebidas()
         {
-            ViewBag.Title = "FODMAPS";
+            ViewBag.Title = "Bebidas ricas em FODMAPS";
 
             return View();
         }
 
-        public ActionResult Vegetais()
+        public ActionResult Bebidas_baixos_FODMAPS()
         {
-            ViewBag.Title = "Vegetais ricos em FODMAPS";
+            ViewBag.Title = "Bebidas pobres em FODMAPS";
+
+            return View();
+        }
+
+        public ActionResult Condimentos_baixo_FODMAP()
+        {
+            ViewBag.Title = "Condimentos pobres em FODMAPS";
+
+            return View();
+        }
+        public ActionResult Condimentos_e_acucares()
+        {
+            ViewBag.Title = "Condimentos e açucares ricos em FODMAPS";
+
+            return View();
+        }
+
+        public ActionResult FODMAPS()
+        {
+            ViewBag.Title = "FODMAPS";
 
             return View();
         }
@@ -40,9 +67,58 @@ namespace MiniV2.Controllers
             return View();
         }
 
+        public ActionResult Frutas_baixo_FODMAP()
+        {
+            ViewBag.Title = "Frutas pobres em FODMAPS";
+
+            return View();
+        }
+
+        public ActionResult Gorduras()
+        {
+            ViewBag.Title = "Gorduras e óleos permitidos na restrição de FODMAPS";
+
+            return View();
+        }
+
+        public ActionResult Industrializados()
+        {
+            ViewBag.Title = "Atenção nos ingredientes de produtos industrializados!!";
+
+            return View();
+        }
+
+        public ActionResult Leguminosas_oleaginosas_graos_sementes()
+        {
+            ViewBag.Title = "Leguminosas, oleaginosas, grãos e sementes ricas em FODMAPS";
+
+            return View();
+        }
+
+        public ActionResult Leguminosas_oleaginosas_graos_sementes_baixo_FODMAP()
+        {
+            ViewBag.Title = "Leguminosas, oleaginosas, grãos e sementes pobres em FODMAPS";
+
+            return View();
+        }
+
         public ActionResult Leite_e_Derivados()
         {
             ViewBag.Title = "Leite e derivados ricos em FODMAPS";
+
+            return View();
+        }
+
+        public ActionResult Massas()
+        {
+            ViewBag.Title = "Leite e derivados ricos em FODMAPS";
+
+            return View();
+        }
+
+        public ActionResult O_que_manter_na_despensa_e_na_geladeira()
+        {
+            ViewBag.Title = "O que manter na despensa e na geladeira";
 
             return View();
         }
@@ -54,37 +130,23 @@ namespace MiniV2.Controllers
             return View();
         }
 
-        public ActionResult Leguminosas_oleaginosas_graos_sementes()
+        public ActionResult Substitutos_do_leite_baixo_FODMAP()
         {
-            ViewBag.Title = "Leguminosas, oleaginosas, gr&atilde;os e sementes ricas em FODMAPS";
+            ViewBag.Title = "Substitutos de leite e derivados pobres em FODMAPS";
 
             return View();
         }
 
-        public ActionResult Bebidas()
+        public ActionResult Vegetais()
         {
-            ViewBag.Title = "Bebidas ricas em FODMAPS";
+            ViewBag.Title = "Vegetais ricos em FODMAPS";
 
             return View();
         }
 
-        public ActionResult Condimentos_e_acucares()
+        public ActionResult Vegetais_baixo_FODMAPS()
         {
-            ViewBag.Title = "Condimentos e a&ccedil;&uacute;cares ricos em FODMAPS";
-
-            return View();
-        }
-
-        public ActionResult Industrializados()
-        {
-            ViewBag.Title = "Aten&ccedil;&atilde;o nos ingredientes de produtos industrializados!!";
-
-            return View();
-        }
-
-        public ActionResult O_que_manter_na_despensa_e_na_geladeira()
-        {
-            ViewBag.Title = "O que manter na despensa e na geladeira";
+            ViewBag.Title = "Vegetais pobres em FODMAPS";
 
             return View();
         }

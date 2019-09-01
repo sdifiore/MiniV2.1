@@ -1,0 +1,93 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@Html.Partial("LogoView")
+
+<h1>@ViewBag.Title</h1>
+
+<h4>Profa. Dra. S&iacute;lvia Ferolla &ndash; Palestra no curso de Modula&ccedil;&atilde;o Intestinal II Prof. Murilo Pereira, agosto 2019</h4>
+<hr />
+
+<ul class="nav nav-pills">
+    <li class="nav-item">
+        <a class="nav-link" href="@Url.Action("FODMAPS")">Alto teor de FODMAP</a>
+    </li>
+    <li class="nav-item active">
+        <a class="nav-link" href="#">Baixo teor de FODMAP</a>
+    </li>
+</ul>
+
+<ul class="nav nav-tabs">
+    <li class="nav-item">
+        <a class="nav-link" href="@Url.Action("Massas")">Massas</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="@Url.Action("Vegetais_baixo_FODMAPS")">Vegetais</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link active" href="@Url.Action("Frutas_baixo_FODMAP")">Frutas</a>
+    </li>
+    <li class="nav-item active">
+        <a class="nav-link" href="#">Substitutos do leite</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="@Url.Action("Leguminosas_oleaginosas_graos_sementes_baixo_FODMAP")">Leguminosas, oleaginosas, grãos e sementes</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="@Url.Action("Bebidas_baixos_FODMAPS")">Bebidas</a>
+    </li>
+    <li class="nav-item ">
+        <a class="nav-link active" href="@Url.Action("Acucares_baixo_FODMAP")">Açúcares</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="@Url.Action("Condimentos_baixo_FODMAP")">Condimentos</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="@Url.Action("Gorduras")">Gorduras</a>
+    </li>
+</ul>
+
+<div class="table-responsive">
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>ALIMENTO</th>
+                <th>Nessa quantidade pode n&atilde;o ser tolerada</th>
+                <th>Tipo de FODMAP</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Queijo de soja</td>
+                <td class="text-center">250g</td>
+                <td>FRUTANO + GOS</td>
+            </tr>
+            <tr>
+                <td>Leite de c&acirc;nhamo</td>
+                <td class="text-center">240g</td>
+                <td>FRUTANO</td>
+            </tr>
+            <tr>
+                <td>Leite de quinoa</td>
+                <td class="text-center">NA</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>Iogurte feito de coco (sem leite de vaca)</td>
+                <td class="text-center">NA</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>Iogurte sem lactose</td>
+                <td class="text-center">NA</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>Tofu (firme)</td>
+                <td class="text-center">NA</td>
+                <td>-</td>
+            </tr>
+        </tbody>
+    </table>
+</div>

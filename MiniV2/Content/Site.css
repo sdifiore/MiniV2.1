@@ -225,13 +225,15 @@ td.cel-mid-content {
         color: grey;
     }
 
-[class^="col-"] {
-    background-color: #eee;
-    border: 1px solid #ddd;
-    overflow: hidden;
-}
 
 .align-mid-center {
     text-align: center;
     vertical-align: middle;
+}
+
+
+li.nav-item.active a.nav-link {
+    background-color: #347ab6;
+    color: white;
+    font-weight: bold;
 }

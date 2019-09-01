@@ -1,0 +1,100 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@Html.Partial("LogoView")
+
+<h1>@ViewBag.Title</h1>
+
+<h4>Profa. Dra. S&iacute;lvia Ferolla &ndash; Palestra no curso de Modula&ccedil;&atilde;o Intestinal II Prof. Murilo Pereira, agosto 2019</h4>
+<hr />
+
+<ul class="nav nav-pills">
+    <li class="nav-item">
+        <a class="nav-link" href="@Url.Action("FODMAPS")">Alto teor de FODMAP</a>
+    </li>
+    <li class="nav-item active">
+        <a class="nav-link" href="#">Baixo teor de FODMAP</a>
+    </li>
+</ul>
+
+<ul class="nav nav-tabs">
+    <li class="nav-item">
+        <a class="nav-link" href="@Url.Action("Massas")">Massas</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="@Url.Action("Vegetais_baixo_FODMAPS")">Vegetais</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link active" href="@Url.Action("Frutas_baixo_FODMAP")">Frutas</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="@Url.Action("Substitutos_do_leite_baixo_FODMAP")">Substitutos do leite</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="@Url.Action("Leguminosas_oleaginosas_graos_sementes_baixo_FODMAP")">Leguminosas, oleaginosas, grãos e sementes</a>
+    </li>
+    <li class="nav-item active">
+        <a class="nav-link active" href="#">Açúcares</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="@Url.Action("Condimentos_baixo_FODMAP")">Condimentos</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="@Url.Action("Gorduras")">Gorduras</a>
+    </li>
+</ul>
+
+<div class="table-responsive">
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>ALIMENTO</th>
+                <th>Nessa quantidade pode n&atilde;o ser tolerada</th>
+                <th>Tipo de FODMAP</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>A&ccedil;&uacute;car de coco</td>
+                <td class="text-center">12g</td>
+                <td>FRUTANO + FRUTOSE</td>
+            </tr>
+            <tr>
+                <td>Maple syrup (xarope de bordo)</td>
+                <td class="text-center">NA</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>Xarope de arroz</td>
+                <td class="text-center">NA</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>Chocolate amargo</td>
+                <td class="text-center">80g (sugest&atilde;o 20g)</td>
+                <td>FRUTANO</td>
+            </tr>
+            <tr>
+                <td>Gelatina (framboesa, lim&atilde;o, morango)</td>
+                <td class="text-center">NA</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>Rapadura</td>
+                <td class="text-center">18g</td>
+                <td>FRUTANO</td>
+            </tr>
+            <tr>
+                <td>Stevia em p&oacute;</td>
+                <td class="text-center">NA</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>A&ccedil;&uacute;car mascavo</td>
+                <td class="text-center">40g</td>
+                <td>-</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
