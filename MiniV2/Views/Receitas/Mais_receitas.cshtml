@@ -6,6 +6,15 @@
 
 @Html.Partial("LogoView")
 
+<ul class="nav nav-pills">
+    <li class="nav-item active">
+        <a class="nav-link" href="#">Receitas em texto</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="@Url.Action("ReceitasVideo")">Receitas em vídeo</a>
+    </li>
+</ul>
+
 <div class="container Receitas">
     <div class="row">
         <div class="col-md-8 Receitas">

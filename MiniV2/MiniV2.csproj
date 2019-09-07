@@ -167,6 +167,7 @@
     <Content Include="Images\Bolo_nega_maluca_400.png" />
     <Content Include="Images\Bolo_salgado_de_quinoa_e_atum_sem_gluten_400.jpg" />
     <Content Include="Images\Bom_para_o_coracao_45.jpg" />
+    <Content Include="Images\Borek_thumbnail.jpg" />
     <Content Include="Images\Borek_turco_400.jpg" />
     <Content Include="Images\Brownie_de_abobora_400.jpg" />
     <Content Include="Images\Ceviche_de_polpa_de_coco_verde_vegano_400.jpg" />
@@ -587,6 +588,8 @@
     <Content Include="Views\Dicas\Acucares_baixo_FODMAP.cshtml" />
     <Content Include="Views\Dicas\Condimentos_baixo_FODMAP.cshtml" />
     <Content Include="Views\Dicas\Gorduras.cshtml" />
+    <Content Include="Views\Receitas\ReceitasVideo.cshtml" />
+    <Content Include="Views\Receitas\Borek_turco_video.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\ContactController\" />

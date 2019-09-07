@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using System.Web.Mvc;
+﻿using System.Web.Mvc;
 
 namespace miniV1.Controllers
 {
@@ -14,6 +10,11 @@ namespace miniV1.Controllers
         }
 
         public ActionResult Mais_receitas()
+        {
+            return View();
+        }
+
+        public ActionResult ReceitasVideo()
         {
             return View();
         }
@@ -69,6 +70,11 @@ namespace miniV1.Controllers
         }
 
         public ActionResult Borek_turco()
+        {
+            return View();
+        }
+
+        public ActionResult Borek_turco_video()
         {
             return View();
         }

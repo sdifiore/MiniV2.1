@@ -1,0 +1,114 @@
+﻿@{
+    ViewBag.Title = "Receitas";
+}
+
+<h1>Receitas</h1>
+
+@Html.Partial("LogoView")
+
+<ul class="nav nav-pills">
+    <li class="nav-item">
+        <a class="nav-link" href="@Url.Action("Mais_receitas")">Receitas em texto</a>
+    </li>
+    <li class="nav-item active">
+        <a class="nav-link" href="#">Receitas em vídeo</a>
+    </li>
+</ul>
+
+<div class="container Receitas">
+    <div class="row">
+        <div class="col-md-8 Receitas">
+            <h2>Todas os vídeos por ordem alfabética</h2>
+            <div class="card" style="width:100px">
+                
+                <div class="card-body">
+                    <h4 class="card-title">Borek turco</h4>
+                    <a href="@Url.Action("Borek_turco_video")">
+                        <img class="card-img-top" src="~/Images/Borek_thumbnail.jpg" alt="Card image">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 Receitas">
+            <img class="img-responsive" src="~/images/manuela_ibi_chef_250.jpg" alt="Manuela Ibi Chef" />
+            <p></p>
+            <table class="table table-striped" style="width: 250px">
+                <caption>Legenda</caption>
+                <tr>
+                    <td>
+                        <img src="~/Images/Icone_receita_tradicional_italiana_45.jpg" alt="Receita tradicional italiana" />
+                    </td>
+                    <td class="cel-mid-content">
+                        <span>
+                            Receita tradicional italiana
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="~/Images/Icone_vegetariana_45.jpg" alt="Receita vegetariana" />
+                    </td>
+                    <td class="cel-mid-content">
+                        Vegetariana
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="~/Images/Icone_100_por_cento_vegana_45.jpg" alt="Receita 100% vegana" />
+                    </td>
+                    <td class="cel-mid-content">
+                        Vegana
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="~/Images/Icone_low_carb_45.jpg" alt="Receita low carb" />
+                    </td>
+                    <td class="cel-mid-content">
+                        Low Carb
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="~/Images/Icone_sem_gluten_45.jpg" alt="Receita sem glúten" />
+                    </td>
+                    <td class="cel-mid-content">
+                        Sem glúten
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="~/Images/Icone_sem_laticinios_45.jpg" alt="Receita sem laticínios" />
+                    </td>
+                    <td class="cel-mid-content">
+                        Sem Laticínios
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="~/Images/Icone_sem_adicao_de_acucar_45.jpg" alt="Receita sem adição de açúcar" />
+                    </td>
+                    <td class="cel-mid-content">
+                        Sem açúcar adicionado
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="~/Images/Icone_bom_para_o_coracao_45.jpg" alt="Receita boa para o coração" />
+                    </td>
+                    <td class="cel-mid-content">
+                        Bom para o coração
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="~/Images/Icone_paleo_diet_45.jpg" alt="Receita paleo diet" />
+                    </td>
+                    <td class="cel-mid-content">
+                        Paleo diet
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
