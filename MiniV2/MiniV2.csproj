@@ -172,6 +172,13 @@
     <Content Include="Images\Brownie_de_abobora_400.jpg" />
     <Content Include="Images\Ceviche_de_polpa_de_coco_verde_vegano_400.jpg" />
     <Content Include="Images\condimentos_400.jpg" />
+    <Content Include="Images\Cursos\Cardapio_saudavel_18_setembro_2019\aula.jpeg" />
+    <Content Include="Images\Cursos\Cardapio_saudavel_18_setembro_2019\cartaz.jpeg" />
+    <Content Include="Images\Cursos\Cardapio_saudavel_18_setembro_2019\castanhas.jpeg" />
+    <Content Include="Images\Cursos\Cardapio_saudavel_18_setembro_2019\esfihas.jpeg" />
+    <Content Include="Images\Cursos\Cardapio_saudavel_18_setembro_2019\estagiaria.jpeg" />
+    <Content Include="Images\Cursos\Cardapio_saudavel_18_setembro_2019\Salada_de_frutas.jpeg" />
+    <Content Include="Images\Cursos\Cardapio_saudavel_18_setembro_2019\turma.jpeg" />
     <Content Include="Images\Cursos\Cardapio_saudavel_21_agosto_2019\Cartaz.jpg" />
     <Content Include="Images\Cursos\Cardapio_saudavel_21_agosto_2019\Cortesia_a_granel.jpeg" />
     <Content Include="Images\Cursos\Cardapio_saudavel_21_agosto_2019\Cortesia_espaco_organico.jpg" />
@@ -590,6 +597,7 @@
     <Content Include="Views\Dicas\Gorduras.cshtml" />
     <Content Include="Views\Receitas\ReceitasVideo.cshtml" />
     <Content Include="Views\Receitas\Borek_turco_video.cshtml" />
+    <Content Include="Views\Cursos\Cardapio_saudavel_18_setembro_2019.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\ContactController\" />
