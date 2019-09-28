@@ -392,6 +392,7 @@
     <Content Include="Images\Muffins_de_canela_400.jpg" />
     <Content Include="Images\Nhoque_de_cabotia_400.jpg" />
     <Content Include="Images\Nutella_funcional_400.jpg" />
+    <Content Include="Images\omega_3_250.jpg" />
     <Content Include="Images\Overnight_oat_400.jpg" />
     <Content Include="Images\Panqueca_de_cacau_sacietogenica_400.jpg" />
     <Content Include="Images\Panqueca_de_microondas.jpg" />
@@ -598,6 +599,8 @@
     <Content Include="Views\Receitas\ReceitasVideo.cshtml" />
     <Content Include="Views\Receitas\Borek_turco_video.cshtml" />
     <Content Include="Views\Cursos\Cardapio_saudavel_18_setembro_2019.cshtml" />
+    <Content Include="Views\Dicas\BibliotecaVideo.cshtml" />
+    <Content Include="Views\Dicas\Omega_3.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\ContactController\" />

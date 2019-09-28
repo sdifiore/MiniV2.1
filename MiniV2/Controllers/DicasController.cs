@@ -7,7 +7,7 @@ namespace MiniV2.Controllers
         // GET: Dicas
         public ActionResult Index()
         {
-            ViewBag.Title = "Biblioteca da Manu";
+            ViewBag.Title = "Biblioteca da Manu: Texto";
 
             return View();
         }
@@ -36,6 +36,13 @@ namespace MiniV2.Controllers
         public ActionResult Bebidas_baixos_FODMAPS()
         {
             ViewBag.Title = "Bebidas pobres em FODMAPS";
+
+            return View();
+        }
+
+        public ActionResult BibliotecaVideo()
+        {
+            ViewBag.Title = "Biblioteca da Manu: Vídeo";
 
             return View();
         }
@@ -112,6 +119,13 @@ namespace MiniV2.Controllers
         public ActionResult Massas()
         {
             ViewBag.Title = "Leite e derivados ricos em FODMAPS";
+
+            return View();
+        }
+
+        public ActionResult Omega_3()
+        {
+            ViewBag.Title = "Ômega 3";
 
             return View();
         }

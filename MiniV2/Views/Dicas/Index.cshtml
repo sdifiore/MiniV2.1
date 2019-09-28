@@ -7,13 +7,22 @@
 
 @Html.Partial("LogoView")
 
+<ul class="nav nav-pills">
+    <li class="nav-item active">
+        <a class="nav-link" href="#">Biblioteca textual</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="@Url.Action("BibliotecaVideo")">Biblioteca em vídeo</a>
+    </li>
+</ul>
+
 <div class="container " Receitas">
     <div class="row">
         <div class="col-md-8 " Receitas">
             <h2>Todos os itens por ordem alfab&eacute;tica</h2>
             <div class="list-group " Receitas">
-                <a class="list-group-item" href="@Url.Action("FODMAPS", "Dicas")">FODMAPS</a>
                 <a class="list-group-item" href="@Url.Action("As_10_leis_do_bom_alimento", "Dicas")">As 10 leis do bom alimento</a>
+                <a class="list-group-item" href="@Url.Action("FODMAPS", "Dicas")">FODMAPS</a>
                 <a class="list-group-item" href="@Url.Action("O_que_manter_na_despensa_e_na_geladeira", "Dicas")">O que manter na despensa e na geladeira</a>
             </div>
         </div>

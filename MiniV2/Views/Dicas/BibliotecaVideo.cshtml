@@ -1,0 +1,33 @@
+﻿<h1>@ViewBag.Title</h1>
+
+@Html.Partial("LogoView")
+
+<ul class="nav nav-pills">
+    <li class="nav-item">
+        <a class="nav-link" href="@Url.Action("Index")">Biblioteca textual</a>
+    </li>
+    <li class="nav-item active">
+        <a class="nav-link" href="#">Biblioteca em vídeo</a>
+    </li>
+</ul>
+
+<div class="container Receitas">
+    <div class="row">
+        <div class="col-md-8 Receitas">
+            <h2>Todas os vídeos por ordem alfabética</h2>
+            <div class="card" style="width:100px">
+
+                <div class="card-body">
+                    <h4 class="card-title">Ômega 3</h4>
+                    <a href="@Url.Action("Omega_3")">
+                        <img class="card-img-top" src="~/Images/omega_3_250.jpg" alt="Card image">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4" Receitas">
+            <img class="img-responsive" src="~/images/Dicas_da_Manu_250.jpg" alt="Dicas da Manuela Ibi" />
+            <p></p>
+        </div>
+    </div>
+</div>
