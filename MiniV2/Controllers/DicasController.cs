@@ -62,7 +62,7 @@ namespace MiniV2.Controllers
 
         public ActionResult FODMAPS()
         {
-            ViewBag.Title = "FODMAPS";
+            ViewBag.Title = "Massas ricas em FODMAPS";
 
             return View();
         }
@@ -118,7 +118,7 @@ namespace MiniV2.Controllers
 
         public ActionResult Massas()
         {
-            ViewBag.Title = "Leite e derivados ricos em FODMAPS";
+            ViewBag.Title = "Massas com baixos valores em FODMAPS";
 
             return View();
         }
