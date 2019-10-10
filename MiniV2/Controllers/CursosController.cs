@@ -17,6 +17,13 @@ namespace MiniV2.Controllers
             return View();
         }
 
+        public ActionResult Aniversário_1_ano_Clinica_Lis()
+        {
+            ViewBag.Title = "Aniversário Clínica Lis: 1 ano – 5 de outubro de 2019";
+
+            return View();
+        }
+
         public ActionResult Cardapio_saudavel_18_setembro_2019()
         {
             ViewBag.Title = "Aprenda a montar o seu cardápio saudável – 18 de setembro de 2019";
