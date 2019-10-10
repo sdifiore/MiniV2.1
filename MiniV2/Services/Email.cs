@@ -31,7 +31,7 @@ namespace MiniV2.Services
 
                 string corpo = contato.Comentario + "\n\r Nome: " + contato.Nome
                                                   + "\n\r Telefone: " + contato.Telefone
-                                                  + "\n\r E-Mail:" + contato.Email;
+                                                  + "\n\r E-Mail: " + contato.Email;
 
                 using (var message = new MailMessage(manuelaIbiEmail.Username, "manuelaibi66@gmail.com")
                 {

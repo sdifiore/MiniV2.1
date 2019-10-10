@@ -214,6 +214,24 @@
     <Content Include="Images\Cursos\Lanches_22_maio_2019\Turma.jpg" />
     <Content Include="Images\Cursos\Lanches_22_maio_2019\Turma_parcial_direita.jpeg" />
     <Content Include="Images\Cursos\Lanches_22_maio_2019\Turma_parcial_esquerda.jpeg" />
+    <Content Include="Images\Cursos\Petiscos_de_verao_9_outubro_2019\apresentacao.jpeg" />
+    <Content Include="Images\Cursos\Petiscos_de_verao_9_outubro_2019\canapes.jpeg" />
+    <Content Include="Images\Cursos\Petiscos_de_verao_9_outubro_2019\canapes_de_abobrinha.jpeg" />
+    <Content Include="Images\Cursos\Petiscos_de_verao_9_outubro_2019\canapes_de_abobrinha_2.jpeg" />
+    <Content Include="Images\Cursos\Petiscos_de_verao_9_outubro_2019\Cartaz_Petiscos.jpg" />
+    <Content Include="Images\Cursos\Petiscos_de_verao_9_outubro_2019\ceviche_de_coco.jpeg" />
+    <Content Include="Images\Cursos\Petiscos_de_verao_9_outubro_2019\ceviche_de_coco_2.jpeg" />
+    <Content Include="Images\Cursos\Petiscos_de_verao_9_outubro_2019\Ceviche_de_polpa_de_coco_verde_vegano_400.jpg" />
+    <Content Include="Images\Cursos\Petiscos_de_verao_9_outubro_2019\Clericot.jpeg" />
+    <Content Include="Images\Cursos\Petiscos_de_verao_9_outubro_2019\clericot_de_kombucha.jpeg" />
+    <Content Include="Images\Cursos\Petiscos_de_verao_9_outubro_2019\Clrericot.jpeg" />
+    <Content Include="Images\Cursos\Petiscos_de_verao_9_outubro_2019\crocantes_de_grao_de_bico.jpeg" />
+    <Content Include="Images\Cursos\Petiscos_de_verao_9_outubro_2019\crouton_2.jpeg" />
+    <Content Include="Images\Cursos\Petiscos_de_verao_9_outubro_2019\croutons.jpeg" />
+    <Content Include="Images\Cursos\Petiscos_de_verao_9_outubro_2019\homus de beterraba.jpeg" />
+    <Content Include="Images\Cursos\Petiscos_de_verao_9_outubro_2019\homus_de_beterraba_e_crudites.jpeg" />
+    <Content Include="Images\Cursos\Petiscos_de_verao_9_outubro_2019\petiscos_de_grao_de_bico.jpeg" />
+    <Content Include="Images\Cursos\Petiscos_de_verao_9_outubro_2019\Turma.jpeg" />
     <Content Include="Images\Cursos\Receitas_e_intestino_saudavel_10_mar_2019\anuncio.jpeg" />
     <Content Include="Images\Cursos\Receitas_e_intestino_saudavel_10_mar_2019\atencao.jpeg" />
     <Content Include="Images\Cursos\Receitas_e_intestino_saudavel_10_mar_2019\chef_manu.jpeg" />
@@ -601,6 +619,7 @@
     <Content Include="Views\Cursos\Cardapio_saudavel_18_setembro_2019.cshtml" />
     <Content Include="Views\Dicas\BibliotecaVideo.cshtml" />
     <Content Include="Views\Dicas\Omega_3.cshtml" />
+    <Content Include="Views\Cursos\Petiscos_de_verão_9_outubro_2019.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\ContactController\" />
