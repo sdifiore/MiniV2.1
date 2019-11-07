@@ -154,6 +154,11 @@ namespace miniV1.Controllers
             return View();
         }
 
+        public ActionResult Farofa_proteica()
+        {
+            return View();
+        }
+
         public ActionResult Fondue_fit_de_chocolate()
         {
             return View();

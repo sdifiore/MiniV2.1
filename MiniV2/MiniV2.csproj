@@ -393,6 +393,7 @@
     <Content Include="Images\download_pdf.jpg" />
     <Content Include="Images\Escondidinho_de_frango_fit_400.jpg" />
     <Content Include="Images\Falafel_400.jpg" />
+    <Content Include="Images\Farofa_proteica_400.jpg" />
     <Content Include="Images\Fitoterapia.jpg" />
     <Content Include="Images\fondue_400.jpg" />
     <Content Include="Images\fondue_chocolate_400.jpg" />
@@ -658,6 +659,7 @@
     <Content Include="Views\Dicas\Omega_3.cshtml" />
     <Content Include="Views\Cursos\Petiscos_de_verão_9_outubro_2019.cshtml" />
     <Content Include="Views\Cursos\Aniversário_1_ano_Clinica_Lis.cshtml" />
+    <Content Include="Views\Receitas\Farofa_proteica.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\ContactController\" />
