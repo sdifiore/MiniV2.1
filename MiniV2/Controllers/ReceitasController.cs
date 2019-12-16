@@ -338,6 +338,11 @@ namespace miniV1.Controllers
             return View();
         }
 
+        public ActionResult Pao_de_hamburguer_keto_cetogenico()
+        {
+            return View();
+        }
+
         public ActionResult Pao_sem_gluten_de_milho_de_micro_ondas()
         {
             return View();
