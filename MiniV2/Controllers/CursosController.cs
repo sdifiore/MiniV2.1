@@ -10,6 +10,12 @@ namespace MiniV2.Controllers
             return View();
         }
 
+        public ActionResult Nutrikids_2019()
+        {
+            ViewBag.Title = "Nutrikids – outubro e novembro de 2019";
+
+            return View();
+        }
         public ActionResult Petiscos_de_verão_9_outubro_2019()
         {
             ViewBag.Title = "Petiscos de verão – 9 de outubro de 2019";

@@ -251,6 +251,34 @@
     <Content Include="Images\Cursos\Lanches_22_maio_2019\Turma.jpg" />
     <Content Include="Images\Cursos\Lanches_22_maio_2019\Turma_parcial_direita.jpeg" />
     <Content Include="Images\Cursos\Lanches_22_maio_2019\Turma_parcial_esquerda.jpeg" />
+    <Content Include="Images\Cursos\Nutrikids_2019\Nutrikids_outubro_e_novembro_2019_01.jpeg" />
+    <Content Include="Images\Cursos\Nutrikids_2019\Nutrikids_outubro_e_novembro_2019_02.jpeg" />
+    <Content Include="Images\Cursos\Nutrikids_2019\Nutrikids_outubro_e_novembro_2019_03.jpeg" />
+    <Content Include="Images\Cursos\Nutrikids_2019\Nutrikids_outubro_e_novembro_2019_04.jpeg" />
+    <Content Include="Images\Cursos\Nutrikids_2019\Nutrikids_outubro_e_novembro_2019_05.jpeg" />
+    <Content Include="Images\Cursos\Nutrikids_2019\Nutrikids_outubro_e_novembro_2019_06.jpeg" />
+    <Content Include="Images\Cursos\Nutrikids_2019\Nutrikids_outubro_e_novembro_2019_07.jpeg" />
+    <Content Include="Images\Cursos\Nutrikids_2019\Nutrikids_outubro_e_novembro_2019_08.jpeg" />
+    <Content Include="Images\Cursos\Nutrikids_2019\Nutrikids_outubro_e_novembro_2019_09.jpeg" />
+    <Content Include="Images\Cursos\Nutrikids_2019\Nutrikids_outubro_e_novembro_2019_10.jpeg" />
+    <Content Include="Images\Cursos\Nutrikids_2019\Nutrikids_outubro_e_novembro_2019_11.jpeg" />
+    <Content Include="Images\Cursos\Nutrikids_2019\Nutrikids_outubro_e_novembro_2019_12.jpeg" />
+    <Content Include="Images\Cursos\Nutrikids_2019\Nutrikids_outubro_e_novembro_2019_13.jpeg" />
+    <Content Include="Images\Cursos\Nutrikids_2019\Nutrikids_outubro_e_novembro_2019_14.jpeg" />
+    <Content Include="Images\Cursos\Nutrikids_2019\Nutrikids_outubro_e_novembro_2019_15.jpeg" />
+    <Content Include="Images\Cursos\Nutrikids_2019\Nutrikids_outubro_e_novembro_2019_16.jpeg" />
+    <Content Include="Images\Cursos\Nutrikids_2019\Nutrikids_outubro_e_novembro_2019_17.jpeg" />
+    <Content Include="Images\Cursos\Nutrikids_2019\Nutrikids_outubro_e_novembro_2019_18.jpeg" />
+    <Content Include="Images\Cursos\Nutrikids_2019\Nutrikids_outubro_e_novembro_2019_19.jpeg" />
+    <Content Include="Images\Cursos\Nutrikids_2019\Nutrikids_outubro_e_novembro_2019_20.jpeg" />
+    <Content Include="Images\Cursos\Nutrikids_2019\Nutrikids_outubro_e_novembro_2019_21.jpeg" />
+    <Content Include="Images\Cursos\Nutrikids_2019\Nutrikids_outubro_e_novembro_2019_22.jpeg" />
+    <Content Include="Images\Cursos\Nutrikids_2019\Nutrikids_outubro_e_novembro_2019_23.jpeg" />
+    <Content Include="Images\Cursos\Nutrikids_2019\Nutrikids_outubro_e_novembro_2019_24.jpeg" />
+    <Content Include="Images\Cursos\Nutrikids_2019\Nutrikids_outubro_e_novembro_2019_25.jpeg" />
+    <Content Include="Images\Cursos\Nutrikids_2019\Nutrikids_outubro_e_novembro_2019_26.jpeg" />
+    <Content Include="Images\Cursos\Nutrikids_2019\Nutrikids_outubro_e_novembro_2019_27.jpeg" />
+    <Content Include="Images\Cursos\Nutrikids_2019\Nutrikids_outubro_e_novembro_2019_28.jpeg" />
     <Content Include="Images\Cursos\Petiscos_de_verao_9_outubro_2019\apresentacao.jpeg" />
     <Content Include="Images\Cursos\Petiscos_de_verao_9_outubro_2019\canapes.jpeg" />
     <Content Include="Images\Cursos\Petiscos_de_verao_9_outubro_2019\canapes_de_abobrinha.jpeg" />
@@ -663,6 +691,7 @@
     <Content Include="Views\Cursos\Aniversário_1_ano_Clinica_Lis.cshtml" />
     <Content Include="Views\Receitas\Farofa_proteica.cshtml" />
     <Content Include="Views\Receitas\Pao_de_hamburguer_keto_cetogenico.cshtml" />
+    <Content Include="Views\Cursos\Nutrikids_2019.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\ContactController\" />
