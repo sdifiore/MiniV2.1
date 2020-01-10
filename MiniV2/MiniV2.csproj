@@ -485,6 +485,7 @@
     <Content Include="Images\Pao_de_batata_doce_400.jpg" />
     <Content Include="Images\Pao_de_chia_400.jpg" />
     <Content Include="Images\Pao_de_espinafre_400.jpg" />
+    <Content Include="Images\Pao_de_forma-keto_low_carb_400.jpg" />
     <Content Include="Images\Pao_de_frigideira_400.jpg" />
     <Content Include="Images\Pao_de_hamburguer_keto_cetogenico_400.jpg" />
     <Content Include="Images\pao_integral_400.jpg" />
@@ -692,6 +693,7 @@
     <Content Include="Views\Receitas\Farofa_proteica.cshtml" />
     <Content Include="Views\Receitas\Pao_de_hamburguer_keto_cetogenico.cshtml" />
     <Content Include="Views\Cursos\Nutrikids_2019.cshtml" />
+    <Content Include="Views\Receitas\Pao_de_forma_keto_low_carb.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\ContactController\" />

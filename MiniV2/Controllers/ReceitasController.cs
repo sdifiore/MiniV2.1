@@ -333,6 +333,11 @@ namespace miniV1.Controllers
             return View();
         }
 
+        public ActionResult Pao_de_forma_keto_low_carb()
+        {
+            return View();
+        }
+
         public ActionResult Pao_de_frigideira()
         {
             return View();
