@@ -228,6 +228,11 @@ namespace miniV1.Controllers
             return View();
         }
 
+        public ActionResult Leite_de_coco_prebiotico_e_antioxidante()
+        {
+            return View();
+        }
+
         public ActionResult Maionese_de_abacate()
         {
             return View();

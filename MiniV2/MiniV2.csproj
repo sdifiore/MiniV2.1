@@ -454,6 +454,7 @@
     <Content Include="Images\Isotonico_caseiro_400.jpg" />
     <Content Include="Images\kibe_de_ervilha_partida_400.jpg" />
     <Content Include="Images\Leite_de_aveia_400.jpg" />
+    <Content Include="Images\Leite_de_coco_prebiotico_e_antioxidante_400.jpg" />
     <Content Include="Images\lis-logo-120.png" />
     <Content Include="Images\logo_only.png" />
     <Content Include="Images\Maionese_de_abacate_400.jpg" />
@@ -694,6 +695,7 @@
     <Content Include="Views\Receitas\Pao_de_hamburguer_keto_cetogenico.cshtml" />
     <Content Include="Views\Cursos\Nutrikids_2019.cshtml" />
     <Content Include="Views\Receitas\Pao_de_forma_keto_low_carb.cshtml" />
+    <Content Include="Views\Receitas\Leite_de_coco_prebiotico_e_antioxidante.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\ContactController\" />
