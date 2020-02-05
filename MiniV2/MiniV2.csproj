@@ -170,6 +170,15 @@
     <Content Include="Images\Borek_thumbnail.jpg" />
     <Content Include="Images\Borek_turco_400.jpg" />
     <Content Include="Images\Brownie_de_abobora_400.jpg" />
+    <Content Include="Images\Campanhas\Aqui_tem\Aqui_tem_Alimentacao_personalizada_400.jpg" />
+    <Content Include="Images\Campanhas\Aqui_tem\Aqui_tem_beneficios_400.jpg" />
+    <Content Include="Images\Campanhas\Aqui_tem\Aqui_tem_Descomplica_a_cozinha_400.jpg" />
+    <Content Include="Images\Campanhas\Aqui_tem\Aqui_tem_De_forma_integrada_400.jpg" />
+    <Content Include="Images\Campanhas\Aqui_tem\Aqui_tem_Foco_e_atualizada_400.jpg" />
+    <Content Include="Images\Campanhas\Aqui_tem\Aqui_tem_Modulacao_intestinal_400.jpg" />
+    <Content Include="Images\Campanhas\Aqui_tem\Aqui_tem_nutri_que_escuta_400.jpg" />
+    <Content Include="Images\Campanhas\Aqui_tem\Aqui_tem_Perto_de_voce_400.jpg" />
+    <Content Include="Images\Campanhas\Aqui_tem\Aqui_tem_Te_conhece_400.jpg" />
     <Content Include="Images\Ceviche_de_polpa_de_coco_verde_vegano_400.jpg" />
     <Content Include="Images\condimentos_400.jpg" />
     <Content Include="Images\Cursos\Cardapio_saudavel_18_setembro_2019\aula.jpeg" />
@@ -696,6 +705,7 @@
     <Content Include="Views\Cursos\Nutrikids_2019.cshtml" />
     <Content Include="Views\Receitas\Pao_de_forma_keto_low_carb.cshtml" />
     <Content Include="Views\Receitas\Leite_de_coco_prebiotico_e_antioxidante.cshtml" />
+    <Content Include="Views\Dicas\Campanhas.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\ContactController\" />

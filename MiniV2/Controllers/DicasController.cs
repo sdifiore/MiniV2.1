@@ -8,6 +8,7 @@ namespace MiniV2.Controllers
         public ActionResult Index()
         {
             ViewBag.Title = "Biblioteca da Manu: Texto";
+            ViewBag.Content = "As 10 leis do bom alimento, FOODMAPS, O que manter na despensa e na geladeira, Campanhas";
 
             return View();
         }
@@ -22,6 +23,14 @@ namespace MiniV2.Controllers
         public ActionResult As_10_leis_do_bom_alimento()
         {
             ViewBag.Title = "As 10 leis do bom alimento";
+
+            return View();
+        }
+
+        public ActionResult Campanhas()
+        {
+            ViewBag.Title = "Campanhas";
+            ViewBag.Content = "Campanhas";
 
             return View();
         }
