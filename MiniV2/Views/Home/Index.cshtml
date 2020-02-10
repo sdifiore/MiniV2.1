@@ -96,4 +96,17 @@
             <li><a href="/Dicas/O_que_manter_na_despensa_e_na_geladeira">O que manter na despensa e na geladeira</a></li>
         </ul>
     </div>
+    <div id="previewDocumentDialog" title="Preview" style="overflow: hidden;">
+
+        <div>
+            @Html.ActionLink("Preview", "Preview", null, new { id = "previewLink" })
+        </div>
+    </div>
 </div>
+
+
+<script type="text/javascript">
+    $(function () {
+        window.open("@(Url.Action("PopUp", "Home"))", "_blank", "width=430, height=610");
+    });
+</script>

@@ -18,6 +18,7 @@ namespace MiniV2.Services
             {
                 var manuelaIbiEmail = new ManuelaIbiEmail
                 {
+                    
                 };
 
                 smtpClient = new SmtpClient

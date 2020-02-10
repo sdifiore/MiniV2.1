@@ -9,9 +9,18 @@
     <meta name="description" content="Mini é o espaço onde você encontra (minhas) receitas fáceis e saudáveis acumuladas ao longo de anos de cozinha e orientações de pacientes em consultório. Alem disso você encontra meus cursos de gastronomia para leigos e um contato direto com minha linha de trabalho em consultório, onde alio nutricao funcional, fitoterapia, medicina tradicional chinesa & a modulação intestinal" />
     <meta id="currency" property="BRL" />
     <meta name="google-site-verification" content="mIl3mU_fvU-pEAVIugg_jEPyhbOU4APl5C-OGkS3Fvs" />
-    @Styles.Render("~/Content/css")
-        @*@Scripts.Render("~/bundles/modernizr")*@
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+            integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+            crossorigin="anonymous"></script>
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="navbar navbar-inverse navbar-fixed-top">
@@ -73,20 +82,17 @@
         @RenderBody()
         <hr />
         <footer>
-            <div class="row">
-                <div class="col-md-6">
-                    <p style="font-size: small">&copy; 2018 - @DateTime.Now.Year Manuela Ibi Nutrição Integrada. Todos direitos reservados</p>
-                </div>
-                <div class="col-md-6">
-                    <p style="font-size: small" class="text-right">Desenvolvido por: <a href="https://www.difiore.com.br/" target="_blank">Di Fiore Soluções Corporativas</a></p>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-md-6 col-md-6 col-lg-6">
+                        <p style="font-size: small" class="text-left">&copy; 2018 - @DateTime.Now.Year Manuela Ibi Nutrição Integrada. Todos direitos reservados</p>
+                    </div>
+                    <div class="col-sm-6 col-md-6 col-md-6 col-lg-6">
+                        <p style="font-size: small" class="text-right">Desenvolvido por: <a href="https://www.difiore.com.br/" target="_blank">Di Fiore Soluções Corporativas</a></p>
+                    </div>
                 </div>
             </div>
         </footer>
     </div>
-
-    @Scripts.Render("~/bundles/jquery")
-    @Scripts.Render("~/bundles/bootstrap")
-    @Scripts.Render("~/Content/css")
-    @RenderSection("scripts", required: false)
 </body>
 </html>

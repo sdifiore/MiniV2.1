@@ -134,6 +134,8 @@
     <Compile Include="Models\ManuelaIbiEmail.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\Email.cs" />
+    <Compile Include="Services\IntUtils.cs" />
+    <Compile Include="ViewModels\PopUpViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap-theme.css" />
@@ -706,6 +708,7 @@
     <Content Include="Views\Receitas\Pao_de_forma_keto_low_carb.cshtml" />
     <Content Include="Views\Receitas\Leite_de_coco_prebiotico_e_antioxidante.cshtml" />
     <Content Include="Views\Dicas\Campanhas.cshtml" />
+    <Content Include="Views\Home\PopUp.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\ContactController\" />
