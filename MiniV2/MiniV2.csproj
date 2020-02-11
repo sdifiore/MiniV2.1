@@ -183,6 +183,7 @@
     <Content Include="Images\Campanhas\Aqui_tem\Aqui_tem_Te_conhece_400.jpg" />
     <Content Include="Images\Ceviche_de_polpa_de_coco_verde_vegano_400.jpg" />
     <Content Include="Images\condimentos_400.jpg" />
+    <Content Include="Images\Cookies_com_gotas_de_chocolate_Keto_low_carb.jpg" />
     <Content Include="Images\Cursos\Cardapio_saudavel_18_setembro_2019\aula.jpeg" />
     <Content Include="Images\Cursos\Cardapio_saudavel_18_setembro_2019\cartaz.jpeg" />
     <Content Include="Images\Cursos\Cardapio_saudavel_18_setembro_2019\castanhas.jpeg" />
@@ -711,6 +712,7 @@
     <Content Include="Views\Dicas\Campanhas.cshtml" />
     <Content Include="Views\Home\PopUp.cshtml" />
     <Content Include="Views\Receitas\Torrone_de_castanhas_low_carb.cshtml" />
+    <Content Include="Views\Receitas\Cookies_com_gotas_de_chocolate_Keto_low_carb.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\ContactController\" />
