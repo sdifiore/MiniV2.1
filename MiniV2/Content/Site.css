@@ -75,24 +75,24 @@ p {
 }
 
 .identDIV {
-    /*-webkit-animation: identmove 5s linear;  Chrome, Safari, Opera 
-    animation: identmove 5s linear;*/
+    -webkit-animation: identmove 5s linear;  Chrome, Safari, Opera 
+    animation: identmove 5s linear;
     font-size: 20px;
     display: block;
-    line-height: 2;
+    line-height: 1;
 }
 
-/* Chrome, Safari, Opera 
+ /*Chrome, Safari, Opera 
 @-webkit-keyframes identmove {
     50% {
-        /*animation-iteration-count: 1;*/
+        animation-iteration-count: 1;
         text-indent: 50px;
     }
-}
+}*/
 
 @keyframes identmove {
     50% {
-        /*animation-iteration-count: 1;*/
+        /*animation-iteration-count: 1;
         text-indent: 50px;
     }
 }
