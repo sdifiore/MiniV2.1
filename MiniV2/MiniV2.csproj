@@ -521,6 +521,7 @@
     <Content Include="Images\Tabule_de_quinoa_400.jpg" />
     <Content Include="Images\Temakis_low_carb_1_400.jpg" />
     <Content Include="Images\Temakis_low_carb_2_400.jpg" />
+    <Content Include="Images\Torrone_de_castanhas_low_carb_400.jpg" />
     <Content Include="Images\Torta_de_banana_funcional_400.jpg" />
     <Content Include="Images\Torta_salgada_de_aveia_400.jpg" />
     <Content Include="Images\Tortinhas_de_limão_maracujá_e_morango_1_400.jpg" />
@@ -709,6 +710,7 @@
     <Content Include="Views\Receitas\Leite_de_coco_prebiotico_e_antioxidante.cshtml" />
     <Content Include="Views\Dicas\Campanhas.cshtml" />
     <Content Include="Views\Home\PopUp.cshtml" />
+    <Content Include="Views\Receitas\Torrone_de_castanhas_low_carb.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\ContactController\" />

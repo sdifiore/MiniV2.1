@@ -75,13 +75,14 @@ p {
 }
 
 .identDIV {
-    /*-webkit-animation: identmove 5s linear; /* Chrome, Safari, Opera */
-    /*animation: identmove 5s linear;*/
-    /*display: block;*/
-    line-height: 1;
+    /*-webkit-animation: identmove 5s linear;  Chrome, Safari, Opera 
+    animation: identmove 5s linear;*/
+    font-size: 20px;
+    display: block;
+    line-height: 2;
 }
 
-/* Chrome, Safari, Opera */
+/* Chrome, Safari, Opera 
 @-webkit-keyframes identmove {
     50% {
         /*animation-iteration-count: 1;*/
