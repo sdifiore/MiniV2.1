@@ -318,6 +318,11 @@ namespace miniV1.Controllers
             return View();
         }
 
+        public ActionResult Palak_de_tofu_e_farofa_de_amendoim()
+        {
+            return View();
+        }
+
         public ActionResult Panqueca_de_cacau_sacietogenica()
         {
             return View();

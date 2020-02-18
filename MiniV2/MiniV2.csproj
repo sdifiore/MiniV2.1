@@ -178,6 +178,9 @@
     <Content Include="Images\Campanhas\Aqui_tem\Aqui_tem_De_forma_integrada_400.jpg" />
     <Content Include="Images\Campanhas\Aqui_tem\Aqui_tem_Foco_e_atualizada_400.jpg" />
     <Content Include="Images\Campanhas\Aqui_tem\Aqui_tem_Modulacao_intestinal_400.jpg" />
+    <Content Include="Images\Campanhas\Aqui_tem\Aqui_tem_nutri_com_experiencia_em atendimento.JPG" />
+    <Content Include="Images\Campanhas\Aqui_tem\Aqui_tem_nutri_parte_de_uma_rede_profissional.JPG" />
+    <Content Include="Images\Campanhas\Aqui_tem\Aqui_tem_nutri_que_agrega_e_ensina_toda_família.JPG" />
     <Content Include="Images\Campanhas\Aqui_tem\Aqui_tem_nutri_que_escuta_400.jpg" />
     <Content Include="Images\Campanhas\Aqui_tem\Aqui_tem_Perto_de_voce_400.jpg" />
     <Content Include="Images\Campanhas\Aqui_tem\Aqui_tem_Te_conhece_400.jpg" />
@@ -492,6 +495,7 @@
     <Content Include="Images\Nutella_funcional_400.jpg" />
     <Content Include="Images\omega_3_250.jpg" />
     <Content Include="Images\Overnight_oat_400.jpg" />
+    <Content Include="Images\Palak_de_tofu_e_farofa_de_amendoim_400.jpg" />
     <Content Include="Images\Panqueca_de_cacau_sacietogenica_400.jpg" />
     <Content Include="Images\Panqueca_de_microondas.jpg" />
     <Content Include="Images\Panqueca_de_microondas_400.jpg" />
@@ -713,6 +717,7 @@
     <Content Include="Views\Home\PopUp.cshtml" />
     <Content Include="Views\Receitas\Torrone_de_castanhas_low_carb.cshtml" />
     <Content Include="Views\Receitas\Cookies_com_gotas_de_chocolate_Keto_low_carb.cshtml" />
+    <Content Include="Views\Receitas\Palak_de_tofu_e_farofa_de_amendoim.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\ContactController\" />

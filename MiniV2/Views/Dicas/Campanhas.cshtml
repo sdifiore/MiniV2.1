@@ -1,67 +1,115 @@
-﻿
-@{
+﻿@{
     ViewBag.Title = "Campanha Aqui Tem";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2>@ViewBag.Title</h2>
+<h1>@ViewBag.Title</h1>
 
-<div class="container gallery-container">
-    <div class="tz-gallery body-fluid">
-        <div class="row">
-            <div class="col-sm-12 col-md-4">
-                <img src="" />
-                <a class="lightbox" href="~/Images/Campanhas/Aqui_tem/Aqui_tem_beneficios_400.jpg">
-                    <img src="~/Images/Campanhas/Aqui_tem/Aqui_tem_beneficios_400.jpg" alt="Benefícios de ter uma nutricionista como Manuela Ibi">
-                </a>
+@Html.Partial("LogoView")
+<br />
+
+<div class="row">
+    <div class="col-sm-6 col-md-6 col-lg-6">
+        <div class="card">
+            <div class="card-body">
+                <h3 class="card-title">Campanha aqui tem Manuela Ibi</h3>
+                <img src="~/Images/Campanhas/Aqui_tem/Aqui_tem_beneficios_400.jpg" alt="Benefícios de ter uma nutricionista como Manuela Ibi">
+                <div class="card-body">
+                    <p class="card-text">Confira os benefícios de ter uma nutricionista como a Manuela.</p>
+                </div>
             </div>
-            <div class="col-sm-12 col-md-4">
-                <img src="" />
-                <a class="lightbox" href="~/Images/Campanhas/Aqui_tem/Aqui_tem_nutri_que_escuta_400.jpg">
-                    <img src="~/Images/Campanhas/Aqui_tem/Aqui_tem_nutri_que_escuta_400.jpg" alt="Uma nutri que te escuta">
-                </a>
+        </div>
+    </div>
+    <div class="col-sm-6 col-md-6 col-lg-6">
+        <div class="card">
+            <div class="card-body">
+                <h3 class="card-title">Uma nutri que que TE ESCUTA</h3>
+                <img src="~/Images/Campanhas/Aqui_tem/Aqui_tem_nutri_que_escuta_400.jpg" alt="Uma nutri que te escuta">
+                <div class="card-body">
+                    <p class="card-text">Quais s&atilde;o teus objetivos? S&atilde;o reais e fact&iacute;veis? Quais s&atilde;o teus anseios? E as dificuldades? Quais s&atilde;o teus sentimentos e temores? Como voc&ecirc; gostaria de ser conduzido neste processo?</p>
+                    <p class="card-text">Come&ccedil;ar uma mudan&ccedil;a alimentar nem sempre &eacute; f&aacute;cil. O h&aacute;bito alimentar &eacute; criado desde o nascimento e envolve sentimentos, gostos, apegos, rotinas e comportamentos onde cada indiv&iacute;duo &eacute;, no fundo, um universo. Nenhum caminho &eacute; livre de obst&aacute;culos, quedas e desvios e a mudan&ccedil;a alimentar n&atilde;o seria diferente. Voc&ecirc; pode falhar ou acertar, pode dar um tempo e voltar, pode levar tudo ao &ldquo;p&eacute; da letra&rdquo;, pode querer &ldquo;colo&rdquo; ou precisar de um &ldquo;acorda&rdquo;. A certeza &eacute; uma s&oacute;: aqui tem ouvidos para te escutar e uma nutri que n&atilde;o desiste nunca de voc&ecirc;.</p>
+                </div>
             </div>
-            <div class="col-sm-12 col-md-4">
-                <img src="" />
-                <a class="lightbox" href="~/Images/Campanhas/Aqui_tem/Aqui_tem_Te_conhece_400.jpg">
-                    <img src="~/Images/Campanhas/Aqui_tem/Aqui_tem_Te_conhece_400.jpg" alt="Nutri que te conhece profundamente">
-                </a>
+        </div>
+    </div>
+    <div class="col-sm-6 col-md-6 col-lg-6">
+        <div class="card">
+            <div class="card-body">
+                <h3 class="card-title">Uma nutri que TE CONHECE profundamente</h3>
+                <img src="~/Images/Campanhas/Aqui_tem/Aqui_tem_Te_conhece_400.jpg" alt="Nutri que te conhece profundamente">
+                <div class="card-body">
+                    <p class="card-text">TEMPO &amp; DETALHES s&atilde;o essenciais para se conhecer algu&eacute;m, afinal ningu&eacute;m &eacute; igual a ningu&eacute;m, certo?</p>
+                    <p class="card-text">Por isso que aqui a 1&ordf; consulta &eacute; especial: demora no m&iacute;nimo 90 minutos. Por qu&ecirc;? Por que esse &eacute; o tempo m&iacute;nimo necess&aacute;rio para coletar a maioria dos dados que ser&atilde;o utilizados na elabora&ccedil;&atilde;o do plano nutricional. Estes dados v&atilde;o desde o motivo que te trouxe &agrave; consulta, at&eacute; a coleta de informa&ccedil;&otilde;es sobre todos os teus &oacute;rg&atilde;os, rotinas de vida e hor&aacute;rios, anseios e expectativas, h&aacute;bitos, rotinas e frequ&ecirc;ncias alimentares nos diversos momentos do dia e da vida. Tamb&eacute;m s&atilde;o analisados ou solicitados exames para diagnostico nutricional, uma avalia&ccedil;&atilde;o detalhada da composi&ccedil;&atilde;o corporal atrav&eacute;s de bioimped&acirc;ncia.</p>
+                    <p class="card-text">A partir da&iacute;, sabendo-se onde se quer ou precisa chegar, &eacute; tra&ccedil;ado um plano alimentar em conjunto, propondo mudan&ccedil;as que ser&atilde;o analisadas no pr&oacute;ximo encontro.&nbsp; E assim s&atilde;o escritas as hist&oacute;rias, levando em considera&ccedil;&atilde;o o que &eacute; mais importante: VOC&Ecirc;.</p>
+                </div>
             </div>
-            <div class="col-sm-12 col-md-4">
-                <img src="" />
-                <a class="lightbox" href="~/Images/Campanhas/Aqui_tem/Aqui_tem_Perto_de_voce_400.jpg">
-                    <img src="~/Images/Campanhas/Aqui_tem/Aqui_tem_Perto_de_voce_400.jpg" alt="Uma nutri perto de você">
-                </a>
+        </div>
+    </div>
+    <div class="col-sm-6 col-md-6 col-lg-6">
+        <div class="card">
+            <div class="card-body">
+                <h3 class="card-title">Uma nutri PERTO de você</h3>
+                <img src="~/Images/Campanhas/Aqui_tem/Aqui_tem_Perto_de_voce_400.jpg" alt="Uma nutri perto de você">
+                <div class="card-body">
+                    <p class="card-text">Quantas vezes entendemos tudo, mas da&iacute; a pouco PAH! Aparecem as d&uacute;vidas?</p>
+                    <p class="card-text">Quando lidamos com uma informa&ccedil;&atilde;o nova transmitida por um profissional acostumado a ela, tudo parece simples e f&aacute;cil de entender e assimilar... At&eacute; virar a esquina! <u>Por isso que aqui a consulta n&atilde;o termina quando acaba.</u> Voc&ecirc; tem a disposi&ccedil;&atilde;o TODOS os recursos atuais &ndash; e-mail, m&iacute;dias sociais, WhatsApp - para contato com sua nutri Manuela entre uma consulta e outra. Isso significa ter apoio e seguran&ccedil;a sempre que precisar. Ter uma nutri perto de voc&ecirc; durante o tratamento.</p>
+                </div>
             </div>
-            <div class="col-sm-12 col-md-4">
-                <img src="" />
-                <a class="lightbox" href="~/Images/Campanhas/Aqui_tem/Aqui_tem_Descomplica_a_cozinha_400.jpg">
-                    <img src="~/Images/Campanhas/Aqui_tem/Aqui_tem_Descomplica_a_cozinha_400.jpg" alt="Uma nutri que descomplica a cozinha">
-                </a>
+        </div>
+    </div>
+    <div class="col-sm-6 col-md-6 col-lg-6">
+        <div class="card">
+            <div class="card-body">
+                <h3 class="card-title">Uma nutri que DESCOMPLICA a cozinha</h3>
+                <img src="~/Images/Campanhas/Aqui_tem/Aqui_tem_Descomplica_a_cozinha_400.jpg" alt="Uma nutri que descomplica a cozinha">
+                <div class="card-body">
+                    <p class="card-text">Voc&ecirc; n&atilde;o sabe por onde come&ccedil;ar uma receita? Ou gosta de cozinhar, mas j&aacute; caiu na rotina? falta criatividade pra variar o card&aacute;pio? Ou quer reavaliar seus ingredientes, fazendo mudan&ccedil;as mais nutritivas?!?</p>
+                    <p class="card-text">H&aacute; pouco mais de um ano, na nova Cl&iacute;nica Lis, um sonho foi realizado: associar consult&oacute;rio &amp; cozinha no mesmo espa&ccedil;o, pra dar cursos de gastronomia saud&aacute;vel com receitas f&aacute;ceis &amp; pr&aacute;ticas.</p>
+                    <p class="card-text">Al&eacute;m dos cursos sempre concorridos, o site foi idealizado para disponibilizar de forma gratuita todas as receitas testadas que indico nas orienta&ccedil;&otilde;es e card&aacute;pios. Tudo devidamente classificado, pra voc&ecirc; saber se a receita &eacute; gluten free, isento de prote&iacute;na do leite, vegetariana, ou vegana, low carb, p&aacute;leo, mediterr&acirc;nea, de gastronomia cl&aacute;ssica ou adequada para a sa&uacute;de do cora&ccedil;&atilde;o.</p>
+                    <p class="card-text">As novidades para 2020 ser&atilde;o os cursos particulares de gastronomia, onde uma, duas ou tr&ecirc;s pessoas podem se unir e fechar uma &ldquo;rodada&rdquo; de receitas escolhidas pelo minigrupo, dentro da proposta da cozinha SAUD&Aacute;VEL &amp; R&Aacute;PIDA!!</p>
+                </div>
             </div>
-            <div class="col-sm-12 col-md-4">
-                <img src="" />
-                <a class="lightbox" href="~/Images/Campanhas/Aqui_tem/Aqui_tem_De_forma_integrada_400.jpg">
-                    <img src="~/Images/Campanhas/Aqui_tem/Aqui_tem_De_forma_integrada_400.jpg" alt="Uma nutri que te atende de forma integrada">
-                </a>
+        </div>
+    </div>
+    <div class="col-sm-6 col-md-6 col-lg-6">
+        <div class="card">
+            <div class="card-body">
+                <h3 class="card-title">Uma nutri que DESCOMPLICA a cozinha</h3>
+                <img src="~/Images/Campanhas/Aqui_tem/Aqui_tem_De_forma_integrada_400.jpg" alt="Uma nutri que te atende de forma integrada">
+                <div class="card-body">
+                    <p class="card-text">Voc&ecirc; n&atilde;o sabe por onde come&ccedil;ar uma receita? Ou gosta de cozinhar, mas j&aacute; caiu na rotina? falta criatividade para variar o card&aacute;pio? Ou quer reavaliar seus ingredientes, fazendo mudan&ccedil;as mais nutritivas?!?</p>
+                    <p class="card-text">H&aacute; pouco mais de um ano, na nova Cl&iacute;nica Lis, um sonho foi realizado: associar consult&oacute;rio &amp; cozinha no mesmo espa&ccedil;o, para dar cursos de gastronomia saud&aacute;vel com receitas f&aacute;ceis &amp; pr&aacute;ticas.</p>
+                    <p class="card-text">Al&eacute;m dos cursos sempre concorridos, o site foi idealizado para disponibilizar de forma gratuita todas as receitas testadas que indico nas orienta&ccedil;&otilde;es e card&aacute;pios. Tudo devidamente classificado, pra voc&ecirc; saber se a receita &eacute; gl&uacute;ten free, isento de prote&iacute;na do leite, vegetariana, ou vegana, low- carb, p&aacute;leo, mediterr&acirc;nea, de gastronomia cl&aacute;ssica ou adequada para a sa&uacute;de do cora&ccedil;&atilde;o</p>
+                    <p class="card-text">As novidades para 2020 ser&atilde;o os cursos particulares de gastronomia, onde uma, duas ou tr&ecirc;s pessoas podem se unir e fechar uma &ldquo;rodada&rdquo; de receitas escolhidas pelo minigrupo, dentro da proposta da cozinha SAUD&Aacute;VEL &amp; R&Aacute;PIDA!!</p>
+                </div>
             </div>
-            <div class="col-sm-4 col-md-4">
-                <img src="" />
-                <a class="lightbox" href="~/Images/Campanhas/Aqui_tem/Aqui_tem_Foco_e_atualizada_400.jpg">
-                    <img src="~/Images/Campanhas/Aqui_tem/Aqui_tem_Foco_e_atualizada_400.jpg" alt="Uma nutri com foco e atualizada">
-                </a>
-            </div>
-            <div class="col-sm-4 col-md-4">
-                <img src="" />
-                <a class="lightbox" href="~/Images/Campanhas/Aqui_tem/Aqui_tem_Modulacao_intestinal_400.jpg">
-                    <img src="~/Images/Campanhas/Aqui_tem/Aqui_tem_Modulacao_intestinal_400.jpg" alt="Uma nutri que aplica modulação intestinal">
-                </a>
-            </div>
-            <div class="col-sm-4 col-md-4">
-                <img src="" />
-                <a class="lightbox" href="~/Images/Campanhas/Aqui_tem/Aqui_tem_Alimentacao_personalizada_400.jpg">
-                    <img src="~/Images/Campanhas/Aqui_tem/Aqui_tem_Alimentacao_personalizada_400.jpg" alt="Uma nutri que personalisa sua alimentação">
-                </a>
+        </div>
+    </div>
+    <div class="col-sm-6 col-md-6 col-lg-6">
+        <div class="card">
+            <div class="card-body">
+                <h3 class="card-title">Uma nutri que te atende de forma INTEGRADA</h3>
+                <img src="~/Images/Campanhas/Aqui_tem/Aqui_tem_De_forma_integrada_400.jpg" alt="Uma nutri que te atende de forma integrada">
+                <div class="card-body">
+                    <p class="card-text">Integrar &eacute; &ldquo;incluir formando um todo coerente&rdquo;.&nbsp; Como isso acontece aqui?</p>
+                    <p class="card-text">Quando voc&ecirc; agenda comigo, v&aacute;rias modalidades podem ser usadas para te ajudar:</p>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Pr&eacute;-consulta (lan&ccedil;amento a partir de mar&ccedil;o de 2020);</li>
+                        <li class="list-group-item">Consulta nutricional com &ecirc;nfase em nutri&ccedil;&atilde;o funcional &amp; modula&ccedil;&atilde;o intestinal;</li>
+                        <li class="list-group-item">Orienta&ccedil;&atilde;o de plano alimentar;</li>
+                        <li class="list-group-item">Avalia&ccedil;&atilde;o da composi&ccedil;&atilde;o corporal por bioimped&acirc;ncia;</li>
+                        <li class="list-group-item">Avalia&ccedil;&atilde;o de exames bioqu&iacute;micos &amp; toxicol&oacute;gicos se necess&aacute;rio;</li>
+                        <li class="list-group-item">Indica&ccedil;&atilde;o de teste de sensibilidade alimentar se necess&aacute;rio;</li>
+                        <li class="list-group-item">Uso de materiais audiovisuais de impacto;</li>
+                        <li class="list-group-item">Prescri&ccedil;&atilde;o de suplementos nutricionais se necess&aacute;rio;</li>
+                        <li class="list-group-item">Prescri&ccedil;&atilde;o de fitoter&aacute;picos se necess&aacute;rio, devidamente habilitada* segundo a legisla&ccedil;&atilde;o vigente (*p&oacute;s-gradua&ccedil;&atilde;o em fitoterapia: apenas nutricionistas com p&oacute;s-gradua&ccedil;&atilde;o em fitoterapia podem prescrever determinadas formas de fitoter&aacute;picos);</li>
+                        <li class="list-group-item">Utiliza&ccedil;&atilde;o de pr&aacute;ticas da Medicina Tradicional Chinesa (p&oacute;s-gradua&ccedil;&atilde;o em MTC);</li>
+                        <li class="list-group-item">Ensino de prepara&ccedil;&otilde;es culin&aacute;rias na cozinha da cl&iacute;nica;</li>
+                        <li class="list-group-item">Site com receitas 100% testadas e dispon&iacute;veis a qualquer usu&aacute;rio;</li>
+                        <li class="list-group-item">Cursos de gastronomia para adultos e crian&ccedil;as;</li>
+                        <li class="list-group-item">Acompanhamento entre consultas por m&iacute;dias sociais (lan&ccedil;amento em 2020).</li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
