@@ -35,6 +35,14 @@ namespace MiniV2.Controllers
             return View();
         }
 
+        public ActionResult COVID19()
+        {
+            ViewBag.Title = "COVID-19: Sua imunidade depende do seu intestino";
+            ViewBag.Content = "COVID-19: Sua imunidade depende do seu intestino";
+
+            return View();
+        }
+
         public ActionResult Bebidas()
         {
             ViewBag.Title = "Bebidas ricas em FODMAPS";
