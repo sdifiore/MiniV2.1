@@ -208,6 +208,11 @@ namespace miniV1.Controllers
             return View();
         }
 
+        public ActionResult Homus_de_cacau()
+        {
+            return View();
+        }
+
         public ActionResult Homus_funcional()
         {
             return View();
@@ -289,6 +294,11 @@ namespace miniV1.Controllers
         }
 
         public ActionResult Mousse_de_cacau()
+        {
+            return View();
+        }
+
+        public ActionResult Mucarela_vegana()
         {
             return View();
         }

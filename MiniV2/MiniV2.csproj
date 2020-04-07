@@ -452,6 +452,7 @@
     <Content Include="Images\Hamburguer_de_abobora_400.jpg" />
     <Content Include="Images\Hamburguer_de_feijao_preto_1_400.jpg" />
     <Content Include="Images\Hamburguer_de_feijao_preto_2_400.jpg" />
+    <Content Include="Images\Homus_de_cacau_400.jpg" />
     <Content Include="Images\Homus_funcional_1_400.jpg" />
     <Content Include="Images\Homus_funcional_2_400.jpg" />
     <Content Include="Images\horizontal.png" />
@@ -490,6 +491,7 @@
     <Content Include="Images\Mini_sufles_de_abobora_400.jpg" />
     <Content Include="Images\Moqueca_de_palmito_pupunha_com_banana_da_terra_400.jpg" />
     <Content Include="Images\Mousse_de_cacau_400.jpg" />
+    <Content Include="Images\Mucarela_vegana_400.jpg" />
     <Content Include="Images\Muffins_de_batata_doce_400.jpg" />
     <Content Include="Images\Muffins_de_canela_400.jpg" />
     <Content Include="Images\Nhoque_de_cabotia_400.jpg" />
@@ -720,6 +722,8 @@
     <Content Include="Views\Receitas\Cookies_com_gotas_de_chocolate_Keto_low_carb.cshtml" />
     <Content Include="Views\Receitas\Palak_de_tofu_e_farofa_de_amendoim.cshtml" />
     <Content Include="Views\Dicas\COVID19.cshtml" />
+    <Content Include="Views\Receitas\Mucarela_vegana.cshtml" />
+    <Content Include="Views\Receitas\Homus_de_cacau.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\ContactController\" />
