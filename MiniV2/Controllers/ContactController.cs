@@ -1,7 +1,8 @@
-﻿using MiniV2.Core;
-using MiniV2.Models;
+﻿using MiniV2.Models;
 using MiniV2.Services;
+using Newtonsoft.Json.Linq;
 using System;
+using System.Net;
 using System.Net.Mail;
 using System.Threading.Tasks;
 using System.Web.Mvc;
@@ -34,6 +35,20 @@ namespace MiniV2.Controllers
         [ValidateAntiForgeryToken]
         public async Task<ActionResult> Contact(Contato contato)
         {
+            var response = Request["g-recaptcha-response"];
+            var secretKey = "6LefnOUUAAAAAHUY4PWXmTaefzbs--eW9ezqMqDS";
+            var cliente = new WebClient();
+            var resultado = cliente.DownloadString(
+                $"https://www.google.com/recaptcha/api/siteverify?secret={secretKey}&response={response}");
+            var obj = JObject.Parse(resultado);
+
+            if (!(bool)obj.SelectToken("success"))
+            {
+                ViewBag.Message = "<div class='alert alert-danger' role='alert'>Captcha inválido!</div>";
+
+                return View(new Contato());
+            }
+
             if (!ModelState.IsValid)
             {
                 ViewBag.Message = "<div class='alert alert-danger' role='alert'>Os campos Nome, E-mail e Contato são obrigatórios</div>";

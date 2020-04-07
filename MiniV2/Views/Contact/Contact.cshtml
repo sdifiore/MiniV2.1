@@ -21,10 +21,10 @@
             Instagram: <a href="https://www.instagram.com/ibimanuela/">ibimanuela</a>
 
         </p>
-        </address>
+    </address>
 
     <div class="col-md-9">
-        <form class="form-horizontal" action="" method="post">
+        <form class="form-horizontal" method="post">
 
             @Html.AntiForgeryToken()
 
@@ -70,6 +70,8 @@
                 </div>
             </div>
 
+            <div class="g-recaptcha" id="html_element"></div>
+
             <div class="form-group">
                 <label class="control-label"></label>
                 <div class="col-md-8">
@@ -84,3 +86,12 @@
         <img class="img-responsive" src="~/images/contato.png" alt="Contato Manuela Ibi Nutrição Integrada" />
     </div>
 </div>
+<script type="text/javascript">
+    var onloadCallback = function () {
+        grecaptcha.render('html_element', {
+            'sitekey': '6LefnOUUAAAAAFfASGnUuqcSXRbTNCM_udl9wQQJ'
+        });
+    };
+</script>
+<script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit" async defer>
+</script>
