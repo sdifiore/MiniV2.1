@@ -148,6 +148,7 @@
     <Content Include="Content\Site.css" />
     <Content Include="Images\Alcachofra_ao_molho_de_cebola_roxa_400.jpg" />
     <Content Include="Images\alimentacao_equilibrada_400.jpg" />
+    <Content Include="Images\Alimentacao_quatentena_thumbnail.jpg" />
     <Content Include="Images\alimentacao_sustentavel_400.jpg" />
     <Content Include="Images\alimentacao_tradicional_400.jpg" />
     <Content Include="Images\alimentos_frescos_400.jpg" />
@@ -516,6 +517,7 @@
     <Content Include="Images\Pudim_de_chia_400.jpg" />
     <Content Include="Images\Pure_de_inhame_e_cabotian_com_ragu_e_shimeji_e_aspargos_grelhados_400.jpg" />
     <Content Include="Images\Queijo_vegano_400.jpg" />
+    <Content Include="Images\Receita_prato_unico_completo_em_20_minutos_thumb.jpg" />
     <Content Include="Images\Receita_tradicional_italiana_45.jpg" />
     <Content Include="Images\sazonal_400.jpg" />
     <Content Include="Images\Shitakes_assados_ao_pesto_com_tofu_vegano_400.jpg" />
@@ -724,6 +726,8 @@
     <Content Include="Views\Dicas\COVID19.cshtml" />
     <Content Include="Views\Receitas\Mucarela_vegana.cshtml" />
     <Content Include="Views\Receitas\Homus_de_cacau.cshtml" />
+    <Content Include="Views\Receitas\Dicas_de_alimentacao_na_quarentena.cshtml" />
+    <Content Include="Views\Receitas\Receita_prato_unico_completo_em_20_minutos.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\ContactController\" />

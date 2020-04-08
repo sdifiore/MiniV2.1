@@ -144,6 +144,11 @@ namespace miniV1.Controllers
             return View();
         }
 
+        public ActionResult Dicas_de_alimentacao_na_quarentena()
+        {
+            return View();
+        }
+
         public ActionResult Energy_gel()
         {
             return View();
@@ -404,6 +409,11 @@ namespace miniV1.Controllers
         }
 
         public ActionResult Queijo_vegano()
+        {
+            return View();
+        }
+
+        public ActionResult Receita_prato_unico_completo_em_20_minutos()
         {
             return View();
         }
