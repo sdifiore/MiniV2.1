@@ -3,50 +3,19 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-
-@Html.Partial("LogoView")
-
-<hr />
-
-<h2>@ViewBag.Title <img src="~/Images/Icone_vegetariana_45.jpg" title="Vegetariana" alt="Vegetariana" />&nbsp;</h2>
-<br />
-<p class="identDIV">
-    <strong>Ingredientes:</strong>
-</p>
-<br />
-<p class="identDIV">
-    &nbsp;&nbsp;&nbsp;&nbsp;90g de ricota esmagada (ou queijo feta)
-</p>
-<p class="identDIV">
-    &nbsp;&nbsp;&nbsp;&nbsp;70g de ricota defumada e temperada (ou queijo feta)
-</p>
-<p class="identDIV">
-    &nbsp;&nbsp;&nbsp;&nbsp;400g de espinafre congelado (1 pc.te)
-</p>
-<p class="identDIV">
-    &nbsp;&nbsp;&nbsp;&nbsp;2 dentes de alho picados
-</p>
-<p class="identDIV">
-    &nbsp;&nbsp;&nbsp;&nbsp;&frac12; xic. de ch&aacute; de nozes picadas
-</p>
-<p class="identDIV">
-    &nbsp;&nbsp;&nbsp;&nbsp;300g de massa fil&oacute; pronta descongelada (1 pc.te)
-</p>
-<p class="identDIV">
-    &nbsp;&nbsp;&nbsp;&nbsp;Azeite, quanto baste
-</p>
-<p class="identDIV">
-    &nbsp;&nbsp;&nbsp;&nbsp;Noz moscada, quanto baste
-</p>
-<p class="identDIV">
-    &nbsp;&nbsp;&nbsp;&nbsp;Sal e pimenta preta a gosto
-</p>
-<p class="identDIV">
-    &nbsp;&nbsp;&nbsp;&nbsp;1 ovo batido para pincelar
-</p>
-<hr />
-
-<div class="embed-responsive embed-responsive-4by3">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/astEBDwXWmU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6"><h2>@ViewBag.Title</h2></div>
+            <div class="col-sm-6">
+                <a href="/Receitas/Borek_turco">Veja em texto <img src="~/Images/icone_texto.png" width="50px" /></a>
+            </div>
+        </div>
+        @Html.Partial("LogoView")
+        <hr />
+        <img src="~/Images/Icone_vegetariana_45.jpg" title="Vegetariana" alt="Vegetariana" />&nbsp;
+        <hr />
+        <div class="embed-responsive embed-responsive-4by3">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/astEBDwXWmU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
 

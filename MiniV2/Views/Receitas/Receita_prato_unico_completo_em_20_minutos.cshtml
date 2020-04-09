@@ -3,13 +3,25 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-
-@Html.Partial("LogoView")
-<hr />
-<h2>@ViewBag.Title</h2>
-<hr />
-
-<div class="embed-responsive embed-responsive-4by3">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/AHbYqMqZTdQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
+    <div class="container">
+        <hr />
+        <div class="row">
+            <div class="col-sm-6"><h2>@ViewBag.Title</h2></div>
+            <div class="col-sm-6">
+                <a href="/Receitas/Prato_unico_farofa_de_ovo_e_abobora_cabotia">Veja em texto <img src="~/Images/icone_texto.png" width="50px" /></a>
+            </div>
+        </div>
+        @Html.Partial("LogoView")
+    <hr />
+        <p class="identDIV">
+            <img src="~/Images/Icone_vegetariana_45.jpg" title="Vegetariana" alt="Vegetariana" />&nbsp;
+            <img src="~/Images/Icone_sem_gluten_45.jpg" title="Sem glúten" alt="Receita sem glúten" />&nbsp;
+            <img src="~/Images/Icone_sem_laticinios_45.jpg" title="Sem Laticínios" alt="Sem Laticínios" />&nbsp;
+            <img src="~/Images/Icone_paleo_diet_45.jpg" title="Paleo diet" alt="Paleo diet" />&nbsp;
+        </p>
+        <hr />
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/AHbYqMqZTdQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
 

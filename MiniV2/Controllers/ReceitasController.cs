@@ -418,6 +418,11 @@ namespace miniV1.Controllers
             return View();
         }
 
+        public ActionResult Prato_unico_farofa_de_ovo_e_abobora_cabotia()
+        {
+            return View();
+        }
+
         public ActionResult Shitakes_assados_ao_pesto_com_tofu_vegano()
         {
             return View();
