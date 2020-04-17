@@ -1,4 +1,7 @@
-﻿using System.Web.Mvc;
+﻿using System;
+using System.IO;
+using System.Web;
+using System.Web.Mvc;
 
 namespace MiniV2.Controllers
 {
@@ -152,6 +155,18 @@ namespace MiniV2.Controllers
             ViewBag.Title = "O que manter na despensa e na geladeira";
 
             return View();
+        }
+
+        public ActionResult Orientacoes_COVID19_HCFMB()
+        {
+            ViewBag.Title = "Orientações nutricionais durante a pandemia COVID-19 HCFMB";
+            var path = AppDomain.CurrentDomain.BaseDirectory + @"App_Data\Downloads\";
+            var file = Path.Combine(path, "Nutricao_durante_Covid19_HCFMB.pdf");
+            file = Path.GetFullPath(file);
+            if (!file.StartsWith(path))
+                throw new HttpException(403, "Forbiden");
+
+            return File(file, "application/pdf");
         }
 
         public ActionResult Substitutos_do_leite()
