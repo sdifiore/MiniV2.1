@@ -550,6 +550,7 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="App_Data\Downloads\Equivalentes.pdf" />
+    <Content Include="App_Data\Downloads\Nutricao_durante_Covid19_HCFMB.pdf" />
     <None Include="Properties\PublishProfiles\CustomProfile.pubxml" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />

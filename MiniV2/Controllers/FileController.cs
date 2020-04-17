@@ -22,5 +22,14 @@ namespace MiniV2.Controllers
 
             return File(fileBytes, System.Net.Mime.MediaTypeNames.Application.Octet, fileName);
         }
+
+        public ActionResult Covid19()
+        {
+            string path = AppDomain.CurrentDomain.BaseDirectory + "App_Data/Downloads/";
+            byte[] fileBytes = System.IO.File.ReadAllBytes(path + "Nutricao_durante_Covid19_HCFMB.pdf");
+            string fileName = "Nutricao_durante_Covid19_HCFMB.pdf";
+
+            return File(fileBytes, System.Net.Mime.MediaTypeNames.Application.Octet, fileName);
+        }
     }
 }
