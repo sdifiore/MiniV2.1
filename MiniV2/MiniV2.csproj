@@ -451,6 +451,7 @@
     <Content Include="Images\Guacamole_com_azeitonas_400.jpg" />
     <Content Include="Images\Guacamole_tradicional_400.jpg" />
     <Content Include="Images\Hamburguer_de_abobora_400.jpg" />
+    <Content Include="Images\Hamburguer_de_feijao_branco_e_cogumelos_paris_400.jpg" />
     <Content Include="Images\Hamburguer_de_feijao_preto_1_400.jpg" />
     <Content Include="Images\Hamburguer_de_feijao_preto_2_400.jpg" />
     <Content Include="Images\Homus_de_cacau_400.jpg" />
@@ -733,6 +734,7 @@
     <Content Include="Views\Receitas\Dicas_de_alimentacao_na_quarentena.cshtml" />
     <Content Include="Views\Receitas\Receita_prato_unico_completo_em_20_minutos.cshtml" />
     <Content Include="Views\Receitas\Prato_unico_farofa_de_ovo_e_abobora_cabotia.cshtml" />
+    <Content Include="Views\Receitas\Hamburguer_de_feijao_branco_e_cogumelos_paris.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\ContactController\" />

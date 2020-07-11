@@ -208,6 +208,12 @@ namespace miniV1.Controllers
             return View();
         }
 
+
+        public ActionResult Hamburguer_de_feijao_branco_e_cogumelos_paris()
+        {
+            return View();
+        }
+
         public ActionResult Hamburguer_de_feijao()
         {
             return View();
