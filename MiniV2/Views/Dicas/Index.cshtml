@@ -1,17 +1,10 @@
-﻿// Dicas
-@{
+﻿@{
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
 <h1>@ViewBag.Title</h1>
 
 @Html.Partial("LogoView")
-
-<hr />
-<h1><a class="list-group-item" href="@Url.Action("COVID19", "Dicas")">COVID-19: Sua imunidade depende do seu intestino</a></h1>
-
-<h2><a class="list-group-item" href="@Url.Action("Orientacoes_COVID19_HCFMB", "Dicas")">Orientações nutricionais durante a pandemia COVID-19 por HCFMB</a></h2>
-<hr />
 
 <ul class="nav nav-pills">
     <li class="nav-item active">

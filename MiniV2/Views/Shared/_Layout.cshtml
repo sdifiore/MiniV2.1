@@ -7,15 +7,13 @@
     <title>"@ViewBag.Title"</title>
     <meta name="keywords" content="@ViewBag.Content" />
     <meta name="author" CONTENT="Di Fiore Soluções Corporativas, https://www.difiore.com.br">
-    <meta name="description" content="Mini é o espaço onde você encontra (minhas) receitas fáceis e saudáveis acumuladas ao longo de anos de cozinha e orientações de pacientes em consultório. Alem disso você encontra meus cursos de gastronomia para leigos e um contato direto com minha linha de trabalho em consultório, onde alio nutricao funcional, fitoterapia, medicina tradicional chinesa & a modulação intestinal" />
+    <meta name="description" content="No MINI voc&ecirc; encontra receitas f&aacute;ceis e saud&aacute;veis que uso para orientar meus pacientes do consult&oacute;rio, al&eacute;m de como eu trabalho, cursos e muito mais!" />
     <meta id="currency" property="BRL" />
     <meta name="google-site-verification" content="mIl3mU_fvU-pEAVIugg_jEPyhbOU4APl5C-OGkS3Fvs" />
     <link href="~/Content/Site.css" rel="stylesheet" />
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
 </head>
 <body>
@@ -34,16 +32,17 @@
                     <li>@Html.ActionLink("Receitas", "Mais_receitas", "Receitas")</li>
                     <li>@Html.ActionLink("Cursos e eventos", "Index", "Cursos")</li>
                     <li>@Html.ActionLink("Biblioteca", "Index", "Dicas")</li>
-                    <li>
+                    <li class="dropdown">
                         <a class="dropdown-toggle" data-toggle="dropdown" href="@Url.Action("Atendimento", "Home")">Atendimento <span class="caret"></span></a>
                         <ul class="dropdown-menu">
                             <li>@Html.ActionLink("Atendimento", "Atendimento", "Home")</li>
                             <li>@Html.ActionLink("Fitoterapia", "Fitoterapia", "Home")</li>
                             <li>@Html.ActionLink("Serviços", "Servicos", "Home")</li>
+                            <li>@Html.ActionLink("Curriculo Lates", "Curriculo_Lattes", "Home")</li>
                         </ul>
                     </li>
-                    <li>
-                        <a class="dropdown-toggle" data-toggle="dropdown" href="@Url.Action("Contact", "Contact")">Contato</span></a>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="@Url.Action("Contact", "Contact")">Contato <span class="caret"></span></a>
                         <ul class="dropdown-menu">
                             <li>@Html.ActionLink("Fale comigo", "Contact", "Contact")</li>
                             <li>@Html.ActionLink("Localização", "Mapa", "Contact")</li>

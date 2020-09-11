@@ -18,7 +18,8 @@ namespace MiniV2.Services
             {
                 var manuelaIbiEmail = new ManuelaIbiEmail
                 {
-                    
+                    Username = "resposta@manuelaibi.com.br",
+                    Password = "Y2!xJk8Pm6W2dXh7"
                 };
 
                 smtpClient = new SmtpClient
