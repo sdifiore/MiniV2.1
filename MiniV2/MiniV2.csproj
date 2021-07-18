@@ -186,6 +186,7 @@
     <Content Include="Images\Campanhas\Aqui_tem\Aqui_tem_Perto_de_voce_400.jpg" />
     <Content Include="Images\Campanhas\Aqui_tem\Aqui_tem_Te_conhece_400.jpg" />
     <Content Include="Images\Ceviche_de_polpa_de_coco_verde_vegano_400.jpg" />
+    <Content Include="Images\Chevre_de_Tofu_Thumbnail.png" />
     <Content Include="Images\condimentos_400.jpg" />
     <Content Include="Images\Cookies_com_gotas_de_chocolate_Keto_low_carb.jpg" />
     <Content Include="Images\COVID19_Sua_imunidade_depende_do_seu_intestino_400.jpg" />
@@ -477,6 +478,7 @@
     <Content Include="Images\Leite_de_aveia_400.jpg" />
     <Content Include="Images\Leite_de_coco_prebiotico_e_antioxidante_400.jpg" />
     <Content Include="Images\lis-logo-120.png" />
+    <Content Include="Images\LogoNovo.png" />
     <Content Include="Images\logo_only.png" />
     <Content Include="Images\Maionese_de_abacate_400.jpg" />
     <Content Include="Images\Maionese_de_tofu_400.jpg" />
@@ -736,6 +738,7 @@
     <Content Include="Views\Receitas\Receita_prato_unico_completo_em_20_minutos.cshtml" />
     <Content Include="Views\Receitas\Prato_unico_farofa_de_ovo_e_abobora_cabotia.cshtml" />
     <Content Include="Views\Receitas\Hamburguer_de_feijao_branco_e_cogumelos_paris.cshtml" />
+    <Content Include="Views\Receitas\Chevre_de_tofu.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\ContactController\" />

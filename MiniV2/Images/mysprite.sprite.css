@@ -1,0 +1,13 @@
+/*
+This is an example of how to use the image sprite in your own CSS files
+*/
+.mysprite {
+	background-image: url('mysprite.sprite.png');
+	background-repeat: no-repeat;
+	display: inline-block;
+}
+.mysprite.manuelaibilogotipo {
+	width: 1481px;
+	height: 641px;
+	background-position: -10px -10px;
+}

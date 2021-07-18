@@ -89,6 +89,11 @@ namespace miniV1.Controllers
             return View();
         }
 
+        public ActionResult Chevre_de_tofu()
+        {
+            return View();
+        }
+
         public ActionResult Cha_pretreino()
         {
             return View();

@@ -1,8 +1,9 @@
-﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification\ 
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification\
 for details on configuring this project to bundle and minify static web assets. */
 body {
     padding-top: 50px;
     padding-bottom: 20px;
+    background-color: #dfd5d5;
 }
 
 /* Wrapping element */
@@ -10,6 +11,7 @@ body {
 .body-content {
     padding-left: 15px;
     padding-right: 15px;
+    background-color: #dfd5d5;
 }
 
 /* Carousel */
@@ -75,21 +77,23 @@ p {
 }
 
 .identDIV {
-    -webkit-animation: identmove 5s linear;  Chrome, Safari, Opera 
-    animation: identmove 5s linear;
+    -webkit-animation: identmove 5s linear;
+    Chrome, Safari, Opera animation: identmove 5s linear;
     font-size: 20px;
     display: block;
     line-height: 1;
 }
 
- /*Chrome, Safari, Opera 
+.body-content {
+    background-color: #dfd5d5;
+}
+/*Chrome, Safari, Opera
 @-webkit-keyframes identmove {
     50% {
         animation-iteration-count: 1;
         text-indent: 50px;
     }
 }*/
-
 @keyframes identmove {
     50% {
         /*animation-iteration-count: 1;
@@ -111,39 +115,40 @@ td.cel-mid-content {
 }
 
 /* Fluid Gallery */
+        /*
+        .body-fluid
 
-.body-fluid {
+{
     background-color: #434c50;
     min-height: 100vh;
     font: normal 16px sans-serif;
-    padding: 40px 0;
-}
+    padding: 40px 0;*/
+    }
 
-.container.gallery-container {
-    background-color: #fff;
-    color: #35373a;
-    min-height: 100vh;
-    padding: 30px 50px;
-}
+    .container.gallery-container {
+        background-color: #fff;
+        color: #35373a;
+        min-height: 100vh;
+        padding: 30px 50px;
+    }
 
-.gallery-container h1 {
-    text-align: center;
-    margin-top: 50px;
-    font-family: 'Droid Sans', sans-serif;
-    font-weight: bold;
-}
+    .gallery-container h1 {
+        text-align: center;
+        margin-top: 50px;
+        font-family: 'Droid Sans', sans-serif;
+        font-weight: bold;
+    }
 
-.gallery-container p.page-description {
-    text-align: center;
-    margin: 25px auto;
-    font-size: 18px;
-    color: #999;
-}
+    .gallery-container p.page-description {
+        text-align: center;
+        margin: 25px auto;
+        font-size: 18px;
+        color: #999;
+    }
 
-.tz-gallery {
-    padding: 40px;
-}
-
+    .tz-gallery {
+        padding: 40px;
+    }
     /* Override bootstrap column paddings */
     .tz-gallery .row > div {
         padding: 2px;
@@ -171,7 +176,6 @@ td.cel-mid-content {
         transition: 0.4s;
     }
 
-
     .tz-gallery .lightbox:after {
         position: absolute;
         top: 0;
@@ -184,19 +188,20 @@ td.cel-mid-content {
         transition: 0.4s;
     }
 
-    .tz-gallery .lightbox:hover:after,
-    .tz-gallery .lightbox:hover:before {
+    .tz-gallery .lightbox:hover:after, .tz-gallery .lightbox:hover:before {
         opacity: 1;
     }
 
-.baguetteBox-button {
-    background-color: transparent !important;
-}
-
-@media(max-width: 768px) {
-    body {
-        padding: 0;
+    .baguetteBox-button {
+        background-color: transparent !important;
     }
+
+    @media(max-width: 768px) {
+        body
+
+{
+    padding: 0;
+}
 }
 
 .vertical-center {
@@ -226,12 +231,10 @@ td.cel-mid-content {
         color: grey;
     }
 
-
 .align-mid-center {
     text-align: center;
     vertical-align: middle;
 }
-
 
 li.nav-item.active a.nav-link {
     background-color: #347ab6;

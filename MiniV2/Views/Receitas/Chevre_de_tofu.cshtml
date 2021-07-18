@@ -1,0 +1,18 @@
+﻿
+@{
+    ViewBag.Title = "Chèvre de Tofu";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-6"><h2>@ViewBag.Title</h2></div>
+    </div>
+    @Html.Partial("LogoView")
+    <hr />
+    <img src="~/Images/Icone_vegetariana_45.jpg" title="Vegetariana" alt="Vegetariana" />&nbsp;
+    <hr />
+    <div class="embed-responsive embed-responsive-4by3">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/MnbTqbEvoxU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+</div>
