@@ -159,6 +159,8 @@
     <Content Include="Images\Avo_burguer_400.jpg" />
     <Content Include="Images\Avo_garden_400.jpg" />
     <Content Include="Images\Bacalhau_com_requeijão_de_tofu_e_gengibre_400.jpg" />
+    <Content Include="Images\Banner _GoldenMilk_i.svg" />
+    <Content Include="Images\Banner _GoldenMilk_ii.svg" />
     <Content Include="Images\banner1.svg" />
     <Content Include="Images\banner2.svg" />
     <Content Include="Images\banner3.svg" />
@@ -739,6 +741,7 @@
     <Content Include="Views\Receitas\Prato_unico_farofa_de_ovo_e_abobora_cabotia.cshtml" />
     <Content Include="Views\Receitas\Hamburguer_de_feijao_branco_e_cogumelos_paris.cshtml" />
     <Content Include="Views\Receitas\Chevre_de_tofu.cshtml" />
+    <Content Include="Views\Dicas\GoldenMilk.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\ContactController\" />

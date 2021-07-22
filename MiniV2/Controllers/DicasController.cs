@@ -7,7 +7,6 @@ namespace MiniV2.Controllers
 {
     public class DicasController : Controller
     {
-        // GET: Dicas
         public ActionResult Index()
         {
             ViewBag.Title = "Biblioteca da Manu: Texto";
@@ -34,6 +33,14 @@ namespace MiniV2.Controllers
         {
             ViewBag.Title = "Campanhas";
             ViewBag.Content = "Campanhas";
+
+            return View();
+        }
+
+        public ActionResult GoldenMilk()
+        {
+            ViewBag.Title = "Collagen Golden Milk";
+            ViewBag.Content = "Collagen Golden Milk";
 
             return View();
         }
@@ -73,6 +80,7 @@ namespace MiniV2.Controllers
 
             return View();
         }
+
         public ActionResult Condimentos_e_acucares()
         {
             ViewBag.Title = "Condimentos e açucares ricos em FODMAPS";
