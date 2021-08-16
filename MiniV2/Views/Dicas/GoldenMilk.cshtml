@@ -6,43 +6,61 @@
 <h1>@ViewBag.Title</h1>
 
 @Html.Partial("LogoView")
-<br />
 
-<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="6000">
-    <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-    </ol>
-    <div class="carousel-inner" role="listbox">
-        <div class="item active">
-            <img class="img-responsive" src="~/images/Banner _GoldenMilk_i.svg" alt="Receitas" />
-            <div class="carousel-caption" role="option">
-                <p>
-                    Colagen Golden Milk: Saima mais
-                    <a class="btn btn-default" asp-controller="Receitas" asp-action="Mais_receitas">
-                        Golden Milk
-                    </a>
-                </p>
-            </div>
-        </div>
-        <div class="item">
-            <img class="img-responsive" src="~/images/Banner _GoldenMilk_i.svg" alt="Atendimento" />
-            <div class="carousel-caption" role="option">
-                <p>
-                    Colagen Golden Milk: Saima mais
-                    <a class="btn btn-default" asp-controller="Home" asp-action="Atendimento">
-                        Golden Milk
-                    </a>
-                </p>
-            </div>
-        </div>
-    </div>
-    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-    </a>
+<div class="container">
+    <p><strong>Collagen Golden Milk - </strong>Mistura em p&oacute; &agrave; base de c&uacute;rcuma e col&aacute;geno hidrolisado</p>
+    <p><strong>A SINERGIA do poder da c&uacute;rcuma e do col&aacute;geno hidrolisado!</strong></p>
+    <p><strong>P1. O que &eacute;? </strong>&Eacute; um mix 100% natural inspirado no Golden Milk da medicina Ayurveda.</p>
+    <p>&Agrave; base de c&uacute;rcuma em p&oacute; e gengibre &ndash; plantas reconhecidas por seu potencial anti-inflamat&oacute;rio e antioxidante &ndash; e col&aacute;geno hidrolisado &ndash; um auxiliar proteico para reconstru&ccedil;&atilde;o de prote&iacute;nas de sustenta&ccedil;&atilde;o.</p>
+    <p>A combina&ccedil;&atilde;o perfeita para uma alimenta&ccedil;&atilde;o mais saud&aacute;vel e equilibrada.</p>
+    <p><strong>P2. Qual a composi&ccedil;&atilde;o?</strong> Os ingredientes s&atilde;o leite de coco em p&oacute;, col&aacute;geno hidrolisado, xilitol para ado&ccedil;ar, c&uacute;rcuma em p&oacute;, gengibre em p&oacute;, canela pura em p&oacute;, cardamomo &amp; pimenta do reino.</p>
+    <p>N&Atilde;O CONT&Eacute;M LACTOSE, A&Ccedil;&Uacute;CAR OU GL&Uacute;TEN, por&eacute;m pode conter tra&ccedil;os de castanhas, amendoim e gl&uacute;ten.</p>
+    <p><strong>P3. Qual o prop&oacute;sito da associa&ccedil;&atilde;o de c&uacute;rcuma e gengibre com o col&aacute;geno hidrolisado?</strong> Na minha pr&aacute;tica cl&iacute;nica de modula&ccedil;&atilde;o intestinal, dependendo do caso e sempre com tratamento individualizado, costumo associar fitoter&aacute;picos anti-inflamat&oacute;rios e antioxidantes na forma de shots e o col&aacute;geno hidrolisado como fonte proteica que ajuda na repara&ccedil;&atilde;o da mucosa intestinal. Mas isso &eacute; encontrado em produtos separados, ent&atilde;o agora tem a possibilidade de ter todos os benef&iacute;cios num produto s&oacute;.</p>
+    <p><strong>A composi&ccedil;&atilde;o foi idealizada</strong> pela <em>nutricionista Manuela Ibi</em>, unindo conhecimentos t&eacute;cnico-cient&iacute;ficos em nutri&ccedil;&atilde;o &agrave; experi&ecirc;ncia em atendimento cl&iacute;nico. Na literatura cient&iacute;fica existem mais de 10 mil estudos sobre o princ&iacute;pio ativo da c&uacute;rcuma, a <strong>curcumina</strong>. Al&eacute;m disso, cada vez mais pesquisas apontam para o benef&iacute;cio da suplementa&ccedil;&atilde;o de <strong>col&aacute;geno hidrolisado</strong> como fonte de estruturas prim&aacute;rias (amino&aacute;cidos) para a produ&ccedil;&atilde;o do col&aacute;geno corporal utilizado tanto pelo intestino, como por todos os &oacute;rg&atilde;os.</p>
+    <p>Assim a ideia foi trazer, atrav&eacute;s da alimenta&ccedil;&atilde;o, um produto natural, sem aditivos e capaz de contribuir com o equil&iacute;brio e a sa&uacute;de intestinal.</p>
+    <p><strong>P4 &ndash; Quais os benef&iacute;cios do Collagen Golden Milk?</strong></p>
+    <p><strong>Anti-inflamat&oacute;ria</strong>: ajuda o intestino a diminuir a inflama&ccedil;&atilde;o cr&ocirc;nica que se estabelece em casos de disbiose intestinal &ndash; Disbiose &eacute; o desequil&iacute;brio da microbiota e da parede intestinal, que resulta numa s&eacute;rie de preju&iacute;zos para o organismo, come&ccedil;ando pela altera&ccedil;&atilde;o na digest&atilde;o e absor&ccedil;&atilde;o de nutrientes, at&eacute; o sistema imunol&oacute;gico e nossos &oacute;rg&atilde;os.</p>
+    <p><strong>Antioxidante</strong>: ajuda a controlar quantidade de radicais livres, respons&aacute;veis pelo estresse oxidativo e envelhecimento celular.</p>
+    <p><strong>Melhora o processo digestivo e absortivo</strong>: os ingredientes ajudam a equilibrar tanto a digest&atilde;o como a absor&ccedil;&atilde;o, levando a uma capta&ccedil;&atilde;o de nutrientes mais eficaz e evitando a distens&atilde;o abdominal.</p>
+    <p><strong>Reparadora:</strong> o col&aacute;geno, uma das principais prote&iacute;nas do tecido conjuntivo, &eacute; a prote&iacute;na mais abundante em nosso corpo e faz parte de todos os nossos &oacute;rg&atilde;os ajudando na estrutura e sustenta&ccedil;&atilde;o. O col&aacute;geno est&aacute; em constante renova&ccedil;&atilde;o e sua suplementa&ccedil;&atilde;o alimentar ajuda a fornecer as &ldquo;pe&ccedil;as&rdquo; mais utilizadas nessa reconstru&ccedil;&atilde;o de tecido.</p>
+    <p><strong>P5 - Quais as propriedades em destaque?</strong></p>
+    <p>1 &ndash; 100% de ingredientes naturais;</p>
+    <p>2 &ndash; N&atilde;o cont&eacute;m nenhum tipo de aditivo;</p>
+    <p>3 &ndash; &Uacute;nico no mercado com col&aacute;geno hidrolisado (2 por&ccedil;&otilde;es oferecem 10g de col&aacute;geno hidrolisado);</p>
+    <p>4 &ndash; Isento de lactose, a&ccedil;&uacute;car, gl&uacute;ten (pode conter tra&ccedil;os).</p>
+    <p><strong>P6 &ndash; Como &eacute; comercializado?</strong></p>
+    <p><strong>Dispon&iacute;vel em</strong> sach&ecirc;s de doses individuais (20g ou 2 c.sopa) nas vers&otilde;es:</p>
+    <ul>
+        <li>Sach&ecirc;s avulsos</li>
+        <li>Kit com 20 sach&ecirc;s</li>
+        <li>Kit com 40 sach&ecirc;s</li>
+    </ul>
+    <p><strong>P7 &ndash; </strong><strong>Como &eacute; o Preparo:</strong> basta dissolver 1 sach&ecirc; em 50 ml (1 xicara de caf&eacute;) de &aacute;gua bem quente. Se desejar, pode coar. Tomar em seguida.</p>
+    <p><strong>P8 &ndash; Qual a quantidade sugerida para consumo?</strong> de 1 a 2 sach&ecirc;s ao dia, conforme indica&ccedil;&atilde;o do seu nutricionista ou m&eacute;dico.</p>
+    <p><strong>P9 - Informa&ccedil;&atilde;o nutricional por sach&ecirc; (20g/2 c. sopa):</strong> calorias 48 Kcal, Carboidratos 5,0g (a&ccedil;&uacute;car 0g), Prote&iacute;nas 4,85g, Gordura Total 1,6g, gordura saturada 1,6g, s&oacute;dio 0 mg</p>
+    <p><strong>&nbsp;</strong></p>
+    <p><strong>DUVIDAS MAIS FREQUENTES:</strong></p>
+    <p><strong>D1 &ndash; &Eacute; indicado para intestino preso? Ele &eacute; laxante?</strong></p>
+    <p>O produto n&atilde;o &eacute; fonte de fibras, essenciais para o peristaltismo intestinal. No entanto, o intestino preso &eacute; muitas vezes um sintoma de desequil&iacute;brio intestinal, de sensibilidade alimentar e de inflama&ccedil;&atilde;o. O tratamento do intestino preso &eacute; amplo, passa por uma avalia&ccedil;&atilde;o de h&aacute;bitos alimentares e uma modifica&ccedil;&atilde;o de habito de vida como um todo. O collagen Golden Milk n&atilde;o &eacute; um laxante.</p>
+    <p><strong>D2 &ndash; Quanto tem de col&aacute;geno hidrolisado por dose?</strong></p>
+    <p>Cada dose tem 5g, assim 2 doses fornecem uma quantidade adequada de col&aacute;geno.</p>
+    <p><strong>D3 - Esse col&aacute;geno hidrolisado vai para a pele?</strong></p>
+    <p>A ideia aqui &eacute; suprir a necessidade intestinal de renova&ccedil;&atilde;o e reparo celular. N&atilde;o h&aacute; pept&iacute;deos de col&aacute;geno hidrolisados tipo I, indicados para a pele.</p>
+    <p><strong>D4 &ndash; Que horas eu tomo?</strong></p>
+    <p>Pode tomar cedo, em jejum ou &agrave; noite, 1 hora antes de dormir. Mas n&atilde;o h&aacute; contraindica&ccedil;&atilde;o de ser tomado ao longo do dia.</p>
+    <p><strong>D5 &ndash; Tem contraindica&ccedil;&atilde;o?</strong></p>
+    <p>Em casos de gastrite moderada ou grave deve-se evitar o consumo de pimenta do reino, um dos ingredientes adicionados pela necessidade de piperina, que potencializa a curcumina.</p>
+    <p>Em casos de alergia a coco ou a qualquer componente da mistura.</p>
+    <p><strong>D6 &ndash; Tem aditivos? </strong></p>
+    <p>Nenhum aditivo como conservante, corante, flavorizante, ado&ccedil;ante artificial etc.</p>
+    <p><strong>D7 &ndash; Diab&eacute;tico pode tomar?</strong></p>
+    <p>Sim, o produto &eacute; ado&ccedil;ado com xilitol, n&atilde;o interfere no controle da glicemia.</p>
+    <p><strong>D8 &ndash; gestante e crian&ccedil;as podem consumir?</strong></p>
+    <p>N&atilde;o &eacute; indicado para crian&ccedil;as menores de 2 anos e gestante por n&atilde;o existirem estudos de seguran&ccedil;a no consumo de fitoter&aacute;picos, mesmo que na forma de alimento.</p>
+    <p><strong>D9 &ndash; Pode ser consumido por vegetarianos ou veganos?</strong></p>
+    <p>N&atilde;o, por conter col&aacute;geno hidrolisado, uma prote&iacute;na animal.</p>
+    <p><strong>D10 &ndash; Qual a validade?</strong> Por ser um produto artesanal em p&oacute;, 30 dias no sach&ecirc; fechado.</p>
+    <p><strong>D11 &ndash; Onde compro?</strong></p>
+    <p><strong>Vendas: </strong>A Granel &ndash; whats +55 14 99791-3661 &ndash; entregas para a regi&atilde;o de Botucatu</p>
+    <p><strong>D12 &ndash; tem sabor de coco?</strong> N&atilde;o, as especiarias tem sabor muito pronunciado.</p>
 </div>

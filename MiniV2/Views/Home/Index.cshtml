@@ -2,7 +2,7 @@
 
 <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="6000">
     <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="0"></li>
         <li data-target="#myCarousel" data-slide-to="1"></li>
         <li data-target="#myCarousel" data-slide-to="2"></li>
     </ol>
@@ -12,7 +12,7 @@
             <div class="carousel-caption" role="option">
                 <p>
                     Conheça a nossa seleção de receitas
-                    <a class="btn btn-default" asp-controller="Receitas" asp-action="Mais_receitas">
+                    <a class="btn btn-default" href="/Receitas/Mais_receitas">
                         Receitas
                     </a>
                 </p>
@@ -23,19 +23,19 @@
             <div class="carousel-caption" role="option">
                 <p>
                     Conheça detalhes de nosso atendimento
-                    <a class="btn btn-default" asp-controller="Home" asp-action="Atendimento">
+                    <a class="btn btn-default" href="/Home/Atendimento">
                         Atendimento
                     </a>
                 </p>
             </div>
         </div>
         <div class="item">
-            <img class="img-responsive" src="~/images/banner3.svg" alt="Fitoterapia" />
+            <img class="img-responsive" src="~/images/Banner _GoldenMilk_i.svg" alt="GoldenMilk" />
             <div class="carousel-caption" role="option">
                 <p>
-                    Fitoterapia em maior riqueza de detalhes
-                    <a class="btn btn-default" asp-controller="Home" asp-action="Fitoterapia">
-                        Fitoterapia
+                    Collagen Golden Milk - Mistura de cúrcuma e colágeno hidrolisado
+                    <a class="btn btn-default" href="/Dicas/GoldenMilk">
+                        Conheça mais
                     </a>
                 </p>
             </div>
