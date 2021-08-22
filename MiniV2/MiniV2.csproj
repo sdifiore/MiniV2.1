@@ -464,6 +464,7 @@
     <Content Include="Images\horizontal_400.png" />
     <Content Include="Images\horizontal_800.png" />
     <Content Include="Images\Icone_100_por_cento_vegana_45.jpg" />
+    <Content Include="Images\icone_bom_para_o_coracao.png" />
     <Content Include="Images\Icone_bom_para_o_coracao_45.jpg" />
     <Content Include="Images\Icone_dieta_cetogenica_45.jpg" />
     <Content Include="Images\Icone_low_carb_45.jpg" />
@@ -491,6 +492,8 @@
     <Content Include="Images\manuela_ibi_345.png" />
     <Content Include="Images\Manuela_Ibi_atendendo.jpg" />
     <Content Include="Images\manuela_ibi_chef_250.jpg" />
+    <Content Include="Images\Manuela_Ibi_Nutricionista.jpeg" />
+    <Content Include="Images\Manuela_Ibi_Nutricionista_500h.jpeg" />
     <Content Include="Images\Material_de_apoio.jpg" />
     <Content Include="Images\Mini_bolinhos_de_chocolate_do_bem_1_400.jpg" />
     <Content Include="Images\Mini_bolinhos_de_chocolate_do_bem_2_400.jpg" />
