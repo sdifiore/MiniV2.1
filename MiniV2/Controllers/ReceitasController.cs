@@ -108,7 +108,7 @@ namespace miniV1.Controllers
         {
             return View();
         }
-        
+
         public ActionResult Cloud_bread()
         {
             return View();
@@ -420,6 +420,11 @@ namespace miniV1.Controllers
         }
 
         public ActionResult Queijo_vegano()
+        {
+            return View();
+        }
+
+        public ActionResult Salada_Fria_De_Macarrao()
         {
             return View();
         }

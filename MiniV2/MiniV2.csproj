@@ -527,6 +527,7 @@
     <Content Include="Images\Queijo_vegano_400.jpg" />
     <Content Include="Images\Receita_prato_unico_completo_em_20_minutos_thumb.jpg" />
     <Content Include="Images\Receita_tradicional_italiana_45.jpg" />
+    <Content Include="Images\Salada_de_macarrao_400.jpg" />
     <Content Include="Images\sazonal_400.jpg" />
     <Content Include="Images\Servicos_300.jpg" />
     <Content Include="Images\Shitakes_assados_ao_pesto_com_tofu_vegano_400.jpg" />
@@ -742,6 +743,7 @@
     <Content Include="Views\Receitas\Hamburguer_de_feijao_branco_e_cogumelos_paris.cshtml" />
     <Content Include="Views\Receitas\Chevre_de_tofu.cshtml" />
     <Content Include="Views\Dicas\GoldenMilk.cshtml" />
+    <Content Include="Views\Receitas\Salada_Fria_De_Macarrao.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\ContactController\" />
