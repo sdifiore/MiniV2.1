@@ -744,6 +744,7 @@
     <Content Include="Views\Receitas\Chevre_de_tofu.cshtml" />
     <Content Include="Views\Dicas\GoldenMilk.cshtml" />
     <Content Include="Views\Receitas\Salada_Fria_De_Macarrao.cshtml" />
+    <Content Include="Views\Home\Patologias.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\ContactController\" />

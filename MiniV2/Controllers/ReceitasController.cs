@@ -424,17 +424,17 @@ namespace miniV1.Controllers
             return View();
         }
 
-        public ActionResult Salada_Fria_De_Macarrao()
-        {
-            return View();
-        }
-
         public ActionResult Receita_prato_unico_completo_em_20_minutos()
         {
             return View();
         }
 
         public ActionResult Prato_unico_farofa_de_ovo_e_abobora_cabotia()
+        {
+            return View();
+        }
+
+        public ActionResult Salada_Fria_De_Macarrao()
         {
             return View();
         }

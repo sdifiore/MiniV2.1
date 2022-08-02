@@ -1,8 +1,9 @@
-﻿using System;
+﻿using MiniV2.Services;
+using MiniV2.ViewModels;
+
+using System;
 using System.Collections.Generic;
 using System.Web.Mvc;
-using MiniV2.Services;
-using MiniV2.ViewModels;
 
 namespace MiniV2.Controllers
 {
@@ -36,6 +37,11 @@ namespace MiniV2.Controllers
         }
 
         public ActionResult Fitoterapia()
+        {
+            return View();
+        }
+
+        public ActionResult Patologias()
         {
             return View();
         }
